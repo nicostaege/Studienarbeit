@@ -1,0 +1,198 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Packages/Dokumentart %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[ a4paper,  % Papierart
+   				 12pt,    % Schriftgröße
+  			  ] {report}  % Dokumenttyp Bericht
+    
+\usepackage{geometry} \geometry{a4paper, top=30mm, left=35mm, right=30mm, bottom=30mm, headsep=10mm, footskip=12mm} 
+\usepackage[ngerman]{babel}  % Deutsches Sprachpaket/Silbentrennung etc.
+\usepackage[utf8]{inputenc}  % verwendeter Codec (für Umlaute)
+\usepackage{graphicx}    % für Bilder
+\usepackage{cite}    % für bestimmte Zitierfunktionen
+\usepackage{url}
+\usepackage{nameref}
+\usepackage{float}
+\newcommand{\myref}[1]{\ref{#1} \textit{\nameref{#1}}}
+\newcommand{\fref}[1]{Abbildung \textit{\ref{#1}}}
+\usepackage{acronym}  % für Abkürzungen in Fußnote
+\usepackage{caption}    % Um Bildunterschriften zu konfigurieren (mit, ohne erscheinen im Abkürzungsverzeichnis)
+\usepackage{setspace}    % für Zeilenabstand
+\usepackage{todo}
+
+% Flussdiagramm
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+
+
+\usepackage{color}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.9,0,0}
+\usepackage{listings}	% Codelistings einbinden
+\lstset{language=[Sharp]C,
+  showspaces=false,
+  showtabs=false,
+  breaklines=true,
+  showstringspaces=false,
+  breakatwhitespace=true,
+  escapeinside={(*@}{@*)},
+  commentstyle=\color{greencomments},
+  keywordstyle=\color{bluekeywords},
+  stringstyle=\color{redstrings},
+  basicstyle=\ttfamily,
+  numbers=left,
+  tabsize=3,
+  xleftmargin=20pt
+}
+
+
+% Verlinkung zu den Kapiteln im Inhaltsverzeichnis
+\usepackage[colorlinks,
+pdfpagelabels,
+pdfstartview = FitH,
+bookmarksopen = true,
+bookmarksnumbered = true,
+linkcolor = black,
+plainpages = false,
+hypertexnames = false,
+citecolor = black] {hyperref}
+
+
+\onehalfspacing      % ab hier Zeilenabstand 1,5
+
+\clubpenalty = 10000  
+\widowpenalty = 10000  
+\displaywidowpenalty = 10000 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Kopfzeile %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}      % Package für Kopfzeile  
+\pagestyle{fancy} %eigener Seitenstil
+\fancyhf{} %alle Kopf- und Fußzeilenfelder bereinigen
+\fancyhead[L]{\leftmark} %Kopfzeile links
+\fancyhead[C]{} %zentrierte Kopfzeile
+\fancyhead[R]{\rightmark} %Kopfzeile rechts
+\renewcommand{\chaptermark}[1]{ \markboth{\thechapter \ #1}{} }
+\renewcommand{\sectionmark}[1]{ \markright{\thesection \ #1}{} }
+
+\renewcommand{\headrulewidth}{0.4pt} %obere Trennlinie
+\fancyfoot[C]{\thepage} %Seitennummer
+\renewcommand{\footrulewidth}{0.4pt} %untere Trennlinie
+%\automark[section]{chapter}       % für Anzeigen des Unterkapitels (Standard Überkapitel)
+%\clearscrheadfoot \ihead{\headmark}    % ihead links, ohead rechts, chead mitte
+%\setheadsepline{0.4pt}        % Linie unter Kopfzeile
+%\cfoot[\pagemark]{\pagemark}      % Mitte Fußzeile Seitenzahl (selbe wie mit head (il,o,c))
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Abkürzungen %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Persöhnlich
+\newcommand{\Autor}{Maik Maier, Nicolai Staege}
+\newcommand{\MatrikelNummer}{4050846, 4615051}
+\newcommand{\Kursbezeichnung}{TINF12B3}      
+\newcommand{\dhLogo}{\includegraphics[width=8cm]{Bilder/dhbw-logo.png}}
+%Betreuer
+\newcommand{\BetreuerDHBW}{Herr Prof. Hans-Jörg Haubner}
+%Art der Arbeit
+\newcommand{\Was}{Studienarbeit}
+\newcommand{\WasErklaerung}{die vorliegende \Was}
+%Deckblatt Infos
+\newcommand{\Titel}{Entwicklung eines externen Sensornetzes mit WLAN Kopplung und Visualisierung}
+\newcommand{\Dauer}{5 Monate}
+\newcommand{\Abschluss}{Bachelor of Engineering}
+\newcommand{\Studiengang}{Informationstechnik}
+\newcommand{\AbgabeDatum}{Irgendwann 2015}
+
+%%%%%%% Seitenzähler anpassen
+\newcounter{romanPagenumber} % neuer Seitenzähler für römisch gezählte Seiten
+\pagenumbering{Roman} %Seitenzähler auf Roman
+%%%%%%% ENDE Seitenzähler anpassen
+
+
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Titelseite %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{singlespace}              % Zeilenabstand für Titelseite verringern
+\begin{titlepage}
+\begin{center}                % Referenzpunkt Seitenmitte
+\vspace*{-2cm}                % 2 cm nach Links Platz lassen
+\includegraphics[scale=2]{Bilder/dhbw-logo.png}\\[3cm] 
+{\large Studiengang: \Studiengang}\\[2cm]
+{\huge\Titel}\\[2cm]              % \Huge, \Large, \large sind versch. Schriftgrößen \bfseries ist Fett gedruckt
+{\Huge\scshape \Was}\\            % [] Inhalt ist Abstand zur nächsten Zeile
+{\large Im Rahmen der vierten Praxisphase}\\[3cm]
+{\large Abgabedatum \AbgabeDatum}
+\vfill                  % ermöglicht es unterhalb der Seitengrenze zu schreiben
+\end{center}                % Referenzpunkt Mitte beenden
+
+\begin{center}
+\begin{tabular}{l@{\hspace{2cm}}l}          % Beginn Tabelle mit einer Spalte nach der 2cm Platz gelassen wird bevor die nächste beginnt
+Verfasser           & \Autor       \\
+Matrikelnummer      & \MatrikelNummer    \\
+Kurs                & \Kursbezeichnung    \\
+\end{tabular}                % Tabelle abschließen
+\end{center}
+
+\end{titlepage}
+\end{singlespace}                % Titelseite abschließen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Erklärung
+\input{Anhang/erklaerung}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Kurzzusammenfassung %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{abstract}
+%\begin{onehalfspace}
+
+%Hier steht eine Kurzzusammenfassung.
+
+%\end{onehalfspace}
+%\end{abstract} %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Verzeichnisse %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{singlespace}       % Zeilenabstand für Verzeichnisse 1  
+\tableofcontents        % Inhaltsverzeichnis
+\listoffigures          % Abbildungsverzeichnis
+\listoftables         % Tabellenverzeichnis
+\lstlistoflistings        % Listenverzeichnis
+\end{singlespace}        % Zeilenabstand wieder ausstellen
+%\listofequations       % Formelverzeichnis
+
+\input{Anhang/abkuerzungsverzeichnis.tex} %Abkuerzungsverzeichnis
+\newpage %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Kapitel einbinden %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% Seitenzähler anpassen
+\setcounter{romanPagenumber}{\value{page}} % römische Seitenzahl merken
+\pagenumbering{arabic}	%Seitenzahl auf arabisch 0 Setzen
+%%%%%%% ENDE Seitenzähler anpassen
+
+
+\input{Kapitel/Einleitung/EinleitungMotivation.tex}
+\input{Kapitel/Einleitung/Grundlagen.tex}
+\input{Kapitel/Hauptteil/IoT.tex}
+\input{Kapitel/Hauptteil/Raumueberwachung.tex}
+\input{Kapitel/Schluss/Zusammenfassung.tex}
+\newpage
+
+
+
+
+
+\appendix
+
+%%%%%%% Seitenzähler anpassen
+\pagenumbering{roman}
+\setcounter{page}{\theromanPagenumber}
+
+
+\input{Anhang/anhang.tex}        % Anhang Einbinden
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Literaturverzeichnis %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
+\bibliographystyle{alphadin}        % Zitierformat (deutsch für Großschreibung) [Häufigkeit] im Text
+\bibliography{Literaturverzeichnis}      % Pfad des Literaturverzeichnisses
+
+\end{document}  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
