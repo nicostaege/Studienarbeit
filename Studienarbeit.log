@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.4)  4 DEC 2014 17:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.4)  4 DEC 2014 17:52
 entering extended mode
 **Studienarbeit.tex
 (D:\Dokumente\Studienarbeit\Studienarbeit.tex
@@ -1072,11 +1072,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
 ]
 Kapitel 2.
-(D:\Dokumente\Studienarbeit\Kapitel/Einleitung/Grundlagen/ZigBee.tex)
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+(D:\Dokumente\Studienarbeit\Kapitel/Einleitung/Grundlagen/ZigBee.tex
+<Bilder/zigbee-logo.png, id=99, 677.53125pt x 251.43938pt>
+File: Bilder/zigbee-logo.png Graphic file (type png)
+
+<use Bilder/zigbee-logo.png>
+Package pdftex.def Info: Bilder/zigbee-logo.png used on input line 6.
+(pdftex.def)             Requested size: 338.76479pt x 125.71938pt.
+)
 (D:\Dokumente\Studienarbeit\Kapitel/Einleitung/Grundlagen/AndereSachen.tex))
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/IoT.tex [2
 
-]
+ <D:/Dokumente/Studienarbeit/Bilder/zigbee-logo.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1115,33 +1127,45 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
 (D:\Dokumente\Studienarbeit\Studienarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
-Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: E2B335708B0936FFAA9C78C59530E286;582.
 
+
+Package rerunfilecheck Warning: File `Studienarbeit.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Studienarbeit.out':
+(rerunfilecheck)             Before: A14F7BD4B535CA6AD843F6C4AD713993;583
+(rerunfilecheck)             After:  9D5CDC7340A9CAE0DFEAD93BD6963037;583.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
  ) 
 Here is how much of TeX's memory you used:
- 21644 strings out of 493921
- 416106 string characters out of 3148889
- 506259 words of memory out of 3000000
- 24454 multiletter control sequences out of 15000+200000
+ 21660 strings out of 493921
+ 416379 string characters out of 3148889
+ 506308 words of memory out of 3000000
+ 24466 multiletter control sequences out of 15000+200000
  11220 words of font info for 42 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  55i,12n,67p,1027b,442s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Progra
-mme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Programme/TeX/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programme/TeX/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr8.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Pro
-gramme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Programme/TeX/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Studienarbeit.pdf (15 pages, 169310 bytes).
+pdfTeX warning (dest): name{figure.caption.8} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.9} has been referenced but does not exist, 
+replaced by a fixed one
+
+<D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programm
+e/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Programme/TeX/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programme/TeX/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmr17.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Progr
+amme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Programme/TeX/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Studienarbeit.pdf (15 pages, 199464 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 90 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 95 words of extra memory for PDF output out of 10000 (max. 10000000)
 
