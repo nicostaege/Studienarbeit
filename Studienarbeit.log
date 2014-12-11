@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.4)  11 DEC 2014 17:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.4)  11 DEC 2014 17:37
 entering extended mode
 **Studienarbeit.tex
 (D:\Dokumente\Studienarbeit\Studienarbeit.tex
@@ -1168,21 +1168,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 ) (D:\Dokumente\Studienarbeit\Studienarbeit.bbl [7
 
 ]
-Underfull \hbox (badness 1635) in paragraph at lines 11--15
-[][]$\OT1/cmtt/m/n/12 http : / / www . sunspotworld . com / docs / Yellow / ede
-mo8ds . pdf$[][]\OT1/cmr/m/n/12 , Ok-to-
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 17--21
-[]\OT1/cmr/m/sc/12 Corp.\OT1/cmr/m/n/12 , Oracle:  \OT1/cmr/m/it/12 Sun$[]$ SPO
-T Main Board Tech-ni-cal Da-tas-heet
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--28
+Underfull \hbox (badness 10000) in paragraph at lines 11--16
 $\OT1/cmtt/m/n/12 l2kch3izg7lwdpl / AADjbAi2ukAjtaZY8zVzMpdHa / IoT / sunspot .
  pdf$[][]\OT1/cmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 1072) in paragraph at lines 18--22
+[][]$\OT1/cmtt/m/n/12 http : / / www . sunspotworld . com / docs / Yellow / ede
+mo8ds . pdf$[][]\OT1/cmr/m/n/12 , Ok-to-
  []
 
 ) [8
@@ -1204,7 +1198,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
 Here is how much of TeX's memory you used:
  21717 strings out of 493921
  417036 string characters out of 3148889
- 507198 words of memory out of 3000000
+ 507203 words of memory out of 3000000
  24498 multiletter control sequences out of 15000+200000
  11572 words of font info for 43 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1218,7 +1212,7 @@ fonts/cm/cmr8.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
 gramme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Programme/TeX/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmti8.pfb><D:/Programme/TeX/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Studienarbeit.pdf (17 pages, 250733 bytes).
+Output written on Studienarbeit.pdf (17 pages, 251713 bytes).
 PDF statistics:
  242 PDF objects out of 1000 (max. 8388607)
  57 named destinations out of 1000 (max. 500000)
