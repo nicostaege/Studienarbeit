@@ -1,10 +1,19 @@
 \BOOKMARK [0][]{chapter.6}{1 Einleitung und Intention}{}% 1
-\BOOKMARK [0][]{chapter.7}{2 Grundlagen und technische Umgebung}{}% 2
-\BOOKMARK [1][]{section.8}{2.1 SunSPOT}{chapter.7}% 3
-\BOOKMARK [1][]{section.10}{2.2 Zigbee - Protokoll}{chapter.7}% 4
-\BOOKMARK [1][]{section.12}{2.3 Erkl\344rung von anderen Sachen}{chapter.7}% 5
-\BOOKMARK [0][]{chapter.13}{3 Internet of Things}{}% 6
-\BOOKMARK [1][]{section.14}{3.1 Geschichte}{chapter.13}% 7
-\BOOKMARK [0][]{chapter.16}{4 Raum\374berwachung und Praktische Dinge}{}% 8
-\BOOKMARK [0][]{chapter.17}{5 Zusammenfassung}{}% 9
-\BOOKMARK [0][]{appendix*.18}{Literaturverzeichnis}{}% 10
+\BOOKMARK [1][]{section.7}{1.1 Ziel dieser Arbeit}{chapter.6}% 2
+\BOOKMARK [0][]{chapter.8}{2 Internet of Things}{}% 3
+\BOOKMARK [1][]{section.9}{2.1 Geschichte}{chapter.8}% 4
+\BOOKMARK [1][]{section.11}{2.2 Ziele}{chapter.8}% 5
+\BOOKMARK [1][]{section.12}{2.3 Sicherheitsaspekte}{chapter.8}% 6
+\BOOKMARK [0][]{chapter.13}{3 Theoretische Grundlagen und technische Umgebung}{}% 7
+\BOOKMARK [1][]{section.14}{3.1 Wireless Sensor Networks}{chapter.13}% 8
+\BOOKMARK [2][]{subsection.15}{3.1.1 Adhoc-Netzwerke}{section.14}% 9
+\BOOKMARK [2][]{subsection.16}{3.1.2 IEEE 802.15.4}{section.14}% 10
+\BOOKMARK [1][]{section.17}{3.2 SunSPOT}{chapter.13}% 11
+\BOOKMARK [2][]{subsection.19}{3.2.1 Technische Daten}{section.17}% 12
+\BOOKMARK [0][]{chapter.20}{4 Praktische Arbeiten mit SunSPOT}{}% 13
+\BOOKMARK [1][]{section.21}{4.1 Erste Schritte}{chapter.20}% 14
+\BOOKMARK [1][]{section.22}{4.2 Implementierung einer Raum\374eberwachung}{chapter.20}% 15
+\BOOKMARK [2][]{subsection.23}{4.2.1 Idee}{section.22}% 16
+\BOOKMARK [2][]{subsection.24}{4.2.2 Visualisierung der Information}{section.22}% 17
+\BOOKMARK [0][]{chapter.25}{5 Zusammenfassung}{}% 18
+\BOOKMARK [0][]{appendix*.26}{Literaturverzeichnis}{}% 19

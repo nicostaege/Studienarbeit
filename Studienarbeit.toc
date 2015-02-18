@@ -1,11 +1,20 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung und Intention}{1}{chapter.6}
-\contentsline {chapter}{\numberline {2}Grundlagen und technische Umgebung}{2}{chapter.7}
-\contentsline {section}{\numberline {2.1}SunSPOT}{2}{section.8}
-\contentsline {section}{\numberline {2.2}Zigbee - Protokoll}{4}{section.10}
-\contentsline {section}{\numberline {2.3}Erkl\IeC {\"a}rung von anderen Sachen}{4}{section.12}
-\contentsline {chapter}{\numberline {3}Internet of Things}{6}{chapter.13}
-\contentsline {section}{\numberline {3.1}Geschichte}{6}{section.14}
-\contentsline {chapter}{\numberline {4}Raum\"uberwachung und Praktische Dinge}{7}{chapter.16}
-\contentsline {chapter}{\numberline {5}Zusammenfassung}{8}{chapter.17}
-\contentsline {chapter}{Literaturverzeichnis}{vii}{appendix*.18}
+\contentsline {section}{\numberline {1.1}Ziel dieser Arbeit}{2}{section.7}
+\contentsline {chapter}{\numberline {2}Internet of Things}{3}{chapter.8}
+\contentsline {section}{\numberline {2.1}Geschichte}{3}{section.9}
+\contentsline {section}{\numberline {2.2}Ziele}{3}{section.11}
+\contentsline {section}{\numberline {2.3}Sicherheitsaspekte}{4}{section.12}
+\contentsline {chapter}{\numberline {3}Theoretische Grundlagen und technische Umgebung}{5}{chapter.13}
+\contentsline {section}{\numberline {3.1}Wireless Sensor Networks}{5}{section.14}
+\contentsline {subsection}{\numberline {3.1.1}Adhoc-Netzwerke}{5}{subsection.15}
+\contentsline {subsection}{\numberline {3.1.2}IEEE 802.15.4}{5}{subsection.16}
+\contentsline {section}{\numberline {3.2}SunSPOT}{5}{section.17}
+\contentsline {subsection}{\numberline {3.2.1}Technische Daten}{7}{subsection.19}
+\contentsline {chapter}{\numberline {4}Praktische Arbeiten mit SunSPOT}{8}{chapter.20}
+\contentsline {section}{\numberline {4.1}Erste Schritte}{8}{section.21}
+\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"ueberwachung}{8}{section.22}
+\contentsline {subsection}{\numberline {4.2.1}Idee}{8}{subsection.23}
+\contentsline {subsection}{\numberline {4.2.2}Visualisierung der Information}{8}{subsection.24}
+\contentsline {chapter}{\numberline {5}Zusammenfassung}{9}{chapter.25}
+\contentsline {chapter}{Literaturverzeichnis}{vii}{appendix*.26}
