@@ -7,14 +7,19 @@
 \contentsline {section}{\numberline {2.3}Sicherheitsaspekte}{4}{section.12}
 \contentsline {chapter}{\numberline {3}Theoretische Grundlagen und technische Umgebung}{5}{chapter.13}
 \contentsline {section}{\numberline {3.1}Wireless Sensor Networks}{5}{section.14}
-\contentsline {subsection}{\numberline {3.1.1}Adhoc-Netzwerke}{5}{subsection.15}
-\contentsline {subsection}{\numberline {3.1.2}IEEE 802.15.4}{5}{subsection.16}
-\contentsline {section}{\numberline {3.2}SunSPOT}{5}{section.17}
-\contentsline {subsection}{\numberline {3.2.1}Technische Daten}{7}{subsection.19}
-\contentsline {chapter}{\numberline {4}Praktische Arbeiten mit SunSPOT}{8}{chapter.20}
-\contentsline {section}{\numberline {4.1}Erste Schritte}{8}{section.21}
-\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"ueberwachung}{8}{section.22}
-\contentsline {subsection}{\numberline {4.2.1}Idee}{8}{subsection.23}
-\contentsline {subsection}{\numberline {4.2.2}Visualisierung der Information}{8}{subsection.24}
-\contentsline {chapter}{\numberline {5}Zusammenfassung}{9}{chapter.25}
-\contentsline {chapter}{Literaturverzeichnis}{vii}{appendix*.26}
+\contentsline {subsection}{\numberline {3.1.1}Ubiquit\"ares Rechnen}{5}{subsection.15}
+\contentsline {subsection}{\numberline {3.1.2}Motivation von Sensornetzen}{6}{subsection.16}
+\contentsline {subsection}{\numberline {3.1.3}Bestandteile}{7}{subsection.18}
+\contentsline {subsection}{\numberline {3.1.4}Topologien}{7}{subsection.19}
+\contentsline {subsection}{\numberline {3.1.5}Schwierigkeiten}{7}{subsection.20}
+\contentsline {subsection}{\numberline {3.1.6}Adhoc-Netzwerke}{7}{subsection.21}
+\contentsline {subsection}{\numberline {3.1.7}IEEE 802.15.4}{7}{subsection.22}
+\contentsline {section}{\numberline {3.2}SunSPOT}{8}{section.23}
+\contentsline {subsection}{\numberline {3.2.1}Technische Daten}{9}{subsection.25}
+\contentsline {chapter}{\numberline {4}Praktische Arbeiten mit SunSPOT}{10}{chapter.26}
+\contentsline {section}{\numberline {4.1}Erste Schritte}{10}{section.27}
+\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{10}{section.28}
+\contentsline {subsection}{\numberline {4.2.1}Idee}{10}{subsection.29}
+\contentsline {subsection}{\numberline {4.2.2}Visualisierung der Information}{10}{subsection.30}
+\contentsline {chapter}{\numberline {5}Zusammenfassung}{11}{chapter.31}
+\contentsline {chapter}{Literaturverzeichnis}{vii}{appendix*.32}

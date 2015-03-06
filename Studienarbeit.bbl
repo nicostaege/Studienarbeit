@@ -31,6 +31,13 @@
 \newblock \emph{Standardmäßiger Aufbau eines SunSPOT-Sensors}.
 \newblock \url{http://anrg.usc.edu/ee579_2012/Group07/img/spotanatomy.jpg},
 
+\bibitem[WB12]{d:wolf}
+\textsc{Wolf}, Lars ; \textsc{B\"usching}, Felix:
+\newblock \emph{Wireless Sensor Networks - Introduction and Applications}.
+\newblock
+  \url{https://www.dropbox.com/sh/l2kch3izg7lwdpl/AABu1b-vt8FCuUD2iU905F0ca/IoT/RecentTopics_Chapter02_WSN-Introduction-and-Applications.pdf},
+  2012
+
 \bibitem[Wei91]{ws:weiser}
 \textsc{Weiser}, Mark:
 \newblock \emph{The Computer for the 21st Century}.
