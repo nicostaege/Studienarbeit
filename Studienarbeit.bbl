@@ -14,6 +14,11 @@
   \url{https://www.dropbox.com/sh/l2kch3izg7lwdpl/AADjbAi2ukAjtaZY8zVzMpdHa/IoT/sunspot.pdf},
   2008
 
+\bibitem[Kah12]{d:kahle}
+\textsc{Kahle}, Christian:
+\newblock \emph{Intel: Mooresches Gesetz gilt noch mind. 10 Jahre}.
+\newblock \url{http://winfuture.de/news,72001.html}, 2012
+
 \bibitem[{Ora}10a]{d:spotdemo}
 \textsc{{Oracle Corp.}}:
 \newblock \emph{Sun™ SPOT eDEMO Technical Datasheet Rev 8.0}.
@@ -25,6 +30,12 @@
 \newblock \emph{Sun™ SPOT Main Board Technical Datasheet Rev 8.0}.
 \newblock \url{http://www.sunspotworld.com/docs/Yellow/eSPOT8ds.pdf}, Oktober
   2010
+
+\bibitem[Tuo12]{d:tuomi}
+\textsc{Tuomi}, Ilkka:
+\newblock \emph{The lives and deaths of moores law}.
+\newblock \url{http://firstmonday.org/ojs/index.php/fm/article/view/1000/921},
+  2012
 
 \bibitem[{Uni}]{i:spotaufbau}
 \textsc{{University of Southern California}}:
@@ -43,5 +54,11 @@
 \newblock \emph{The Computer for the 21st Century}.
 \newblock \url{http://www.ubiq.com/hypertext/weiser/SciAmDraft3.html},
   September 1991
+
+\bibitem[{Wgs}]{i:mooreslaw}
+\textsc{{Wgsimon}}:
+\newblock \emph{Mooresches Gesetz}.
+\newblock
+  \url{http://commons.wikimedia.org/wiki/User:Wgsimon#mediaviewer/File:Transistor_Count_and_Moore%27s_Law_-_2011.svg},
 
 \end{thebibliography}
