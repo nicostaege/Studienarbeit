@@ -3,22 +3,23 @@
 \BOOKMARK [0][]{chapter.8}{2 Internet of Things}{}% 3
 \BOOKMARK [1][]{section.9}{2.1 Geschichte}{chapter.8}% 4
 \BOOKMARK [1][]{section.11}{2.2 Ziele}{chapter.8}% 5
-\BOOKMARK [1][]{section.12}{2.3 Sicherheitsaspekte}{chapter.8}% 6
-\BOOKMARK [0][]{chapter.13}{3 Theoretische Grundlagen}{}% 7
-\BOOKMARK [1][]{section.14}{3.1 Wireless Sensor Networks}{chapter.13}% 8
-\BOOKMARK [2][]{subsection.15}{3.1.1 Ubiquit\344res Rechnen}{section.14}% 9
-\BOOKMARK [2][]{subsection.16}{3.1.2 Motivation von Sensornetzen}{section.14}% 10
-\BOOKMARK [2][]{subsection.18}{3.1.3 Bestandteile}{section.14}% 11
-\BOOKMARK [2][]{subsection.19}{3.1.4 Topologien}{section.14}% 12
-\BOOKMARK [2][]{subsection.24}{3.1.5 Schwierigkeiten}{section.14}% 13
-\BOOKMARK [2][]{subsection.25}{3.1.6 Adhoc-Netzwerke}{section.14}% 14
-\BOOKMARK [2][]{subsection.26}{3.1.7 IEEE 802.15.4}{section.14}% 15
-\BOOKMARK [1][]{section.27}{3.2 SunSPOT}{chapter.13}% 16
-\BOOKMARK [2][]{subsection.29}{3.2.1 Technische Daten}{section.27}% 17
-\BOOKMARK [0][]{chapter.30}{4 Praktische Arbeiten mit SunSPOT}{}% 18
-\BOOKMARK [1][]{section.34}{4.1 Erste Schritte}{chapter.30}% 19
-\BOOKMARK [1][]{section.35}{4.2 Implementierung einer Raum\374berwachung}{chapter.30}% 20
-\BOOKMARK [2][]{subsection.36}{4.2.1 Idee}{section.35}% 21
-\BOOKMARK [2][]{subsection.37}{4.2.2 Visualisierung der Information}{section.35}% 22
-\BOOKMARK [0][]{chapter.38}{5 Zusammenfassung}{}% 23
-\BOOKMARK [0][]{appendix*.39}{Literaturverzeichnis}{}% 24
+\BOOKMARK [1][]{section.12}{2.3 Do It Yourself - Trend}{chapter.8}% 6
+\BOOKMARK [1][]{section.17}{2.4 Sicherheitsaspekte}{chapter.8}% 7
+\BOOKMARK [0][]{chapter.18}{3 Theoretische Grundlagen}{}% 8
+\BOOKMARK [1][]{section.19}{3.1 Wireless Sensor Networks}{chapter.18}% 9
+\BOOKMARK [2][]{subsection.20}{3.1.1 Ubiquit\344res Rechnen}{section.19}% 10
+\BOOKMARK [2][]{subsection.21}{3.1.2 Motivation von Sensornetzen}{section.19}% 11
+\BOOKMARK [2][]{subsection.23}{3.1.3 Bestandteile}{section.19}% 12
+\BOOKMARK [2][]{subsection.24}{3.1.4 Topologien}{section.19}% 13
+\BOOKMARK [2][]{subsection.29}{3.1.5 Schwierigkeiten}{section.19}% 14
+\BOOKMARK [2][]{subsection.30}{3.1.6 Adhoc-Netzwerke}{section.19}% 15
+\BOOKMARK [2][]{subsection.31}{3.1.7 IEEE 802.15.4}{section.19}% 16
+\BOOKMARK [1][]{section.32}{3.2 SunSPOT}{chapter.18}% 17
+\BOOKMARK [2][]{subsection.34}{3.2.1 Technische Daten}{section.32}% 18
+\BOOKMARK [0][]{chapter.35}{4 Praktische Arbeiten mit SunSPOT}{}% 19
+\BOOKMARK [1][]{section.39}{4.1 Erste Schritte}{chapter.35}% 20
+\BOOKMARK [1][]{section.40}{4.2 Implementierung einer Raum\374berwachung}{chapter.35}% 21
+\BOOKMARK [2][]{subsection.41}{4.2.1 Idee}{section.40}% 22
+\BOOKMARK [2][]{subsection.42}{4.2.2 Visualisierung der Information}{section.40}% 23
+\BOOKMARK [0][]{chapter.43}{5 Zusammenfassung}{}% 24
+\BOOKMARK [0][]{appendix*.44}{Literaturverzeichnis}{}% 25

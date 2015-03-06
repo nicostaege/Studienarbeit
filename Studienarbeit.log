@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.6)  6 MAR 2015 19:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.6)  6 MAR 2015 19:36
 entering extended mode
 **Studienarbeit.tex
 
@@ -1046,7 +1046,7 @@ t")
 ("C:\Users\Maik Maier\Desktop\Studiumsrelevantes\Studienarbeit\Studienarbeit.ou
 t")
 \@outlinefile=\write5
- <Bilder/dhbw-logo.png, id=102, 130.086pt x 62.8749pt>
+ <Bilder/dhbw-logo.png, id=106, 130.086pt x 62.8749pt>
 File: Bilder/dhbw-logo.png Graphic file (type png)
 
 <use Bilder/dhbw-logo.png>
@@ -1149,13 +1149,18 @@ Package acronym Info: Label `acro:IoT' newly defined as it shall be overridden
 although it is yet undefined on input line 4.
 )
 ("C:\Users\Maik Maier\Desktop\Studiumsrelevantes\Studienarbeit\Kapitel/Haupttei
-l/IoT/IoTZiele.tex")
+l/IoT/IoTZiele.tex" [3
+
+])
+("C:\Users\Maik Maier\Desktop\Studiumsrelevantes\Studienarbeit\Kapitel/Haupttei
+l/IoT/DIY-Trend.tex"
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 3.
+)
 ("C:\Users\Maik Maier\Desktop\Studiumsrelevantes\Studienarbeit\Kapitel/Haupttei
 l/IoT/Sicherheitsaspekte.tex"))
 ("C:\Users\Maik Maier\Desktop\Studiumsrelevantes\Studienarbeit\Kapitel/Haupttei
-l/Grundlagen.tex" [3
-
-]
+l/Grundlagen.tex"
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1187,7 +1192,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
  []
 
-<Bilder/mooreslaw.png, id=229, 602.25pt x 541.27219pt>
+<Bilder/mooreslaw.png, id=239, 602.25pt x 541.27219pt>
 File: Bilder/mooreslaw.png Graphic file (type png)
 
 <use Bilder/mooreslaw.png>
@@ -1226,7 +1231,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<Bilder/peertopeer.png, id=249, 298.11375pt x 265.99374pt>
+<Bilder/peertopeer.png, id=259, 298.11375pt x 265.99374pt>
 File: Bilder/peertopeer.png Graphic file (type png)
 
 <use Bilder/peertopeer.png>
@@ -1237,7 +1242,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<Bilder/star.png, id=252, 439.6425pt x 346.29375pt>
+<Bilder/star.png, id=262, 439.6425pt x 346.29375pt>
 File: Bilder/star.png Graphic file (type png)
  <use Bilder/star.png>
 Package pdftex.def Info: Bilder/star.png used on input line 18.
@@ -1255,13 +1260,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<Bilder/tree.png, id=260, 541.02126pt x 331.2375pt>
+<Bilder/tree.png, id=270, 541.02126pt x 331.2375pt>
 File: Bilder/tree.png Graphic file (type png)
  <use Bilder/tree.png>
 Package pdftex.def Info: Bilder/tree.png used on input line 27.
 (pdftex.def)             Requested size: 270.50996pt x 165.61833pt.
 
-<Bilder/mesh.png, id=264, 346.29375pt x 346.29375pt>
+<Bilder/mesh.png, id=274, 346.29375pt x 346.29375pt>
 File: Bilder/mesh.png Graphic file (type png)
  <use Bilder/mesh.png>
 Package pdftex.def Info: Bilder/mesh.png used on input line 36.
@@ -1293,7 +1298,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<Bilder/spotanatomy.png, id=274, 305.14pt x 411.5375pt>
+<Bilder/spotanatomy.png, id=284, 305.14pt x 411.5375pt>
 File: Bilder/spotanatomy.png Graphic file (type png)
 
 <use Bilder/spotanatomy.png>
@@ -1359,8 +1364,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [12]
 Kapitel 4.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 3.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
 
@@ -1492,14 +1495,14 @@ x")
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
 Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 4F7E992E5D7BA44DC4B6EFBE19635D39;1616.
+(rerunfilecheck)             Checksum: 12A46FED1CBD81D8C9EF2748A20D0594;1688.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
  ) 
 Here is how much of TeX's memory you used:
- 22559 strings out of 493921
- 440292 string characters out of 3147268
- 633977 words of memory out of 3000000
- 25237 multiletter control sequences out of 15000+200000
+ 22574 strings out of 493921
+ 440683 string characters out of 3147268
+ 635133 words of memory out of 3000000
+ 25244 multiletter control sequences out of 15000+200000
  9970 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,11n,80p,1471b,703s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1513,9 +1516,9 @@ fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Studienarbeit.pdf (25 pages, 573026 bytes).
+Output written on Studienarbeit.pdf (25 pages, 579833 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 441 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
