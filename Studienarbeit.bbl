@@ -19,6 +19,11 @@
 \newblock \emph{Intel: Mooresches Gesetz gilt noch mind. 10 Jahre}.
 \newblock \url{http://winfuture.de/news,72001.html}, September 2012
 
+\bibitem[Kos09]{d:kosmerchock}
+\textsc{Kosmerchock}, Steven:
+\newblock \emph{Wireless Sensor Network Topologies}.
+\newblock \url{http://www.k5systems.com/TP0001_v1.pdf}, 2009
+
 \bibitem[{Ora}10a]{d:spotdemo}
 \textsc{{Oracle Corp.}}:
 \newblock \emph{Sun™ SPOT eDEMO Technical Datasheet Rev 8.0}.

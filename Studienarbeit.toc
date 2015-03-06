@@ -17,9 +17,9 @@
 \contentsline {section}{\numberline {3.2}SunSPOT}{10}{section.27}
 \contentsline {subsection}{\numberline {3.2.1}Technische Daten}{11}{subsection.29}
 \contentsline {chapter}{\numberline {4}Praktische Arbeiten mit SunSPOT}{13}{chapter.30}
-\contentsline {section}{\numberline {4.1}Erste Schritte}{13}{section.31}
-\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{13}{section.32}
-\contentsline {subsection}{\numberline {4.2.1}Idee}{13}{subsection.33}
-\contentsline {subsection}{\numberline {4.2.2}Visualisierung der Information}{13}{subsection.34}
-\contentsline {chapter}{\numberline {5}Zusammenfassung}{14}{chapter.35}
-\contentsline {chapter}{Literaturverzeichnis}{vii}{appendix*.36}
+\contentsline {section}{\numberline {4.1}Erste Schritte}{13}{section.34}
+\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{13}{section.35}
+\contentsline {subsection}{\numberline {4.2.1}Idee}{13}{subsection.36}
+\contentsline {subsection}{\numberline {4.2.2}Visualisierung der Information}{13}{subsection.37}
+\contentsline {chapter}{\numberline {5}Zusammenfassung}{14}{chapter.38}
+\contentsline {chapter}{Literaturverzeichnis}{vii}{appendix*.39}
