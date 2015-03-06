@@ -13,23 +13,24 @@ You're missing a field name---line 27 of file Literaturverzeichnis.bib
  : % author = {IBM},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 155 of file Literaturverzeichnis.bib
+You're missing a field name---line 173 of file Literaturverzeichnis.bib
  : 
  : %author = {IBM},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "ws:kosmerchock"
 Warning--empty year in i:spotaufbau
 Warning--empty year in i:mooreslaw
 You've used 9 entries,
             4793 wiz_defined-function locations,
-            928 strings with 7545 characters,
-and the built_in function-call counts, 3351 in all, are:
-= -- 333
+            930 strings with 7565 characters,
+and the built_in function-call counts, 3369 in all, are:
+= -- 337
 > -- 83
 < -- 58
 + -- 65
 - -- 22
-* -- 191
+* -- 195
 := -- 608
 add.period$ -- 9
 call.type$ -- 9
@@ -39,7 +40,7 @@ cite$ -- 11
 duplicate$ -- 117
 empty$ -- 227
 format.name$ -- 59
-if$ -- 656
+if$ -- 660
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 36
@@ -52,11 +53,11 @@ quote$ -- 0
 skip$ -- 187
 stack$ -- 0
 substring$ -- 150
-swap$ -- 22
+swap$ -- 24
 text.length$ -- 18
 text.prefix$ -- 8
 top$ -- 0
-type$ -- 96
+type$ -- 100
 warning$ -- 2
 while$ -- 29
 width$ -- 11
