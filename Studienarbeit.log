@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.6)  6 MAR 2015 18:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.3.6)  6 MAR 2015 19:01
 entering extended mode
 **Studienarbeit.tex
 
@@ -1391,56 +1391,86 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 l" [7
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 11--16
+Underfull \hbox (badness 10000) in paragraph at lines 19--24
 $\OT1/cmtt/m/n/12 l2kch3izg7lwdpl / AADjbAi2ukAjtaZY8zVzMpdHa / IoT / sunspot .
  pdf$[][]\OT1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 28--32
+Underfull \hbox (badness 1072) in paragraph at lines 36--40
 [][]$\OT1/cmtt/m/n/12 http : / / www . sunspotworld . com / docs / Yellow / ede
 mo8ds . pdf$[][]\OT1/cmr/m/n/12 , Ok-to-
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 40--44
+Underfull \hbox (badness 4686) in paragraph at lines 48--57
+[]\OT1/cmr/m/sc/12 Tennina\OT1/cmr/m/n/12 , Ste-fa-no:  \OT1/cmr/m/it/12 IE-EE 
+802.15.4 and Zig-Bee as enab-ling
+ []
+
+
+Underfull \hbox (badness 1389) in paragraph at lines 48--57
+\OT1/cmr/m/it/12 tech-no-lo-gies for low-power wi-re-less sys-tems with quality
+-of-service
+ []
+
+
+Underfull \hbox (badness 3623) in paragraph at lines 48--57
+\OT1/cmr/m/it/12 cons-traints\OT1/cmr/m/n/12 .  Hei-del-berg [u.a.] : Sprin-ger
+, 2013. --  X, 169
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 59--63
 []\OT1/cmr/m/sc/12 Tuomi\OT1/cmr/m/n/12 , Ilk-ka:  \OT1/cmr/m/it/12 The li-ves 
 and deaths of moo-res law\OT1/cmr/m/n/12 .  [][]$\OT1/cmtt/m/n/12 http : / /$
  []
 
 
-Underfull \hbox (badness 4217) in paragraph at lines 51--56
+Underfull \hbox (badness 10000) in paragraph at lines 65--73
+[]\OT1/cmr/m/sc/12 Uckelmann\OT1/cmr/m/n/12 , Die-ter (Hrsg.):  \OT1/cmr/m/it/1
+2 Ar-chi-tec-ting the In-ter-net of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--73
+[][]$\OT1/cmtt/m/n/12 http : / / deposit . d-[]nb . de / cgi-[]bin / dokserv ? 
+id = 3650286 & prov = M &$
+ []
+
+[8
+
+]
+Underfull \hbox (badness 4217) in paragraph at lines 80--85
 []\OT1/cmr/m/sc/12 Wolf\OT1/cmr/m/n/12 , Lars ; \OT1/cmr/m/sc/12 B[]usching\OT1
 /cmr/m/n/12 , Fe-lix:  \OT1/cmr/m/it/12 Wi-re-less Sen-sor Net-works
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--56
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 \OT1/cmr/m/it/12 - In-tro-duc-ti-on and Ap-p-li-ca-ti-ons\OT1/cmr/m/n/12 .  [][
 ]$\OT1/cmtt/m/n/12 https : / / www . dropbox .$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--56
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 $\OT1/cmtt/m/n/12 com / sh / l2kch3izg7lwdpl / AABu1b-[]vt8FCuUD2iU905F0ca / Io
 T /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--56
+Underfull \hbox (badness 10000) in paragraph at lines 80--85
 $\OT1/cmtt/m/n/12 RecentTopics _ Chapter02 _ WSN-[]Introduction-[]and-[]Applica
 tions .$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--68
+Underfull \hbox (badness 10000) in paragraph at lines 93--97
 $\OT1/cmtt/m/n/12 wiki / User : Wgsimon # mediaviewer / File : Transistor _ Cou
 nt _ and _$
  []
 
-[8
-
-])
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1466,10 +1496,10 @@ Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
  ) 
 Here is how much of TeX's memory you used:
- 22550 strings out of 493921
- 440169 string characters out of 3147268
- 633867 words of memory out of 3000000
- 25231 multiletter control sequences out of 15000+200000
+ 22559 strings out of 493921
+ 440292 string characters out of 3147268
+ 633977 words of memory out of 3000000
+ 25237 multiletter control sequences out of 15000+200000
  9970 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,11n,80p,1471b,703s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1483,9 +1513,9 @@ fonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
 /cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Studienarbeit.pdf (25 pages, 568599 bytes).
+Output written on Studienarbeit.pdf (25 pages, 573026 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
+ 426 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
  240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
