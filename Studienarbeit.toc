@@ -2,8 +2,8 @@
 \contentsline {chapter}{\numberline {1}Einleitung und Intention}{1}{chapter.6}
 \contentsline {section}{\numberline {1.1}Ziel dieser Arbeit}{2}{section.7}
 \contentsline {chapter}{\numberline {2}Internet of Things}{3}{chapter.8}
-\contentsline {section}{\numberline {2.1}Geschichte}{3}{section.9}
-\contentsline {section}{\numberline {2.2}Ziele}{3}{section.11}
+\contentsline {section}{\numberline {2.1}Geschichte}{4}{section.10}
+\contentsline {section}{\numberline {2.2}Ziele}{4}{section.11}
 \contentsline {section}{\numberline {2.3}Do It Yourself - Trend}{4}{section.12}
 \contentsline {section}{\numberline {2.4}Sicherheitsaspekte}{4}{section.17}
 \contentsline {chapter}{\numberline {3}Theoretische Grundlagen}{5}{chapter.18}
