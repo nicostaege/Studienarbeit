@@ -7,6 +7,12 @@
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Alk10]{ws:alkire}
+\textsc{Alkire}, Bob:
+\newblock \emph{SPOTs on 64-bit Windows 7}.
+\newblock \url{https://blogs.oracle.com/ralkire/entry/spots_on_64_bit_windows},
+  May 2010
+
 \bibitem[{Car}98]{ws:cmu}
 \textsc{{Carnegie Mellon University Computer Science Department}}:
 \newblock \emph{The Only Coke Machine on the Internet}.

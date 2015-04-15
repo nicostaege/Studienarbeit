@@ -16,11 +16,14 @@
 \contentsline {subsection}{\numberline {3.1.6}Adhoc-Netzwerke}{15}{subsection.34}
 \contentsline {subsection}{\numberline {3.1.7}IEEE 802.15.4}{15}{subsection.35}
 \contentsline {section}{\numberline {3.2}SunSPOT}{15}{section.36}
-\contentsline {subsection}{\numberline {3.2.1}Technische Daten}{16}{subsection.38}
-\contentsline {chapter}{\numberline {4}Praktische Arbeiten mit SunSPOT}{17}{chapter.39}
-\contentsline {section}{\numberline {4.1}Erste Schritte}{17}{section.43}
-\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{17}{section.44}
-\contentsline {subsection}{\numberline {4.2.1}Idee}{17}{subsection.45}
-\contentsline {subsection}{\numberline {4.2.2}Visualisierung der Information}{17}{subsection.46}
-\contentsline {chapter}{\numberline {5}Zusammenfassung}{18}{chapter.47}
-\contentsline {chapter}{Literaturverzeichnis}{vii}{appendix*.48}
+\contentsline {subsection}{\numberline {3.2.1}Ger\IeC {\"a}tearten}{16}{subsection.38}
+\contentsline {subsection}{\numberline {3.2.2}Verf\IeC {\"u}gbare Boards}{16}{subsection.39}
+\contentsline {chapter}{\numberline {4}Praktische Arbeiten mit SunSPOT}{18}{chapter.40}
+\contentsline {section}{\numberline {4.1}Erste Schritte}{18}{section.44}
+\contentsline {subsection}{\numberline {4.1.1}Installation}{18}{subsection.45}
+\contentsline {subsection}{\numberline {4.1.2}\IeC {\"U}bung 1 - Flashlight}{19}{subsection.46}
+\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{20}{section.48}
+\contentsline {subsection}{\numberline {4.2.1}Idee}{20}{subsection.49}
+\contentsline {subsection}{\numberline {4.2.2}Visualisierung der Information}{20}{subsection.50}
+\contentsline {chapter}{\numberline {5}Zusammenfassung}{21}{chapter.51}
+\contentsline {chapter}{Literaturverzeichnis}{vii}{appendix*.52}

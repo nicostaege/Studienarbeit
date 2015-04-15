@@ -1,16 +1,64 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Studienarbeit.aux
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Studienarbeit.aux
 The style file: alphadin.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Literaturverzeichnis.bib
-You're missing a field name---line 14 of file Literaturverzeichnis.bib
- : 
- : % author = {IBM},
+You're missing a field name---line 27 of file Literaturverzeichnis.bib
+ :  
+ :  % author = {IBM},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 110 of file Literaturverzeichnis.bib
- : 
- : %author = {IBM},
+You're missing a field name---line 235 of file Literaturverzeichnis.bib
+ :  
+ :  %author = {IBM},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty year in i:spotaufbau
 Warning--empty year in i:mooreslaw
+You've used 14 entries,
+            4793 wiz_defined-function locations,
+            954 strings with 8282 characters,
+and the built_in function-call counts, 5134 in all, are:
+= -- 516
+> -- 123
+< -- 84
++ -- 92
+- -- 32
+* -- 298
+:= -- 919
+add.period$ -- 14
+call.type$ -- 14
+change.case$ -- 57
+chr.to.int$ -- 13
+cite$ -- 16
+duplicate$ -- 182
+empty$ -- 352
+format.name$ -- 89
+if$ -- 1014
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 56
+newline$ -- 80
+num.names$ -- 42
+pop$ -- 78
+preamble$ -- 1
+purify$ -- 85
+quote$ -- 0
+skip$ -- 288
+stack$ -- 0
+substring$ -- 227
+swap$ -- 38
+text.length$ -- 28
+text.prefix$ -- 13
+top$ -- 0
+type$ -- 158
+warning$ -- 2
+while$ -- 44
+width$ -- 16
+write$ -- 161
 (There were 2 error messages)
