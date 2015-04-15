@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.4)  15 APR 2015 11:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.4)  15 APR 2015 11:40
 entering extended mode
 **Studienarbeit.tex
 (D:\Dokumente\Studienarbeit\Studienarbeit.tex
@@ -1159,12 +1159,33 @@ mit dem ConnectedDrive-System
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5])) (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen.tex
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Overfull \hbox (2.88072pt too wide) in paragraph at lines 22--23
+[]\OT1/cmr/m/n/12 Die er-war-te-te ex-plo-si-ons-ar-ti-ge Zu-nah-me der IoT-Kom
+ponenten und -Objekten,
+ []
+
+
+Overfull \hbox (22.13878pt too wide) in paragraph at lines 22--23
+\OT1/cmr/m/n/12 wel-che mit an-de-ren Ma-schi-nen/-Ob-jek-ten bzw. Men-schen in
+ Echt-zeit (oder ann[]ahender
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1172,6 +1193,51 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
+Overfull \hbox (24.2569pt too wide) in paragraph at lines 28--29
+[]\OT1/cmr/m/n/12 Es geht nicht um Pa-nik-ma-che, denn Si-cher-heits-vorf[]alle
+ von IoT-Implementierungen
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+Overfull \hbox (9.41393pt too wide) in paragraph at lines 30--31
+\OT1/cmr/m/n/12 der Pri-vatsph[]are und der Da-ten-si-cher-heit. Fr[]uher ma-ni
+-pu-lier-te man die Stromz[]ahler
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9])) (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen.tex
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
 Kapitel 3.
 
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/WirelessSensorNetworks
@@ -1187,7 +1253,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[7
+[12
 
 ])
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/WirelessSensorNetworks
@@ -1196,7 +1262,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
  []
 
-<Bilder/mooreslaw.png, id=266, 602.25pt x 541.27219pt>
+<Bilder/mooreslaw.png, id=290, 602.25pt x 541.27219pt>
 File: Bilder/mooreslaw.png Graphic file (type png)
 
 <use Bilder/mooreslaw.png>
@@ -1209,7 +1275,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8])
+[13])
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/WirelessSensorNetworks
 /Bestandteile.tex
 Underfull \hbox (badness 10000) in paragraph at lines 26--1
@@ -1222,7 +1288,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <D:/Dokumente/Studienarbeit/Bilder/mooreslaw.png>])
+[14 <D:/Dokumente/Studienarbeit/Bilder/mooreslaw.png>])
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/WirelessSensorNetworks
 /Topologien.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1234,7 +1300,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<Bilder/peertopeer.png, id=285, 298.11375pt x 265.99374pt>
+<Bilder/peertopeer.png, id=309, 298.11375pt x 265.99374pt>
 File: Bilder/peertopeer.png Graphic file (type png)
 
 <use Bilder/peertopeer.png>
@@ -1247,12 +1313,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<Bilder/star.png, id=292, 439.6425pt x 346.29375pt>
+<Bilder/star.png, id=316, 439.6425pt x 346.29375pt>
 File: Bilder/star.png Graphic file (type png)
  <use Bilder/star.png>
 Package pdftex.def Info: Bilder/star.png used on input line 18.
@@ -1262,7 +1328,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<Bilder/tree.png, id=295, 541.02126pt x 331.2375pt>
+<Bilder/tree.png, id=319, 541.02126pt x 331.2375pt>
 File: Bilder/tree.png Graphic file (type png)
  <use Bilder/tree.png>
 Package pdftex.def Info: Bilder/tree.png used on input line 27.
@@ -1274,8 +1340,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11 <D:/Dokumente/Studienarbeit/Bilder/peertopeer.png> <D:/Dokumente/Studienarb
-eit/Bilder/star.png>] <Bilder/mesh.png, id=305, 346.29375pt x 346.29375pt>
+[16 <D:/Dokumente/Studienarbeit/Bilder/peertopeer.png> <D:/Dokumente/Studienarb
+eit/Bilder/star.png>] <Bilder/mesh.png, id=329, 346.29375pt x 346.29375pt>
 File: Bilder/mesh.png Graphic file (type png)
 
 <use Bilder/mesh.png>
@@ -1299,7 +1365,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <D:/Dokumente/Studienarbeit/Bilder/tree.png> <D:/Dokumente/Studienarbeit/Bi
+[17 <D:/Dokumente/Studienarbeit/Bilder/tree.png> <D:/Dokumente/Studienarbeit/Bi
 lder/mesh.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
@@ -1321,7 +1387,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
@@ -1337,7 +1403,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14])) (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/SunSPOT.tex
+[19])) (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/SunSPOT.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -1347,7 +1413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<Bilder/spotanatomy.png, id=325, 305.14pt x 411.5375pt>
+<Bilder/spotanatomy.png, id=349, 305.14pt x 411.5375pt>
 File: Bilder/spotanatomy.png Graphic file (type png)
 
 <use Bilder/spotanatomy.png>
@@ -1364,7 +1430,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <D:/Dokumente/Studienarbeit/Bilder/spotanatomy.png>]
+[20 <D:/Dokumente/Studienarbeit/Bilder/spotanatomy.png>]
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/SunSPOT/TechnischeDate
 n.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1400,7 +1466,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
+[21]
 Kapitel 4.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
@@ -1413,11 +1479,11 @@ gRaumueberwachung.tex
 gRaumueberwachung/Idee.tex)
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/PraktischeArbeiten/Implementierun
 gRaumueberwachung/Visualisierung.tex)))
-(D:\Dokumente\Studienarbeit\Kapitel/Schluss/Zusammenfassung.tex [17
+(D:\Dokumente\Studienarbeit\Kapitel/Schluss/Zusammenfassung.tex [22
 
 ]
 Kapitel 5.
-) [18
+) [23
 
 ] (D:\Dokumente\Studienarbeit\Anhang/anhang.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1517,10 +1583,10 @@ Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
  ) 
 Here is how much of TeX's memory you used:
- 22939 strings out of 493921
- 439391 string characters out of 3148889
- 637245 words of memory out of 3000000
- 25600 multiletter control sequences out of 15000+200000
+ 22952 strings out of 493921
+ 439546 string characters out of 3148889
+ 637250 words of memory out of 3000000
+ 25608 multiletter control sequences out of 15000+200000
  9970 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  62i,12n,80p,1471b,1180s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1534,9 +1600,9 @@ ramme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Programme/TeX/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Programme/TeX/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmti8.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmtt12.pfb>
-Output written on Studienarbeit.pdf (29 pages, 597830 bytes).
+Output written on Studienarbeit.pdf (34 pages, 614713 bytes).
 PDF statistics:
- 479 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
+ 503 PDF objects out of 1000 (max. 8388607)
+ 114 named destinations out of 1000 (max. 500000)
  248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
