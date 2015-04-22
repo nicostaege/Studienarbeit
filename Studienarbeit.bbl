@@ -35,6 +35,13 @@
 \newblock \emph{Wireless Sensor Network Topologies}.
 \newblock \url{http://www.k5systems.com/TP0001_v1.pdf}, 2009
 
+\bibitem[LLK12]{ws:lipinski}
+\textsc{Lipinski}, Klaus ; \textsc{Lackner}, Hans  ; \textsc{Kafka}, Gerhard:
+\newblock \emph{Ad-hoc-Netz}.
+\newblock
+  \url{http://www.itwissen.info/definition/lexikon/Ad-hoc-Netzwerk-ad-hoc-network.html},
+  March 2012
+
 \bibitem[{Ora}10a]{d:spotdemo}
 \textsc{{Oracle Corp.}}:
 \newblock \emph{Sun™ SPOT eDEMO Technical Datasheet Rev 8.0}.

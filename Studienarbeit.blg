@@ -13,52 +13,52 @@ You're missing a field name---line 27 of file Literaturverzeichnis.bib
  :  % author = {IBM},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 235 of file Literaturverzeichnis.bib
+You're missing a field name---line 251 of file Literaturverzeichnis.bib
  :  
  :  %author = {IBM},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--empty year in i:spotaufbau
 Warning--empty year in i:mooreslaw
-You've used 14 entries,
+You've used 15 entries,
             4793 wiz_defined-function locations,
-            954 strings with 8282 characters,
-and the built_in function-call counts, 5134 in all, are:
-= -- 516
-> -- 123
-< -- 84
-+ -- 92
-- -- 32
-* -- 298
-:= -- 919
-add.period$ -- 14
-call.type$ -- 14
-change.case$ -- 57
-chr.to.int$ -- 13
-cite$ -- 16
-duplicate$ -- 182
-empty$ -- 352
-format.name$ -- 89
-if$ -- 1014
+            959 strings with 8443 characters,
+and the built_in function-call counts, 5746 in all, are:
+= -- 580
+> -- 148
+< -- 106
++ -- 120
+- -- 41
+* -- 339
+:= -- 1033
+add.period$ -- 15
+call.type$ -- 15
+change.case$ -- 63
+chr.to.int$ -- 14
+cite$ -- 17
+duplicate$ -- 196
+empty$ -- 379
+format.name$ -- 105
+if$ -- 1123
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 56
-newline$ -- 80
-num.names$ -- 42
-pop$ -- 78
+missing$ -- 60
+newline$ -- 85
+num.names$ -- 45
+pop$ -- 84
 preamble$ -- 1
-purify$ -- 85
+purify$ -- 93
 quote$ -- 0
-skip$ -- 288
+skip$ -- 326
 stack$ -- 0
-substring$ -- 227
-swap$ -- 38
-text.length$ -- 28
+substring$ -- 258
+swap$ -- 43
+text.length$ -- 31
 text.prefix$ -- 13
 top$ -- 0
-type$ -- 158
+type$ -- 170
 warning$ -- 2
-while$ -- 44
-width$ -- 16
-write$ -- 161
+while$ -- 50
+width$ -- 17
+write$ -- 172
 (There were 2 error messages)
