@@ -20,12 +20,15 @@
 \contentsline {section}{\numberline {3.4}SunSPOT}{15}{section.38}
 \contentsline {subsection}{\numberline {3.4.1}Ger\IeC {\"a}tearten}{16}{subsection.40}
 \contentsline {subsection}{\numberline {3.4.2}Verf\IeC {\"u}gbare Boards}{17}{subsection.41}
-\contentsline {chapter}{\numberline {4}Praktische Arbeiten mit SunSPOT}{18}{chapter.42}
+\contentsline {chapter}{\numberline {4}Praktische Arbeiten}{18}{chapter.42}
 \contentsline {section}{\numberline {4.1}Erste Schritte}{18}{section.46}
 \contentsline {subsection}{\numberline {4.1.1}Installation}{18}{subsection.47}
 \contentsline {subsection}{\numberline {4.1.2}\IeC {\"U}bung 1 - Flashlight}{19}{subsection.48}
 \contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{20}{section.50}
 \contentsline {subsection}{\numberline {4.2.1}Idee}{20}{subsection.51}
 \contentsline {subsection}{\numberline {4.2.2}Visualisierung der Information}{20}{subsection.52}
-\contentsline {chapter}{\numberline {5}Zusammenfassung}{21}{chapter.53}
-\contentsline {chapter}{Literaturverzeichnis}{vii}{appendix*.54}
+\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{21}{chapter.53}
+\contentsline {section}{\numberline {5.1}Smart Greenhouse}{21}{section.54}
+\contentsline {section}{\numberline {5.2}Bot-So}{21}{section.55}
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{22}{chapter.56}
+\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.57}
