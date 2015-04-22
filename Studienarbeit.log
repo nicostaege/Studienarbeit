@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.1)  22 APR 2015 02:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.1)  22 APR 2015 02:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1075,9 +1075,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 140.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 147.
+(babel)             in language  on input line 148.
  [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Bilde
@@ -1106,9 +1106,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 154.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 154.
  [1] (./Studienarbeit.toc
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 34.
@@ -1128,17 +1128,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 169.
+(babel)             in language  on input line 170.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 169.
+(babel)             in language  on input line 170.
 [3] (./Studienarbeit.lof)
 \tf@lof=\write7
 \openout7 = `Studienarbeit.lof'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 171.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 170.
+(babel)             in language  on input line 171.
  [4
 
 ] (./Studienarbeit.lot)
@@ -1146,9 +1146,9 @@ Package babel Info: Redefining ngerman shorthand "~
 \openout8 = `Studienarbeit.lot'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 172.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 171.
+(babel)             in language  on input line 172.
  [5
 
 ] (./Studienarbeit.lol)
@@ -1165,9 +1165,9 @@ Package babel Info: Redefining ngerman shorthand "~
 
 ])
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 176.
+(babel)             in language  on input line 177.
  [7
 
 ]
@@ -1778,9 +1778,9 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 192.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 191.
+(babel)             in language  on input line 192.
  [22
 
 ] (./Anhang/anhang.tex
@@ -1790,9 +1790,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 207.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 206.
+(babel)             in language  on input line 207.
  (./Studienarbeit.bbl
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -1893,33 +1893,33 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 213.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 212.
+(babel)             in language  on input line 213.
 [10] (./Studienarbeit.tdo)
 \tf@tdo=\write10
 \openout10 = `Studienarbeit.tdo'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 216.
+(babel)             in language  on input line 217.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 216.
+(babel)             in language  on input line 217.
  [11
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
  (./Studienarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
 Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: FAD812B7FA1C0023BEBB3F09463EE4A3;2199.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
  ) 
 Here is how much of TeX's memory you used:
  23188 strings out of 493117
  444931 string characters out of 6135433
- 641676 words of memory out of 5000000
+ 641670 words of memory out of 5000000
  25990 multiletter control sequences out of 15000+600000
  10264 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1936,7 +1936,7 @@ al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Studienarbeit.pdf (34 pages, 1985302 bytes).
+Output written on Studienarbeit.pdf (34 pages, 1985386 bytes).
 PDF statistics:
  564 PDF objects out of 1000 (max. 8388607)
  491 compressed objects within 5 object streams
