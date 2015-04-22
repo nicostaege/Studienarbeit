@@ -26,9 +26,10 @@
 \contentsline {subsection}{\numberline {4.1.2}\IeC {\"U}bung 1 - Flashlight}{19}{subsection.48}
 \contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{20}{section.50}
 \contentsline {subsection}{\numberline {4.2.1}Idee}{20}{subsection.51}
-\contentsline {subsection}{\numberline {4.2.2}Visualisierung der Information}{20}{subsection.52}
-\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{21}{chapter.53}
-\contentsline {section}{\numberline {5.1}Smart Greenhouse}{21}{section.54}
-\contentsline {section}{\numberline {5.2}Bot-So}{21}{section.55}
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{22}{chapter.56}
-\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.57}
+\contentsline {subsection}{\numberline {4.2.2}Umsetzung}{20}{subsection.52}
+\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{20}{section.53}
+\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{21}{chapter.54}
+\contentsline {section}{\numberline {5.1}Smart Greenhouse}{21}{section.55}
+\contentsline {section}{\numberline {5.2}Bot-So}{21}{section.56}
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{22}{chapter.57}
+\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.58}

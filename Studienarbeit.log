@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.1)  22 APR 2015 02:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.1)  22 APR 2015 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1062,7 +1062,7 @@ LaTeX Info: Redefining \nameref on input line 120.
 \@outlinefile=\write5
 \openout5 = `Studienarbeit.out'.
 
- <Bilder/dhbw-logo.png, id=139, 130.086pt x 62.8749pt>
+ <Bilder/dhbw-logo.png, id=143, 130.086pt x 62.8749pt>
 File: Bilder/dhbw-logo.png Graphic file (type png)
 
 <use Bilder/dhbw-logo.png>
@@ -1369,7 +1369,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<Bilder/mooreslaw.png, id=319, 602.25pt x 541.27219pt>
+<Bilder/mooreslaw.png, id=324, 602.25pt x 541.27219pt>
 File: Bilder/mooreslaw.png Graphic file (type png)
 
 <use Bilder/mooreslaw.png>
@@ -1421,7 +1421,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<Bilder/peertopeer.png, id=338, 298.11375pt x 265.99374pt>
+<Bilder/peertopeer.png, id=343, 298.11375pt x 265.99374pt>
 File: Bilder/peertopeer.png Graphic file (type png)
 
 <use Bilder/peertopeer.png>
@@ -1443,7 +1443,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<Bilder/star.png, id=345, 439.6425pt x 346.29375pt>
+<Bilder/star.png, id=350, 439.6425pt x 346.29375pt>
 File: Bilder/star.png Graphic file (type png)
  <use Bilder/star.png>
 Package pdftex.def Info: Bilder/star.png used on input line 18.
@@ -1453,7 +1453,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<Bilder/tree.png, id=348, 541.02126pt x 331.2375pt>
+<Bilder/tree.png, id=353, 541.02126pt x 331.2375pt>
 File: Bilder/tree.png Graphic file (type png)
  <use Bilder/tree.png>
 Package pdftex.def Info: Bilder/tree.png used on input line 27.
@@ -1470,7 +1470,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 31.
 [11 <./Bilder/peertopeer.png> <./Bilder/star.png>]
-<Bilder/mesh.png, id=359, 346.29375pt x 346.29375pt>
+<Bilder/mesh.png, id=364, 346.29375pt x 346.29375pt>
 File: Bilder/mesh.png Graphic file (type png)
  <use Bilder/mesh.png>
 Package pdftex.def Info: Bilder/mesh.png used on input line 36.
@@ -1587,7 +1587,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<Bilder/spotanatomy.png, id=385, 305.14pt x 411.5375pt>
+<Bilder/spotanatomy.png, id=390, 305.14pt x 411.5375pt>
 File: Bilder/spotanatomy.png Graphic file (type png)
 
 <use Bilder/spotanatomy.png>
@@ -1698,7 +1698,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 22.
-<Bilder/uebung1.jpg, id=415, 3276.24pt x 2457.18pt>
+<Bilder/uebung1.jpg, id=420, 3276.24pt x 2457.18pt>
 File: Bilder/uebung1.jpg Graphic file (type jpg)
  <use Bilder/uebung1.jpg>
 Package pdftex.def Info: Bilder/uebung1.jpg used on input line 30.
@@ -1728,13 +1728,18 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 )
-(./Kapitel/Hauptteil/PraktischeArbeiten/ImplementierungRaumueberwachung/Visuali
-sierung.tex
+(./Kapitel/Hauptteil/PraktischeArbeiten/ImplementierungRaumueberwachung/Umsetzu
+ng.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-))) (./Kapitel/Hauptteil/VergleichbareProjekte.tex
+)) (./Kapitel/Hauptteil/PraktischeArbeiten/Erweiterungsmoeglichkeiten.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1.
+)) (./Kapitel/Hauptteil/VergleichbareProjekte.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1913,14 +1918,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
 Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: FAD812B7FA1C0023BEBB3F09463EE4A3;2199.
+(rerunfilecheck)             Checksum: 1D542F0DE64921A67A3C06C7EF20CD04;2256.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
  ) 
 Here is how much of TeX's memory you used:
- 23188 strings out of 493117
- 444931 string characters out of 6135433
- 641670 words of memory out of 5000000
- 25990 multiletter control sequences out of 15000+600000
+ 23195 strings out of 493117
+ 445148 string characters out of 6135433
+ 641703 words of memory out of 5000000
+ 25993 multiletter control sequences out of 15000+600000
  10264 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,12n,80p,1471b,1180s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1936,10 +1941,10 @@ al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Studienarbeit.pdf (34 pages, 1985386 bytes).
+Output written on Studienarbeit.pdf (34 pages, 1985193 bytes).
 PDF statistics:
- 564 PDF objects out of 1000 (max. 8388607)
- 491 compressed objects within 5 object streams
- 125 named destinations out of 1000 (max. 500000)
- 317 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 569 PDF objects out of 1000 (max. 8388607)
+ 496 compressed objects within 5 object streams
+ 126 named destinations out of 1000 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
