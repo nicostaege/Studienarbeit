@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.4)  26 APR 2015 19:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.12.4)  27 APR 2015 01:04
 entering extended mode
 **Studienarbeit.tex
 (D:\Dokumente\Studienarbeit\Studienarbeit.tex
@@ -1165,7 +1165,7 @@ it klei-nen [][]-Systemen
  []
 
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/IoT/Arduino.tex
-<Bilder/arduino.png, id=312, 1003.75pt x 683.55376pt>
+<Bilder/arduino.png, id=320, 1003.75pt x 683.55376pt>
 File: Bilder/arduino.png Graphic file (type png)
  <use Bilder/arduino.png>
 Package pdftex.def Info: Bilder/arduino.png used on input line 7.
@@ -1191,12 +1191,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
-<Bilder/arduinouno.jpg, id=324, 451.6875pt x 297.11pt>
+<Bilder/arduinouno.jpg, id=332, 451.6875pt x 297.11pt>
 File: Bilder/arduinouno.jpg Graphic file (type jpg)
 
 <use Bilder/arduinouno.jpg>
 Package pdftex.def Info: Bilder/arduinouno.jpg used on input line 19.
-(pdftex.def)             Requested size: 225.84319pt x 148.55463pt.
+(pdftex.def)             Requested size: 271.01459pt x 178.26736pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <D:/Dokumente/Studienarbeit/Bilder/arduino.png>]
 Package acronym Info: Label `acro:IDE' newly defined as it shall be overridden
 although it is yet undefined on input line 24.
 
@@ -1204,28 +1212,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--27
 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6 <D:/Dokumente/Studienarbeit/Bilder/arduino.png> <D:/Dokumente/Studienarbeit/
-Bilder/arduinouno.jpg>]
 (D:\Programme\TeX\MiKTeX\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 (D:\Programme\TeX\MiKTeX\tex\latex\listings\lstmisc.sty
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 )
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <D:/Dokumente/Studienarbeit/Bilder/arduinouno.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-) (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/IoT/Raspberry.tex))
-(D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/IoT/Sicherheitsaspekte.tex
-Package acronym Info: Label `acro:M2M' newly defined as it shall be overridden
-although it is yet undefined on input line 4.
+) (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/IoT/Raspberry.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+<Bilder/raspberrylogo.png, id=364, 1003.75pt x 1268.74pt>
+File: Bilder/raspberrylogo.png Graphic file (type png)
+
+<use Bilder/raspberrylogo.png>
+Package pdftex.def Info: Bilder/raspberrylogo.png used on input line 9.
+(pdftex.def)             Requested size: 150.556pt x 190.30278pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1233,7 +1247,43 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+<Bilder/raspberry2top.jpg, id=373, 462.528pt x 309.0747pt>
+File: Bilder/raspberry2top.jpg Graphic file (type jpg)
+
+<use Bilder/raspberry2top.jpg>
+Package pdftex.def Info: Bilder/raspberry2top.jpg used on input line 18.
+(pdftex.def)             Requested size: 231.26343pt x 154.53697pt.
+Package acronym Info: Label `acro:Mhz' newly defined as it shall be overridden
+although it is yet undefined on input line 24.
+
+
+Package acronym Warning: Acronym `Mhz' is not defined on input line 24.
+
+
+Package acronym Warning: Acronym `Mhz' is not defined on input line 24.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9 <D:/Dokumente/Studienarbeit/Bilder/raspberrylogo.png> <D:/Dokumente/Studiena
+rbeit/Bilder/raspberry2top.jpg>]))
+(D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/IoT/Sicherheitsaspekte.tex
+Package acronym Info: Label `acro:M2M' newly defined as it shall be overridden
+although it is yet undefined on input line 4.
+
 Overfull \hbox (4.8432pt too wide) in paragraph at lines 6--7
 \OT1/cmr/m/n/12 k[]urzlich ein Soft-wa-reu-p-da-te f[]ur sei-ne Au-to-mo-bi-le 
 mit dem ConnectedDrive-System
@@ -1250,25 +1300,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-)
+)) (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen.tex
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]) (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen.tex
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9]
+[11]
 Kapitel 3.
 
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/WirelessSensorNetworks
@@ -1284,7 +1333,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[10
+[12
 
 ])
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/WirelessSensorNetworks
@@ -1293,7 +1342,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--1
 
  []
 
-<Bilder/mooreslaw.png, id=391, 602.25pt x 541.27219pt>
+<Bilder/mooreslaw.png, id=413, 602.25pt x 541.27219pt>
 File: Bilder/mooreslaw.png Graphic file (type png)
 
 <use Bilder/mooreslaw.png>
@@ -1306,7 +1355,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11])
+[13])
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/WirelessSensorNetworks
 /Bestandteile.tex
 Underfull \hbox (badness 10000) in paragraph at lines 26--1
@@ -1319,7 +1368,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <D:/Dokumente/Studienarbeit/Bilder/mooreslaw.png>])
+[14 <D:/Dokumente/Studienarbeit/Bilder/mooreslaw.png>])
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/WirelessSensorNetworks
 /Topologien.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1331,7 +1380,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<Bilder/peertopeer.png, id=411, 298.11375pt x 265.99374pt>
+<Bilder/peertopeer.png, id=431, 298.11375pt x 265.99374pt>
 File: Bilder/peertopeer.png Graphic file (type png)
 
 <use Bilder/peertopeer.png>
@@ -1344,12 +1393,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<Bilder/star.png, id=419, 439.6425pt x 346.29375pt>
+<Bilder/star.png, id=438, 439.6425pt x 346.29375pt>
 File: Bilder/star.png Graphic file (type png)
  <use Bilder/star.png>
 Package pdftex.def Info: Bilder/star.png used on input line 18.
@@ -1359,7 +1408,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<Bilder/tree.png, id=422, 541.02126pt x 331.2375pt>
+<Bilder/tree.png, id=441, 541.02126pt x 331.2375pt>
 File: Bilder/tree.png Graphic file (type png)
  <use Bilder/tree.png>
 Package pdftex.def Info: Bilder/tree.png used on input line 27.
@@ -1371,8 +1420,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <D:/Dokumente/Studienarbeit/Bilder/peertopeer.png> <D:/Dokumente/Studienarb
-eit/Bilder/star.png>] <Bilder/mesh.png, id=433, 346.29375pt x 346.29375pt>
+[16 <D:/Dokumente/Studienarbeit/Bilder/peertopeer.png> <D:/Dokumente/Studienarb
+eit/Bilder/star.png>] <Bilder/mesh.png, id=451, 346.29375pt x 346.29375pt>
 File: Bilder/mesh.png Graphic file (type png)
 
 <use Bilder/mesh.png>
@@ -1396,7 +1445,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <D:/Dokumente/Studienarbeit/Bilder/tree.png> <D:/Dokumente/Studienarbeit/Bi
+[17 <D:/Dokumente/Studienarbeit/Bilder/tree.png> <D:/Dokumente/Studienarbeit/Bi
 lder/mesh.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
@@ -1418,7 +1467,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
@@ -1432,7 +1481,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17])
+[19])
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/WirelessSensorNetworks
 /IEEE802154.tex))
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/Grundlagen/SunSPOT.tex
@@ -1446,12 +1495,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<Bilder/spotanatomy.png, id=464, 305.14pt x 411.5375pt>
+<Bilder/spotanatomy.png, id=478, 305.14pt x 411.5375pt>
 File: Bilder/spotanatomy.png Graphic file (type png)
 
 <use Bilder/spotanatomy.png>
@@ -1475,7 +1524,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19 <D:/Dokumente/Studienarbeit/Bilder/spotanatomy.png>]
+[21 <D:/Dokumente/Studienarbeit/Bilder/spotanatomy.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
@@ -1503,7 +1552,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20]
+[22]
 Kapitel 4.
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
 ine 3.
@@ -1517,7 +1566,7 @@ Overfull \hbox (17.39734pt too wide) in paragraph at lines 7--8
  Ma-na-ger' und dem SunSPOT
  []
 
-[21
+[23
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
@@ -1529,7 +1578,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-<Bilder/uebung1.jpg, id=499, 3276.24pt x 2457.18pt>
+<Bilder/uebung1.jpg, id=509, 3276.24pt x 2457.18pt>
 File: Bilder/uebung1.jpg Graphic file (type jpg)
  <use Bilder/uebung1.jpg>
 Package pdftex.def Info: Bilder/uebung1.jpg used on input line 30.
@@ -1541,7 +1590,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22])
+[24])
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/PraktischeArbeiten/Implementierun
 gRaumueberwachung.tex
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/PraktischeArbeiten/Implementierun
@@ -1557,17 +1606,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23 <D:/Dokumente/Studienarbeit/Bilder/uebung1.jpg>]
+[25 <D:/Dokumente/Studienarbeit/Bilder/uebung1.jpg>]
 Kapitel 5.
 
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/VergleichbareProjekte/SmartGreenh
 ouse.tex)
 (D:\Dokumente\Studienarbeit\Kapitel/Hauptteil/VergleichbareProjekte/Bot-So.tex)
-) (D:\Dokumente\Studienarbeit\Kapitel/Schluss/Zusammenfassung.tex [24
+) (D:\Dokumente\Studienarbeit\Kapitel/Schluss/Zusammenfassung.tex [26
 
 ]
 Kapitel 6.
-) [25
+) [27
 
 ] (D:\Dokumente\Studienarbeit\Anhang/anhang.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1577,102 +1626,108 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 ) (D:\Dokumente\Studienarbeit\Studienarbeit.bbl [8
 
 ]
-Underfull \hbox (badness 2119) in paragraph at lines 38--42
+Underfull \hbox (badness 2119) in paragraph at lines 43--47
 []\OT1/cmr/m/sc/12 Elektor\OT1/cmr/m/n/12 :  \OT1/cmr/m/it/12 Klangsen-si-ti-ve
  LED-Kunst mit Ar-dui-no\OT1/cmr/m/n/12 .  [][]$\OT1/cmtt/m/n/12 http : / /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--49
+Underfull \hbox (badness 10000) in paragraph at lines 49--54
 $\OT1/cmtt/m/n/12 l2kch3izg7lwdpl / AADjbAi2ukAjtaZY8zVzMpdHa / IoT / sunspot .
  pdf$[][]\OT1/cmr/m/n/12 ,
  []
 
 
-Underfull \hbox (badness 2547) in paragraph at lines 61--66
+Underfull \hbox (badness 2547) in paragraph at lines 66--71
 []\OT1/cmr/m/sc/12 Lipinski\OT1/cmr/m/n/12 , Klaus ; \OT1/cmr/m/sc/12 Lack-ner\
 OT1/cmr/m/n/12 , Hans ; \OT1/cmr/m/sc/12 Kaf-ka\OT1/cmr/m/n/12 , Ger-hard:  \OT
 1/cmr/m/it/12 Ad-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--66
+Underfull \hbox (badness 10000) in paragraph at lines 66--71
 \OT1/cmr/m/it/12 hoc-Netz\OT1/cmr/m/n/12 .  [][]$\OT1/cmtt/m/n/12 http : / / ww
 w . itwissen . info / definition / lexikon /$
- []
-
-
-Underfull \hbox (badness 1072) in paragraph at lines 68--72
-[][]$\OT1/cmtt/m/n/12 http : / / www . sunspotworld . com / docs / Yellow / ede
-mo8ds . pdf$[][]\OT1/cmr/m/n/12 , Ok-to-
  []
 
 [9
 
 ]
-Underfull \hbox (badness 1052) in paragraph at lines 80--84
+Underfull \hbox (badness 1072) in paragraph at lines 81--85
+[][]$\OT1/cmtt/m/n/12 http : / / www . sunspotworld . com / docs / Yellow / ede
+mo8ds . pdf$[][]\OT1/cmr/m/n/12 , Ok-to-
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 99--103
 []\OT1/cmr/m/sc/12 Tuomi\OT1/cmr/m/n/12 , Ilk-ka:  \OT1/cmr/m/it/12 The li-ves 
 and deaths of moo-res law\OT1/cmr/m/n/12 .  [][]$\OT1/cmtt/m/n/12 http : / /$
  []
 
 
-Underfull \hbox (badness 4217) in paragraph at lines 91--96
+Underfull \hbox (badness 4217) in paragraph at lines 110--115
 []\OT1/cmr/m/sc/12 Wolf\OT1/cmr/m/n/12 , Lars ; \OT1/cmr/m/sc/12 B[]usching\OT1
 /cmr/m/n/12 , Fe-lix:  \OT1/cmr/m/it/12 Wi-re-less Sen-sor Net-works
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
+Underfull \hbox (badness 10000) in paragraph at lines 110--115
 \OT1/cmr/m/it/12 - In-tro-duc-ti-on and Ap-p-li-ca-ti-ons\OT1/cmr/m/n/12 .  [][
 ]$\OT1/cmtt/m/n/12 https : / / www . dropbox .$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
+Underfull \hbox (badness 10000) in paragraph at lines 110--115
 $\OT1/cmtt/m/n/12 com / sh / l2kch3izg7lwdpl / AABu1b-[]vt8FCuUD2iU905F0ca / Io
 T /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
+Underfull \hbox (badness 10000) in paragraph at lines 110--115
 $\OT1/cmtt/m/n/12 RecentTopics _ Chapter02 _ WSN-[]Introduction-[]and-[]Applica
 tions .$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
+Underfull \hbox (badness 10000) in paragraph at lines 123--127
 $\OT1/cmtt/m/n/12 wiki / User : Wgsimon # mediaviewer / File : Transistor _ Cou
 nt _ and _$
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 110--115
+Underfull \hbox (badness 1062) in paragraph at lines 129--134
 []\OT1/cmr/m/sc/12 Willems\OT1/cmr/m/n/12 , Ed-dy:  \OT1/cmr/m/it/12 IoT: The I
 n-ter-net of Things... ehm... / Ein
  []
 
 
-Underfull \hbox (badness 4595) in paragraph at lines 110--115
+Underfull \hbox (badness 4595) in paragraph at lines 129--134
 \OT1/cmr/m/it/12 Balance-Akt zwi-schen Be-nutz-bar-keit und Si-cher-heit?!  [][
 ]$\OT1/cmtt/m/n/12 https :$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--115
+Underfull \hbox (badness 10000) in paragraph at lines 129--134
 $\OT1/cmtt/m/n/12 / / tcadistribution . wordpress . com / tag / sicherheitsexpe
 rten/$[][]\OT1/cmr/m/n/12 ,
  []
 
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10] (D:\Dokumente\Studienarbeit\Studienarbeit.tdo)
+[10])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11] (D:\Dokumente\Studienarbeit\Studienarbeit.tdo)
 \tf@tdo=\write10
- [11
+ [12
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
@@ -1681,119 +1736,35 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
 (D:\Dokumente\Studienarbeit\Studienarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
+(rerunfilecheck)             Checksum: 4C7AD0ED5F918FD68D88BC2C0A02CF8F;2439.
 
-
-Package rerunfilecheck Warning: File `Studienarbeit.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Studienarbeit.out':
-(rerunfilecheck)             Before: C551F34AA1FA1A342478262689B2AA85;2439
-(rerunfilecheck)             After:  4E2A8A3646F53968D40D0600280B9FCC;2439.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
  ) 
 Here is how much of TeX's memory you used:
- 23174 strings out of 493921
- 443412 string characters out of 3148889
- 652759 words of memory out of 3000000
- 25739 multiletter control sequences out of 15000+200000
+ 23180 strings out of 493921
+ 443661 string characters out of 3148889
+ 652431 words of memory out of 3000000
+ 25761 multiletter control sequences out of 15000+200000
  9970 words of font info for 35 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 62i,12n,80p,1471b,1218s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.62} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.35} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.66} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.56} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.49} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.43} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.74} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.73} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.71} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.70} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.69} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.67} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.65} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.63} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.59} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.58} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.55} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.53} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.51} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.50} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.45} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.42} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.40} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.39} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.37} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.36} has been referenced but does not exi
-st, replaced by a fixed one
-
-<D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programm
-e/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Programme/TeX/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programme/TeX/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmr17.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmr6.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pf
-b><D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Progra
-mme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Programme/TeX/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Programme/TeX/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmti8.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmtt12.pfb>
-Output written on Studienarbeit.pdf (37 pages, 2227794 bytes).
+ 62i,13n,80p,1471b,1218s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Progra
+mme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Programme/TeX/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programme/TeX/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr17.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr6.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.
+pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Prog
+ramme/TeX/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Programme/TeX/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/Programme/TeX/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmti8.pfb><D:/Programme/TeX/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmtt12.pfb>
+Output written on Studienarbeit.pdf (40 pages, 3053002 bytes).
 PDF statistics:
- 666 PDF objects out of 1000 (max. 8388607)
- 177 named destinations out of 1000 (max. 500000)
- 351 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 674 PDF objects out of 1000 (max. 8388607)
+ 159 named destinations out of 1000 (max. 500000)
+ 361 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -13,21 +13,26 @@
 \newblock \url{https://blogs.oracle.com/ralkire/entry/spots_on_64_bit_windows},
   May 2010
 
-\bibitem[{Ard}]{ws:arduinouno}
+\bibitem[{Ard}a]{i:arduino}
+\textsc{{Arduino CC}}:
+\newblock \emph{Arduino-Logo}.
+\newblock \url{http://http://www.arduino.cc/},
+
+\bibitem[{Ard}b]{ws:arduinouno}
 \textsc{{Arduino CC.}}:
 \newblock \emph{Arduino Uno}.
 \newblock \url{http://www.arduino.cc/en/Main/ArduinoBoardUno},
+
+\bibitem[{Ard}c]{i:arduinouno}
+\textsc{{Arduino CC}}:
+\newblock \emph{Arduino Uno R3 Front}.
+\newblock
+  \url{http://www.arduino.cc/en/uploads/Main/ArduinoUno_R3_Front_450px.jpg},
 
 \bibitem[{Car}98]{ws:cmu}
 \textsc{{Carnegie Mellon University Computer Science Department}}:
 \newblock \emph{The Only Coke Machine on the Internet}.
 \newblock \url{https://www.cs.cmu.edu/~coke/history_long.txt}, Juni 1998
-
-\bibitem[CCa]{i:arduino}
-
-
-\bibitem[CCb]{i:arduinouno}
-
 
 \bibitem[Cua13]{ws:sellnumb}
 \textsc{Cuartielles}, David:
@@ -64,6 +69,14 @@
   \url{http://www.itwissen.info/definition/lexikon/Ad-hoc-Netzwerk-ad-hoc-network.html},
   March 2012
 
+\bibitem[Mul15]{i:raspberry2top}
+\textsc{Multicherry}:
+\newblock \emph{Top half of Raspberry Pi 2 Model B v1.1 viewed directly from
+  above}.
+\newblock
+  \url{http://commons.wikimedia.org/wiki/File:Raspberry_Pi_2_Model_B_v1.1_top_new_(bg_cut_out).jpg},
+  Februar 2015
+
 \bibitem[{Ora}10a]{d:spotdemo}
 \textsc{{Oracle Corp.}}:
 \newblock \emph{Sun™ SPOT eDEMO Technical Datasheet Rev 8.0}.
@@ -75,6 +88,12 @@
 \newblock \emph{Sun™ SPOT Main Board Technical Datasheet Rev 8.0}.
 \newblock \url{http://www.sunspotworld.com/docs/Yellow/eSPOT8ds.pdf}, Oktober
   2010
+
+\bibitem[{Ras}]{i:raspberrylogo}
+\textsc{{Raspberry Pi Foundation}}:
+\newblock \emph{Logo der Raspberry Pi Foundation}.
+\newblock
+  \url{https://www.raspberrypi.org/wp-content/uploads/2011/10/Raspi-PGB001.png},
 
 \bibitem[Tuo02]{ws:tuomi}
 \textsc{Tuomi}, Ilkka:

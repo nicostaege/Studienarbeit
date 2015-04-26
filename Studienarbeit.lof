@@ -2,15 +2,17 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Das Arduino-Logo\cite {i:arduino}\relax }}{6}{figure.caption.17}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Die Front der dritten Arduino Uno Revision\cite {i:arduinouno}\relax }}{6}{figure.caption.20}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Die Front der dritten Arduino Uno Revision\cite {i:arduinouno}\relax }}{7}{figure.caption.20}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Das Logo der Raspberry Pi Foundation\cite {i:raspberrylogo}\relax }}{9}{figure.caption.36}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Die Oberseite des Raspberry Generation 2 B-Modells\cite {i:raspberry2top}\relax }}{9}{figure.caption.37}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Mikroprozessoren-Transistoren im Laufe der Zeit\cite {i:mooreslaw}\relax }}{12}{figure.caption.42}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Peer-To-Peer Netzwerk\cite {d:kosmerchock}\relax }}{14}{figure.caption.45}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Stern Netzwerk\cite {d:kosmerchock}\relax }}{14}{figure.caption.46}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Baum Netzwerk\cite {d:kosmerchock}\relax }}{15}{figure.caption.47}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Vermaschtes Netzwerk\cite {d:kosmerchock}\relax }}{15}{figure.caption.48}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Anatomie eines Standard SunSPOT-Sensors\cite {i:spotaufbau}\relax }}{19}{figure.caption.55}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Mikroprozessoren-Transistoren im Laufe der Zeit\cite {i:mooreslaw}\relax }}{14}{figure.caption.45}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Peer-To-Peer Netzwerk\cite {d:kosmerchock}\relax }}{16}{figure.caption.48}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Stern Netzwerk\cite {d:kosmerchock}\relax }}{16}{figure.caption.49}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Baum Netzwerk\cite {d:kosmerchock}\relax }}{17}{figure.caption.50}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Vermaschtes Netzwerk\cite {d:kosmerchock}\relax }}{17}{figure.caption.51}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Anatomie eines Standard SunSPOT-Sensors\cite {i:spotaufbau}\relax }}{21}{figure.caption.58}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Leuchtende LEDs des 'Flashlight'-Programms\relax }}{23}{figure.caption.65}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Leuchtende LEDs des 'Flashlight'-Programms\relax }}{25}{figure.caption.68}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
