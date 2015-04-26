@@ -13,10 +13,32 @@
 \newblock \url{https://blogs.oracle.com/ralkire/entry/spots_on_64_bit_windows},
   May 2010
 
+\bibitem[{Ard}]{ws:arduinouno}
+\textsc{{Arduino CC.}}:
+\newblock \emph{Arduino Uno}.
+\newblock \url{http://www.arduino.cc/en/Main/ArduinoBoardUno},
+
 \bibitem[{Car}98]{ws:cmu}
 \textsc{{Carnegie Mellon University Computer Science Department}}:
 \newblock \emph{The Only Coke Machine on the Internet}.
 \newblock \url{https://www.cs.cmu.edu/~coke/history_long.txt}, Juni 1998
+
+\bibitem[CCa]{i:arduino}
+
+
+\bibitem[CCb]{i:arduinouno}
+
+
+\bibitem[Cua13]{ws:sellnumb}
+\textsc{Cuartielles}, David:
+\newblock \emph{Arduino FAQ – With David Cuartielles}.
+\newblock \url{http://medea.mah.se/2013/04/arduino-faq/}, April 2013
+
+\bibitem[{Ele}15]{ws:elektor}
+\textsc{{Elektor}}:
+\newblock \emph{Klangsensitive LED-Kunst mit Arduino}.
+\newblock \url{http://www.elektor.de/news/klangsensitive-led-kunst-arduino/},
+  März 2015
 
 \bibitem[Hor08]{d:horan}
 \textsc{Horan}, Bernard:

@@ -1,14 +1,16 @@
 \select@language {ngerman}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Das Arduino-Logo\cite {i:arduino}\relax }}{6}{figure.caption.17}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Die Front der dritten Arduino Uno Revision\cite {i:arduinouno}\relax }}{6}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Mikroprozessoren-Transistoren im Laufe der Zeit\cite {i:mooreslaw}\relax }}{13}{figure.caption.26}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Peer-To-Peer Netzwerk\cite {d:kosmerchock}\relax }}{15}{figure.caption.29}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Stern Netzwerk\cite {d:kosmerchock}\relax }}{15}{figure.caption.30}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Baum Netzwerk\cite {d:kosmerchock}\relax }}{16}{figure.caption.31}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Vermaschtes Netzwerk\cite {d:kosmerchock}\relax }}{16}{figure.caption.32}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Anatomie eines Standard SunSPOT-Sensors\cite {i:spotaufbau}\relax }}{20}{figure.caption.39}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Mikroprozessoren-Transistoren im Laufe der Zeit\cite {i:mooreslaw}\relax }}{12}{figure.caption.42}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Peer-To-Peer Netzwerk\cite {d:kosmerchock}\relax }}{14}{figure.caption.45}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Stern Netzwerk\cite {d:kosmerchock}\relax }}{14}{figure.caption.46}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Baum Netzwerk\cite {d:kosmerchock}\relax }}{15}{figure.caption.47}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Vermaschtes Netzwerk\cite {d:kosmerchock}\relax }}{15}{figure.caption.48}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Anatomie eines Standard SunSPOT-Sensors\cite {i:spotaufbau}\relax }}{19}{figure.caption.55}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Leuchtende LEDs des 'Flashlight'-Programms\relax }}{24}{figure.caption.49}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Leuchtende LEDs des 'Flashlight'-Programms\relax }}{23}{figure.caption.65}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
