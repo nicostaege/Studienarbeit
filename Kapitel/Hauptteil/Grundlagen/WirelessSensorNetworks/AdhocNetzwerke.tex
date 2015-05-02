@@ -33,3 +33,28 @@ Mobile Ad-hoc Netzwerke besitzen eine stark begrenzte Bandbreite. Da sie meisten
 Ein Problem bei MANETs stellt die beschränkte Möglichkeit der Energieversorgung dar, da die Endgeräte meistens abhängig von Batterien oder Akkus sind. Durch die hohe Menge an Geräten in einem Netz steigt dazu die Summe des potenziellen Energiebedarfes pro Gerät weiter an. Auch die Sicherung des Netzes vor physischen Angriffen ist stark beschränkt. So sind z.B. Denial-of-Service-Attacken (DoS), Überwachungsangriffe oder auch das Verfälschen von Nachrichten oft leicht zu realisieren \cite{d:timm}.
 
 \subsection{Routingprotokolle}\label{ss:Routingprotokolle}
+
+Klassische Routingprotokolle versagen bei dem Versuch, sie innerhalb von mobilen Ad-hoc Netzwerken einzusetzen. Gründe dafür sind folgende: \\
+
+MANETs zeichnen sich durch eine hohe Dynamik aus, das Netz verändert sich spontan, schnell und ständig. Klassische Protokolle besitzen eine zu langsame Konvergenz, um dem Anspruch der sich ständig verändernden Ad-hoc Netze gerecht zu werden und sind somit nicht geeignet.\\
+
+Ad-hoc Netze besitzen wie bereits erwähnt meist eine geringe Bandbreite. Hinzu kommt, dass den angeschlossenen Knoten und Geräten nur eine gewisse Rechenleistung zur Verfügung steht. Sie sind somit mit klassischen Routingprotokollen überfordert, da diese meist viel Rechenleistung und Übertragungsleistung erfordern, welche mit den mobilen Geräten nicht realisierbar sind. Der Overhead der klassischen Protokolle ist also für diese Art von Netzwerken zu groß. \\
+
+Es gibt in mobilen Ad-hoc Netzen gewisse Metriken, die beim Betrieb berücksichtigt werden müssen. Die klassischen Protokolle interessieren sich nicht für diese Metriken und lassen sie außen vor. Bei der Auswahl von Routen müssen unter anderem folgende Aspekte betrachtet werden:
+\begin{itemize}
+	\item Batterielaufzeit der Geräte
+	\item Zeit der Verbindung zwischen zwei Geräten
+	\item Energiebedarf
+	\item Zuverlässigkeit der Verbindung
+\end{itemize} 
+
+Zusammengefasst lässt sich sagen, dass Routingprotokolle für MANETs vor allem eine große Skalierbarkeit im Hinsicht auf eine große Anzahl von Geräten, Flexibilität und Effizienz im Hinblick auf Komplexität, Energieverbrauch und Speicherverbrauch erfordern. Diese werden mittlerweile intensiv erforscht, da Ad-hoc Netze im Zusammenhang mit dem ‚Internet of Things‘ (IoT) oder auch dem ‚Internet Of Everything‘ (IoE) zunehmend an Bedeutung gewinnen \cite{d:timm}. \\
+
+Im Folgenden sollen die Protokolle OLSR, AODV und CGSR kurz aufgezeigt und erklärt werden.
+
+\subsubsection{OLSR}\label{ss:OLSR}
+
+\subsubsection{AODV}\label{ss:AODV}
+
+\subsubsection{CGSR}\label{ss:CGSR}
+
