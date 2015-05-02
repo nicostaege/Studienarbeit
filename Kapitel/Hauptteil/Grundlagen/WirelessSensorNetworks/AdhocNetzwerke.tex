@@ -54,6 +54,20 @@ Im Folgenden sollen die Protokolle OLSR, AODV und CGSR kurz aufgezeigt und erkl�
 
 \subsubsection{OLSR}\label{ss:OLSR}
 
+Die Abkürzung OLSR steht für ‚Optimized Link State Routing‘ und bezeichnet ein flaches, proaktives Linkstate-Protokoll. Proaktiv bedeutet in diesem Fall, dass in gewissen Zeitabständen automatisch Kontrollnachrichten ausgetauscht werden. Bei einem Linkstate-Protokoll sendet z.B. jeder Router den anderen Knoten im Netz den Zustand der Verbindung zu seinen Nachbarn. \\
+Das OLSR-Routingprotokoll ist als RFC 3626 spezifiziert und erweitert normale Link-State-Protokolle, in dem die Komplexität jener Protokolle vereinfacht wird. \\
+Bei OLSR hat jeder Knoten einen Überblick über alle andere Knoten im Netzwerk und den Routen dort hin, somit kann jeder Knoten seine Routen mit dem ‚Shortest Path Algorithm‘ eigenständig errechnen. Allerdings haben nicht alle Knoten die gleichen Bedeutungen und Aufgaben.\\
+Um Nachbarknoten zu finden, werden sie mit einer ‚Hello-Message‘ gesucht. Die Kontrollpakete werden in entsprechenden Zeitabständen erstellt und enthalten die Knotenadresse, eine Sequenznummer und die Nachbarknoten mit Distanzinformationen. Folglich enthält jeder Knoten die Distanzinformationen von allen anderen Knoten, so kann die Topologie erstellt und die Routen mit o.g. ‚Shortest Path Algorithm‘ berechnet werden. \\
+
+Das OLSR unterscheidet sich von anderen Link-State-Algorithmen, da es ein optimiertest Link-State-Routing verwendet. Es werden so genannte ‚Multi-Point-Relays‘ ausgewählt und verteilt, was für ein effizienteres Routing sorgt. Die Relays sind im Stande, die Kontrollnachrichten an die angeschlossenen Knoten weiterzuleiten.
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.5]{Bilder/olsr}
+	\caption{optimiertes LSR durch Multi-Point-Relays im OLSR\cite{d:timm}}
+	\label{f:olsr}
+\end{figure}
+
 \subsubsection{AODV}\label{ss:AODV}
 
 \subsubsection{CGSR}\label{ss:CGSR}
