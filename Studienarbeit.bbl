@@ -45,6 +45,13 @@
 \newblock \url{http://www.elektor.de/news/klangsensitive-led-kunst-arduino/},
   März 2015
 
+\bibitem[Hes05]{d:hesse}
+\textsc{Hesse}, André:
+\newblock \emph{IEEE 802.15.4 und ZigBee}.
+\newblock
+  \url{http://yukon.e-technik.tu-ilmenau.de/~webkn/Abschlussarbeiten/Hauptseminararbeiten/hs_hesse.pdf},
+  2005
+
 \bibitem[Hor08]{d:horan}
 \textsc{Horan}, Bernard:
 \newblock \emph{Sun SPOTs}.
