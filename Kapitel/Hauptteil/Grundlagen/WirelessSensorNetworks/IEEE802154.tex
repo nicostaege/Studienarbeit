@@ -4,15 +4,28 @@ Das ‚Institute of Electrical and Electronics Engineers‘ (IEEE) definiert in 
 Zur Kommunikation mehrerer Teilnehmer in einem nach 802.15.4-standardisierten Netzes werden die o.g. Topologien ‚Stern‘ und ‚Peer-to-Peer‘ unterstützt. Sollte die Spezifikation ‚ZigBee‘,  welche den 802.15.4 Standard erweitert, verwendet werden, können darüber hinaus auch vermaschte Netze realisiert werden. \\
 Der Standard sendet laut Definition festgelegtem Frequenzspektrum auf den lizenzfreien Frequenzen 868-868,8 MHz (Europa), 902-928 MHz (Nordamerika, Australien) oder 2400 bis 2483,5 MHz (weltweit). Um die Frequenzen darüber hinaus zu spreizen, wird ein ‚Direct Sequence Spread Spectrum‘-Verfahren (DSSS) verwendet.\\ 
 Um den Zugriff auf das Medium untereinander zu koordinieren, wird CSMA/CA (‚Carrier Sense Multiple Access/Collision Avoidance‘) verwendet. Das bedeutet, dass, bevor ein Gerät mit einer Übertragung beginnt, überprüft wird, ob das Übertragungsmedium nicht bereits von einem anderen Endgerät genutzt wird. Ist das Medium nicht belegt, kann das Endgerät, welches das Medium überprüft hat, anfangen, seine Daten zu übertragen.\\
-Der Standard erreicht Übertragungsraten zwischen 20 KB/s - 40 KB/s in den Frequenzbereichen von 868 MHz und 902-928 MHz, wohingegen im 2,4 GHz-Bereich Raten bis zu 250 KB/s realisiert werden können. Diese relativ geringen Datenraten zeigen bereits, dass der Standard nicht für eine Übertragung großer Daten konzipiert wurde. Es soll viel mehr eine energiesparende Übertragung geringer Datenmengen verwirklicht werden können \cite{d:hesse}.
+Der Standard erreicht Übertragungsraten zwischen 20 KB/s - 40 KB/s in den Frequenzbereichen von 868 MHz und 902-928 MHz, wohingegen im 2,4 GHz-Bereich Raten bis zu 250 KB/s realisiert werden können. Diese relativ geringen Datenraten zeigen bereits, dass der Standard nicht für eine Übertragung großer Daten konzipiert wurde. Es soll viel mehr eine energiesparende Übertragung geringer Datenmengen verwirklicht werden können \cite{d:hesse} \cite{d:ieee}.
 
 \subsection{Komponenten}\label{ss:Komponenten}
 
 Man unterscheidet bei den Gerätetypen eines 802.15.4 WPAN Netzwerkes grund-sätzlich zwischen so genannten ‚full-function devices‘ (FFD) und ‚reduced function devices‘ (RFD). FFDs sind Knoten, die den Standard in vollem Umfang unterstützen, während hingegen RFDs nur für Teile des Standards ausgelegt sind. Bei der Kommunikation ist zu beachten, dass FFDs sowohl mit anderen FFDs als auch mit RFDs Daten austauschen können, wohingegen RFDs nur mit FFDs kommunizieren können. \\
 Jedes ‚full-function device‘ eines LR-WPANs agiert gleichzeitig als so genannter ‚PAN Coordinator‘, welcher Mechanismen zur Administration des Netzwerks bereitstellt. Dazu gehören zum Beispiel die Adressierung der einzelnen Knoten und die Verwaltung der Slots zur Datenübertragung bei Verwendung von ‚Slotted CSMA/CA‘. Außerdem ist der PAN Coordinator je nach Topologie für weitere Themen wie z.B. das Routing oder auch für Sicherheitsaspekte verantwortlich. \\
-Ob ein Endgerät dem Netzwerk beitreiten darf, entscheidet ebenfalls ein PAN Coordinator. Er kann selbiges bei Bedarf auch wieder aus dem Netzwerk ausgliedern. Die Verbindung zu übergeordneten Netzen wie z.B. dem Internet kann ebenfalls über den PAN Coordinator hergestellt werden. Ob die Verbindung zu anderen Netzen mit Hilfe von 802.15.4 oder mit einem anderen Standard verwirklicht wird, obliegt der Entscheidung des Netzwerkadministrators \cite{d:hesse}.
+Ob ein Endgerät dem Netzwerk beitreiten darf, entscheidet ebenfalls ein PAN Coordinator. Er kann selbiges bei Bedarf auch wieder aus dem Netzwerk ausgliedern. Die Verbindung zu übergeordneten Netzen wie z.B. dem Internet kann ebenfalls über den PAN Coordinator hergestellt werden. Ob die Verbindung zu anderen Netzen mit Hilfe von 802.15.4 oder mit einem anderen Standard verwirklicht wird, obliegt der Entscheidung des Netzwerkadministrators \cite{d:hesse} \cite{d:ieee}.
 
 \subsection{Unterstützte Topologien}\label{ss:UnterstutzeTopologien}
+
+Wie bereits erwähnt unterstützt IEEE 802.15.4 sowohl die Stern- als auch die Peer-to-Peer-Topologie. Bei der Stern-Topologie übernimmt der PAN Coordinator die Rolle des in 3.1.4. erwähnten zentralen Hubs, welcher die Kommunikation zwischen den restlichen Knoten regelt. Er baut Verbindungen zwischen Knoten auf, steuert dessen Kommunikation und beendet die Verbindung wieder. \\
+Eine direkte Verbindung zwischen den Geräten existiert nur, falls mit der Peer-to-Peer-Topologie gearbeitet wird. Auch hier existiert ein PAN Coordinator, dieser ist jedoch nicht zwingend für die Kommunikation von zwei Knoten verantwortlich, da jeder Knoten frei mit seinen Nachbarn Daten austauschen darf.  Auf Basis von Peer-to-Peer kann folglich auch ein vermaschtes Netz aufgebaut werden (Mesh-Topologie). Diese Art von Toplogie wurde allerdings nicht direkt im Standard festgelegt, sondern in höhere Netzwerkschichten verlagert, so dass sie von genaueren Spezifikationen definiert werden muss (Bsp.: ZigBee). 
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.5]{Bilder/topologies}
+	\caption{Topologien in IEEE 802.15.4\cite{d:ieee}}
+	\label{f:topologies}
+\end{figure}
+
+Mit der Peer-to-Peer Topologie können außerdem mehrere Teilnetze zusammengefügt werden, so dass diese zu Clustern zusammengefasst werden. Ein Cluster besteht dabei aus einem PAN Coordinator sowie einigen zusätzlichen Geräten. Um clusterübergreifende Kommunikation zu ermöglichen, stellt der PAN Coordinator das Gateway in andere Cluster dar. Diese Funktion kann jedoch theoretisch jedes beliebige FFD übernehmen. Durch das Zusammenfügen mehrerer Cluster können große Netzwerke wie z.B. Sensornetze aufgebaut werden. \\
+Der IEEE 802.15.4 Standard definiert selbst nur den Physical Layer und den MAC Layer, somit müssen höhere Schichten wie z.B. Vermittlung, Sicherheit und Anwendung durch weitere Technologien konkreter realisiert werden (Bsp.: ZigBee) \cite{d:hesse} \cite{d:ieee}.
 
 \subsection{Schichten}\label{ss:Schichten}
 

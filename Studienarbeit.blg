@@ -19,45 +19,45 @@ Warning--empty year in i:arduinouno
 Warning--empty year in i:raspberrylogo
 Warning--empty year in i:spotaufbau
 Warning--empty year in i:mooreslaw
-You've used 24 entries,
+You've used 25 entries,
             4793 wiz_defined-function locations,
-            997 strings with 9608 characters,
-and the built_in function-call counts, 8979 in all, are:
-= -- 902
-> -- 231
-< -- 153
-+ -- 173
-- -- 63
-* -- 530
-:= -- 1612
-add.period$ -- 24
-call.type$ -- 24
-change.case$ -- 100
-chr.to.int$ -- 21
-cite$ -- 30
-duplicate$ -- 313
-empty$ -- 605
-format.name$ -- 164
-if$ -- 1766
+            1001 strings with 9763 characters,
+and the built_in function-call counts, 9302 in all, are:
+= -- 933
+> -- 239
+< -- 155
++ -- 175
+- -- 65
+* -- 549
+:= -- 1671
+add.period$ -- 25
+call.type$ -- 25
+change.case$ -- 104
+chr.to.int$ -- 22
+cite$ -- 31
+duplicate$ -- 326
+empty$ -- 630
+format.name$ -- 170
+if$ -- 1832
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 96
-newline$ -- 130
-num.names$ -- 72
-pop$ -- 145
+missing$ -- 100
+newline$ -- 135
+num.names$ -- 75
+pop$ -- 150
 preamble$ -- 1
-purify$ -- 148
+purify$ -- 154
 quote$ -- 0
-skip$ -- 494
+skip$ -- 511
 stack$ -- 0
-substring$ -- 395
-swap$ -- 65
-text.length$ -- 49
-text.prefix$ -- 21
+substring$ -- 407
+swap$ -- 67
+text.length$ -- 51
+text.prefix$ -- 22
 top$ -- 0
-type$ -- 266
+type$ -- 276
 warning$ -- 6
-while$ -- 79
-width$ -- 26
-write$ -- 271
+while$ -- 82
+width$ -- 27
+write$ -- 282
 (There was 1 error message)
