@@ -1,7 +1,14 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: Studienarbeit.aux
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Studienarbeit.aux
 The style file: alphadin.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Literaturverzeichnis.bib
-You're missing a field name---line 14 of file Literaturverzeichnis.bib
+You're missing a field name---line 27 of file Literaturverzeichnis.bib
  :  
  :  % author = {IBM},
 (Error may have been on previous line)
@@ -12,4 +19,45 @@ Warning--empty year in i:arduinouno
 Warning--empty year in i:raspberrylogo
 Warning--empty year in i:spotaufbau
 Warning--empty year in i:mooreslaw
+You've used 23 entries,
+            4793 wiz_defined-function locations,
+            992 strings with 9460 characters,
+and the built_in function-call counts, 8607 in all, are:
+= -- 864
+> -- 223
+< -- 144
++ -- 164
+- -- 61
+* -- 511
+:= -- 1546
+add.period$ -- 23
+call.type$ -- 23
+change.case$ -- 96
+chr.to.int$ -- 20
+cite$ -- 29
+duplicate$ -- 300
+empty$ -- 580
+format.name$ -- 158
+if$ -- 1693
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 92
+newline$ -- 125
+num.names$ -- 69
+pop$ -- 140
+preamble$ -- 1
+purify$ -- 142
+quote$ -- 0
+skip$ -- 470
+stack$ -- 0
+substring$ -- 376
+swap$ -- 63
+text.length$ -- 47
+text.prefix$ -- 20
+top$ -- 0
+type$ -- 256
+warning$ -- 6
+while$ -- 76
+width$ -- 25
+write$ -- 260
 (There was 1 error message)

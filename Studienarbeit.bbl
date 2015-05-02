@@ -95,6 +95,13 @@
 \newblock
   \url{https://www.raspberrypi.org/wp-content/uploads/2011/10/Raspi-PGB001.png},
 
+\bibitem[TS11]{d:timm}
+\textsc{Timm}, Constantin ; \textsc{Spinczyk}, Olaf:
+\newblock \emph{Software ubiquitärer Systeme - Ad-hoc-Netzwerke}.
+\newblock
+  \url{https://ess.cs.tu-dortmund.de/Teaching/SS2011/SuS/Downloads/04.1-Adhoc-Netzwerke.pdf},
+  2011
+
 \bibitem[Tuo02]{ws:tuomi}
 \textsc{Tuomi}, Ilkka:
 \newblock \emph{The lives and deaths of moores law}.
