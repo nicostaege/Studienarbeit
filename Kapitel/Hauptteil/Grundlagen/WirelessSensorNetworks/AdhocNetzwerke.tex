@@ -70,5 +70,33 @@ Das OLSR unterscheidet sich von anderen Link-State-Algorithmen, da es ein optimi
 
 \subsubsection{AODV}\label{ss:AODV}
 
+Das Ad-hoc On-Demand Distance Vector Routingprotokoll ist ein flaches, reaktives Distanzvektorprotokoll. Reaktive Protokolle tauschen im Gegensatz zu proaktiven Protokollen nur Kontrollnachrichten aus, wenn neue Routen benutzt werden sollen. Sie benötigen weniger Bandbreite und sind dynamischer, allerdings besteht nur eine Teilkenntnis des Netzwerks, somit müssen die Routen anders berechnet werden.\\
+AODV ist in RFC 3561 spezifiziert und ist für IPv4-Netze vorgesehen. Es erlaubt eine theoretisch unbegrenzte Anzahl von Geräten im Netzwerk. Bei AODV  kennt jeder Knoten nur den ‚Next Hop‘, also den nächsten Knoten und die Länge der Gesamtroute. Das Protokoll definiert insgesamt zwei Routingalgorithmen ‚Route Discovery‘ und ‚Route Maintenance‘.  \\
+
+Bei der ‚Route Discovery‘ wird die Route aufgebaut, wozu zwei Nachrichtentypen benötigt werden. Es wird zunächst eine ‚Route-Request-Nachricht‘ (RREQ) per Broadcast zum Ziel gesendet. Das Ziel antwortet widerum mit einer ‚Route-Reply-Nachricht‘ (RREP) per Unicast zurück an den Absender. Sollte eine bidirektionale Verbindung zwischen zwei Geräten herrschen, wird per Route Discovery auch eine bidirektionale Route aufgebaut. \\
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.5]{Bilder/aodv}
+	\caption{‚Route Discovery‘ im AODV-Protokoll\cite{d:timm}}
+	\label{f:aodv}
+\end{figure}
+
+Bei ‚Route Maintenance‘ handelt es sich um die Verwaltung der Routen. Es wird eine ‚Route-Error-Nachricht‘ (RRER) versendet, sobald eine defekte Route diagnostiziert wird. Diese Nachricht wird an alle Nachbarn versendet, so dass jeder Knoten über das Wegfallen der Route informiert wird.
+
 \subsubsection{CGSR}\label{ss:CGSR}
+
+Beim Clusterhead-Gateway Switch Routing (CGSR) handelt es sich um ein hierarchisches Protokoll, was bedeutet, dass für verschiedene Knoten unterschiedliche Rollen vorgesehen sind. \\
+Das Netzwerk wird bei CGSR in Cluster aufgeteilt, die sich allerdings teilweise überdecken müssen. Für jedes dieser Cluster wird ein ‚Clusterhead‘ ernannt. Ein Knoten, welcher sich in zwei Clustern gleichzeitig befindet, wird als Gateway bezeichnet.
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.5]{Bilder/cgsr}
+	\caption{Clustering im CGSR-Protokoll\cite{d:timm}}
+	\label{f:cgsr}
+\end{figure}
+
+Das Clusterhead-Gateway Switch Routing basiert auf einem Distanzvektor-Protokoll. Jeder Knoten im Netzwerk speichert sowohl eine Distanzvektor-Routingtabelle, als auch eine ‚Cluster Member‘-Tabelle. Die Distanzvektor-Tabelle enthält neben den normalen Routingeinträgen einen Routingeintrag zum Clusterhead jedes Clusters. In der ‚Cluster Member‘-Tabelle wird für jeden Knoten der Clusterhead gespeichert, damit klar ist, welcher Knoten zu welchem Cluster gehört. \\
+
+Der große Vorteil von CGSR besteht in der signifikanten Reduzierung der Größe der Routingtabellen im Vergleich zu anderen Distanzvektorprotokollen, somit ist das CGSR für Ad-hoc Netzwerke dank seiner geringeren Komplexität gut geeignet.
 

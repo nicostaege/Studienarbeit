@@ -14,8 +14,10 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Einordnung von MANETs\cite {d:timm}\relax }}{21}{figure.caption.55}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces M\IeC {\"o}gliche Verbindungen eines Beispiel MANETs\cite {d:timm}\relax }}{21}{figure.caption.56}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces optimiertes LSR durch Multi-Point-Relays im OLSR\cite {d:timm}\relax }}{24}{figure.caption.59}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Anatomie eines Standard SunSPOT-Sensors\cite {i:spotaufbau}\relax }}{25}{figure.caption.64}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \IeC {\quotesinglbase }Route Discovery\IeC {\textquoteleft } im AODV-Protokoll\cite {d:timm}\relax }}{25}{figure.caption.61}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Clustering im CGSR-Protokoll\cite {d:timm}\relax }}{26}{figure.caption.63}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Anatomie eines Standard SunSPOT-Sensors\cite {i:spotaufbau}\relax }}{27}{figure.caption.66}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Leuchtende LEDs des 'Flashlight'-Programms\relax }}{29}{figure.caption.74}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Leuchtende LEDs des 'Flashlight'-Programms\relax }}{31}{figure.caption.76}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
