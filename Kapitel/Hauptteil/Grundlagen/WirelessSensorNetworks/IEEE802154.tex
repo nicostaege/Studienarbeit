@@ -29,6 +29,17 @@ Der IEEE 802.15.4 Standard definiert selbst nur den Physical Layer und den MAC L
 
 \subsection{Schichten}\label{ss:Schichten}
 
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.8]{Bilder/schichten}
+	\caption{Definierte Schichten in IEEE 802.15.4\cite{d:ieee}}
+	\label{f:schichten}
+\end{figure}
+
+IEEE 802.15.4 orientiert sich an den Schichten des ISO-OSI Referenzmodells und definiert dabei selbst nur den Physical Layer sowie den MAC Layer. \\
+Die physikalische Schicht stellt die Kommunikation über so genannte ‚PHY Protocol Data Units‘ (PPDU) per Radio-Kanal bereit. Mit dem Physical Layer ist es weiterhin möglich, die Sende-Empfangseinheit zu aktivieren oder deaktivieren, Signale zu entdecken, die Qualität eines Kanals anzuzeigen und einen Kanal zu selektieren sowie zu belegen. Dies is jedoch rein auf physikalischer Ebene, die logische Belegung und Selektion erfolgt im MAC Layer.
+Dieser Layer stellt das Beacon Management (s. 3.3.4) bereit, regelt den Kanalzugriff mit garantierten ‚Zeitschlitzen‘, übernimmt jegliche Fehlerbehandlung inklusive Bestätigung und realisiert gewisse sicherheitstechnische Aspekte. 802.15.4 lässt Verschlüsselung auf MAC Layer Ebene grundsätzlich zu, der dazugehörige Schlüsselaustausch findet jedoch auf darüberliegenden Schichten statt \cite{d:hesse} \cite{d:ieee}.
+
 \subsection{Rahmenstruktur}\label{ss:Rahmenstruktur}
 
 \subsection{Kommunikation}\label{ss:Kommunikation}
