@@ -42,6 +42,17 @@ Dieser Layer stellt das Beacon Management (s. 3.3.4) bereit, regelt den Kanalzug
 
 \subsection{Rahmenstruktur}\label{ss:Rahmenstruktur}
 
+Durch die in der Spezifikation festgelegte Superrahmenstruktur wird die Kommunikation zwischen den Endgeräten geregelt. Dabei werden vom PAN Coordinator in gewissen Zeitabständen so genannte Beacons versendet, welche eine eindeutig Identifikationskennung des absendenden Koordinators beinhalten und unter anderem zur Netzsynchronisation und Eingliederung neuer Geräte in das Netz dienen. Der Beacon befindet sich im ersten der 16 Zeitschlitze des Superrahmens, wobei jener nicht zwingend vorhanden sein muss. Bei fehlendem Beacon wird bereits der erste Zeitschlitz zur normalen Datenübertragung genutzt. \\
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.8]{Bilder/superrahmen}
+	\caption{Superrahmen-Struktur eines LR-WPANs\cite{d:ieee}}
+	\label{f:superrahmen}
+\end{figure}
+
+Falls nötig, kann einem Endgerät ein garantierter Zeitschlitz (‚guaranteed time slot (GTS)‘) vom PAN Coordinator zugesichert werden, in welchem es störungsfrei Daten übertragen kann. Falls diese Methode angewendet wird, findet die dazugehörige Kommunikation in der ‚Contention Free Period‘ (CFP) statt. Es findet durch die fest zugeteilten Zeitschlitze ein eindeutiger Zugriff auf das Medium statt, weswegen es in dieser Periode zu keiner Konkurrenz beim Zugriff auf das Medium kommen kann. Neben der CFP gibt es ebenfalls eine ,Contention Access Period’ (CAP), in der alle angeschlossenen Geräte unter Benutzung von CSMA/CA Daten übertragen können. Zusätzlich ist es neuen Geräten in dieser Zeit gestattet, sich in das Netzwerk zu integrieren. Falls vom PAN Coordinator keine garantierten Zeitschlitze vergeben werden, gehören alle Zeitschlitze zur CAP \cite{d:hesse} \cite{d:ieee}.
+
 \subsection{Kommunikation}\label{ss:Kommunikation}
 
 \subsection{Medienzugriff}\label{ss:Medienzugriff}
