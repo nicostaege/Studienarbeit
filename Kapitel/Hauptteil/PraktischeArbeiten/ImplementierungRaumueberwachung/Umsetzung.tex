@@ -1,1 +1,21 @@
 \subsection{Umsetzung}\label{s:Umsetzung}
+
+Im Rahmen der Studienarbeit wurden mit der NetBeans IDE und der Programmiersprache Java zwei Applikationen erstellt, welche einen erster Ansatz für eine Einbruchsicherung realisieren. Sie sind beliebig erweiterbar, so dass diese als Grundlage für eine komplexere Raumüberwachung dienen können. Die Gesamtimplementation wurde in zwei Teilapplikationen aufgeteilt. Die erste Applikation ist die ‚Desktop-Applikation‘, welche auf dem Rechner läuft und die Daten vom SunSPOT-Sensor empfängt. Auf dem SunSPOT läuft der zweite Teil der Implementation, welcher Bewegung des Sensor feststellt und diese an eine SunSPOT-Basisstation weiterleitet. In den folgenden Abschnitten wird die genauere Funktionsweise der zwei Teilapplikationen behandelt.
+
+\subsubsection{Desktop-Applikation}\label{s:Desktop-Applikation}
+
+Die Desktop-Applikation der praktischen Arbeit umfasst knapp 100 Zeilen und dient zum Aufbau einer Radiogram-Verbindung zwischen SunSPOT und Basisstation sowie zum Empfang der vom SPOT gesendeten Daten. 
+
+\begin{lstlisting}[language=Java,caption={Ausschnitt aus der setup()-Methode},label=lst:setup,frame=single] 
+private void setup() {
+	fr = new JFrame("Einbruchsicherung");
+	status = new JTextArea();
+	JScrollPane sp = new JScrollPane(status);
+	fr.add(sp);
+	fr.setSize(360, 200);
+	fr.validate();
+	fr.setVisible(true);
+}           
+\end{lstlisting}
+
+Im ersten Schritt wird die Methode ‚setup()‘ definiert, welche zur besseren Visualisierung der Informationen einen JFrame erstellt, in welchen nachher eingetragen werden kann, dass der Sensor eine Bewegung erfahren hat.

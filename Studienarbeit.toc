@@ -39,9 +39,10 @@
 \contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{37}{section.88}
 \contentsline {subsection}{\numberline {4.2.1}Idee}{37}{subsection.89}
 \contentsline {subsection}{\numberline {4.2.2}Umsetzung}{37}{subsection.90}
-\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{37}{section.91}
-\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{38}{chapter.92}
-\contentsline {section}{\numberline {5.1}Smart Greenhouse}{38}{section.93}
-\contentsline {section}{\numberline {5.2}Bot-So}{38}{section.94}
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{39}{chapter.95}
-\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.96}
+\contentsline {subsubsection}{Desktop-Applikation}{38}{section*.91}
+\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{38}{section.102}
+\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{39}{chapter.103}
+\contentsline {section}{\numberline {5.1}Smart Greenhouse}{39}{section.104}
+\contentsline {section}{\numberline {5.2}Bot-So}{39}{section.105}
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{40}{chapter.106}
+\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.107}
