@@ -40,9 +40,10 @@
 \contentsline {subsection}{\numberline {4.2.1}Idee}{37}{subsection.89}
 \contentsline {subsection}{\numberline {4.2.2}Umsetzung}{37}{subsection.90}
 \contentsline {subsubsection}{Desktop-Applikation}{38}{section*.91}
-\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{38}{section.102}
-\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{39}{chapter.103}
-\contentsline {section}{\numberline {5.1}Smart Greenhouse}{39}{section.104}
-\contentsline {section}{\numberline {5.2}Bot-So}{39}{section.105}
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{40}{chapter.106}
-\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.107}
+\contentsline {subsubsection}{SPOT-Applikation}{41}{section*.132}
+\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{41}{section.133}
+\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{42}{chapter.134}
+\contentsline {section}{\numberline {5.1}Smart Greenhouse}{42}{section.135}
+\contentsline {section}{\numberline {5.2}Bot-So}{42}{section.136}
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{43}{chapter.137}
+\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.138}
