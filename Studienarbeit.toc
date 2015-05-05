@@ -7,43 +7,43 @@
 \contentsline {section}{\numberline {2.3}Hardware f\IeC {\"u}r Privatanwender}{5}{section.15}
 \contentsline {subsection}{\numberline {2.3.1}Arduino-Plattform}{5}{subsection.16}
 \contentsline {subsection}{\numberline {2.3.2}Raspberry Pi}{8}{subsection.35}
-\contentsline {section}{\numberline {2.4}Sicherheitsaspekte}{10}{section.39}
-\contentsline {chapter}{\numberline {3}Theoretische Grundlagen}{12}{chapter.41}
-\contentsline {section}{\numberline {3.1}Wireless Sensor Networks}{12}{section.42}
-\contentsline {subsection}{\numberline {3.1.1}Ubiquit\"ares Rechnen}{12}{subsection.43}
-\contentsline {subsection}{\numberline {3.1.2}Motivation von Sensornetzen}{13}{subsection.44}
-\contentsline {subsection}{\numberline {3.1.3}Bestandteile}{15}{subsection.46}
-\contentsline {subsection}{\numberline {3.1.4}Topologien}{15}{subsection.47}
-\contentsline {subsection}{\numberline {3.1.5}Schwierigkeiten}{17}{subsection.52}
-\contentsline {section}{\numberline {3.2}Adhoc-Netzwerke}{20}{section.53}
-\contentsline {subsection}{\numberline {3.2.1}MANETs}{20}{subsection.54}
-\contentsline {subsection}{\numberline {3.2.2}Routingprotokolle}{22}{subsection.57}
-\contentsline {subsubsection}{OLSR}{23}{section*.58}
-\contentsline {subsubsection}{AODV}{24}{section*.60}
-\contentsline {subsubsection}{CGSR}{25}{section*.62}
-\contentsline {section}{\numberline {3.3}IEEE 802.15.4}{26}{section.64}
-\contentsline {subsection}{\numberline {3.3.1}Komponenten}{27}{subsection.65}
-\contentsline {subsection}{\numberline {3.3.2}Unterst\IeC {\"u}tzte Topologien}{28}{subsection.66}
-\contentsline {subsection}{\numberline {3.3.3}Schichten}{29}{subsection.68}
-\contentsline {subsection}{\numberline {3.3.4}Rahmenstruktur}{29}{subsection.70}
-\contentsline {subsection}{\numberline {3.3.5}Kommunikation}{30}{subsection.72}
-\contentsline {subsection}{\numberline {3.3.6}Medienzugriff}{31}{subsection.74}
-\contentsline {subsection}{\numberline {3.3.7}Sicherheitsaspekte}{32}{subsection.75}
-\contentsline {section}{\numberline {3.4}SunSPOT}{32}{section.76}
-\contentsline {subsection}{\numberline {3.4.1}Ger\IeC {\"a}tearten}{33}{subsection.78}
-\contentsline {subsection}{\numberline {3.4.2}Verf\IeC {\"u}gbare Boards}{33}{subsection.79}
-\contentsline {chapter}{\numberline {4}Praktische Arbeiten}{35}{chapter.80}
-\contentsline {section}{\numberline {4.1}Erste Schritte}{35}{section.84}
-\contentsline {subsection}{\numberline {4.1.1}Installation}{35}{subsection.85}
-\contentsline {subsection}{\numberline {4.1.2}\IeC {\"U}bung 1 - Flashlight}{36}{subsection.86}
-\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{37}{section.88}
-\contentsline {subsection}{\numberline {4.2.1}Idee}{37}{subsection.89}
-\contentsline {subsection}{\numberline {4.2.2}Umsetzung}{37}{subsection.90}
-\contentsline {subsubsection}{Desktop-Applikation}{38}{section*.91}
-\contentsline {subsubsection}{SPOT-Applikation}{41}{section*.132}
-\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{41}{section.133}
-\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{42}{chapter.134}
-\contentsline {section}{\numberline {5.1}Smart Greenhouse}{42}{section.135}
-\contentsline {section}{\numberline {5.2}Bot-So}{42}{section.136}
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{43}{chapter.137}
-\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.138}
+\contentsline {section}{\numberline {2.4}Sicherheitsaspekte}{11}{section.40}
+\contentsline {chapter}{\numberline {3}Theoretische Grundlagen}{15}{chapter.45}
+\contentsline {section}{\numberline {3.1}Wireless Sensor Networks}{15}{section.46}
+\contentsline {subsection}{\numberline {3.1.1}Ubiquit\"ares Rechnen}{15}{subsection.47}
+\contentsline {subsection}{\numberline {3.1.2}Motivation von Sensornetzen}{16}{subsection.48}
+\contentsline {subsection}{\numberline {3.1.3}Bestandteile}{18}{subsection.50}
+\contentsline {subsection}{\numberline {3.1.4}Topologien}{18}{subsection.51}
+\contentsline {subsection}{\numberline {3.1.5}Schwierigkeiten}{20}{subsection.56}
+\contentsline {section}{\numberline {3.2}Adhoc-Netzwerke}{23}{section.57}
+\contentsline {subsection}{\numberline {3.2.1}MANETs}{23}{subsection.58}
+\contentsline {subsection}{\numberline {3.2.2}Routingprotokolle}{25}{subsection.61}
+\contentsline {subsubsection}{OLSR}{26}{section*.62}
+\contentsline {subsubsection}{AODV}{27}{section*.64}
+\contentsline {subsubsection}{CGSR}{28}{section*.66}
+\contentsline {section}{\numberline {3.3}IEEE 802.15.4}{29}{section.68}
+\contentsline {subsection}{\numberline {3.3.1}Komponenten}{30}{subsection.69}
+\contentsline {subsection}{\numberline {3.3.2}Unterst\IeC {\"u}tzte Topologien}{31}{subsection.70}
+\contentsline {subsection}{\numberline {3.3.3}Schichten}{32}{subsection.72}
+\contentsline {subsection}{\numberline {3.3.4}Rahmenstruktur}{32}{subsection.74}
+\contentsline {subsection}{\numberline {3.3.5}Kommunikation}{33}{subsection.76}
+\contentsline {subsection}{\numberline {3.3.6}Medienzugriff}{34}{subsection.78}
+\contentsline {subsection}{\numberline {3.3.7}Sicherheitsaspekte}{35}{subsection.79}
+\contentsline {section}{\numberline {3.4}SunSPOT}{35}{section.80}
+\contentsline {subsection}{\numberline {3.4.1}Ger\IeC {\"a}tearten}{36}{subsection.82}
+\contentsline {subsection}{\numberline {3.4.2}Verf\IeC {\"u}gbare Boards}{36}{subsection.83}
+\contentsline {chapter}{\numberline {4}Praktische Arbeiten}{38}{chapter.84}
+\contentsline {section}{\numberline {4.1}Erste Schritte}{38}{section.88}
+\contentsline {subsection}{\numberline {4.1.1}Installation}{38}{subsection.89}
+\contentsline {subsection}{\numberline {4.1.2}\IeC {\"U}bung 1 - Flashlight}{39}{subsection.90}
+\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{40}{section.92}
+\contentsline {subsection}{\numberline {4.2.1}Idee}{40}{subsection.93}
+\contentsline {subsection}{\numberline {4.2.2}Umsetzung}{40}{subsection.94}
+\contentsline {subsubsection}{Desktop-Applikation}{41}{section*.95}
+\contentsline {subsubsection}{SPOT-Applikation}{44}{section*.136}
+\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{44}{section.137}
+\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{45}{chapter.138}
+\contentsline {section}{\numberline {5.1}Smart Greenhouse}{45}{section.139}
+\contentsline {section}{\numberline {5.2}Bot-So}{45}{section.140}
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{46}{chapter.141}
+\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.142}

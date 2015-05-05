@@ -34,6 +34,18 @@
 \newblock \emph{The Only Coke Machine on the Internet}.
 \newblock \url{https://www.cs.cmu.edu/~coke/history_long.txt}, Juni 1998
 
+\bibitem[{Con}]{i:camera}
+\textsc{{Conrad Electronic GmbH u. Co KG}}:
+\newblock \emph{Raspberry Pi® Kamera-Gehäusemodul Raspberry Pi®}.
+\newblock
+  \url{http://www.conrad.at/ce/de/product/622959/Raspberry-Pi-Kamera-Gehaeusemodul-Raspberry-Pi-},
+
+\bibitem[Coo15]{z:DesignElektronik}
+\textsc{Cooper}, Gordon:
+\newblock Sicherheit fest eingebaut.
+\newblock {In: }\emph{Design und Elektronik} Bd.~3.
+\newblock www.elektroniknet.de, April 2015
+
 \bibitem[Cua13]{ws:sellnumb}
 \textsc{Cuartielles}, David:
 \newblock \emph{Arduino FAQ – With David Cuartielles}.
@@ -44,6 +56,13 @@
 \newblock \emph{Klangsensitive LED-Kunst mit Arduino}.
 \newblock \url{http://www.elektor.de/news/klangsensitive-led-kunst-arduino/},
   März 2015
+
+\bibitem[Haa08]{ws:AES}
+\textsc{Haan}, Kristian~L.:
+\newblock \emph{Advanced Encryption Standard (AES)}.
+\newblock
+  \url{http://www.codeplanet.eu/tutorials/cpp/51-advanced-encryption-standard.html},
+  Februar 2008
 
 \bibitem[Hes05]{d:hesse}
 \textsc{Hesse}, André:
