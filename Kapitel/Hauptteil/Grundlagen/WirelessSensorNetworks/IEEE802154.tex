@@ -55,6 +55,25 @@ Falls nötig, kann einem Endgerät ein garantierter Zeitschlitz (‚guaranteed t
 
 \subsection{Kommunikation}\label{ss:Kommunikation}
 
+In der Spezifikation werden drei Arten von Kommunikationsmöglichkeiten erwähnt. Die ersten beiden Arten betreffen die Kommunikation zwischen PAN Coordinator mit einem Endgerät und umgekehrt, wobei der dritte Fall von einer direkte Kommunikation von Endgerät zu einem anderen Endgerät spricht. Der Informationsaustausch findet mit Hilfe so genannter Frames statt, von welchen wiederum vier unterschiedliche Arten existieren:
+
+\begin{itemize}
+\item Beacon Frames, welche wie oben erwähnt Informationen des PAN Coordinators enthalten
+\item Data Frames, welche Daten übertragen
+\item Acknowledgement Frames, welche den Empfang von anderen Frames bestätigen
+\item MAC-Command Frames
+\end{itemize}
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.5]{Bilder/frameieee}
+	\caption{Framestruktur eines Data-Frames im MAC-Layer\cite{d:ieee}}
+	\label{f:frameieee}
+\end{figure}
+
+Am Anfang eines Frames steht stets ein 6 Byte-Header. Danach folgen den Anforderungen an den Frametyp entsprechend eine Packet Data Unit (PDU), welche neben einer Identifikations des Frames ebenfalls Nutzdaten beinhalten kann. Die im Frame enthaltene Payload wird in Anlehnung an das ISO/OSI-Schichtenmodell entsprechend der einzelnen Schichten gekapselt. Somit wird garantiert, dass beispielsweise der Physical Layer ausschließliche seine Header einsehen kann. Die Adressierung an andere Applikationen höherliegender Schichten ist für den Physical Layer nicht ersichtlich.
+\cite{d:hesse} \cite{d:ieee}.
+
 \subsection{Medienzugriff}\label{ss:Medienzugriff}
 
 \subsection{Sicherheitsma"snahmen}\label{ss:Sicherheitsmassnahmen}

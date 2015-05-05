@@ -27,21 +27,21 @@
 \contentsline {subsection}{\numberline {3.3.3}Schichten}{29}{subsection.68}
 \contentsline {subsection}{\numberline {3.3.4}Rahmenstruktur}{29}{subsection.70}
 \contentsline {subsection}{\numberline {3.3.5}Kommunikation}{30}{subsection.72}
-\contentsline {subsection}{\numberline {3.3.6}Medienzugriff}{30}{subsection.73}
-\contentsline {subsection}{\numberline {3.3.7}Sicherheitsma"snahmen}{30}{subsection.74}
-\contentsline {section}{\numberline {3.4}SunSPOT}{30}{section.75}
-\contentsline {subsection}{\numberline {3.4.1}Ger\IeC {\"a}tearten}{31}{subsection.77}
-\contentsline {subsection}{\numberline {3.4.2}Verf\IeC {\"u}gbare Boards}{32}{subsection.78}
-\contentsline {chapter}{\numberline {4}Praktische Arbeiten}{33}{chapter.79}
-\contentsline {section}{\numberline {4.1}Erste Schritte}{33}{section.83}
-\contentsline {subsection}{\numberline {4.1.1}Installation}{33}{subsection.84}
-\contentsline {subsection}{\numberline {4.1.2}\IeC {\"U}bung 1 - Flashlight}{34}{subsection.85}
-\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{35}{section.87}
-\contentsline {subsection}{\numberline {4.2.1}Idee}{35}{subsection.88}
-\contentsline {subsection}{\numberline {4.2.2}Umsetzung}{35}{subsection.89}
-\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{35}{section.90}
-\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{36}{chapter.91}
-\contentsline {section}{\numberline {5.1}Smart Greenhouse}{36}{section.92}
-\contentsline {section}{\numberline {5.2}Bot-So}{36}{section.93}
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{37}{chapter.94}
-\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.95}
+\contentsline {subsection}{\numberline {3.3.6}Medienzugriff}{31}{subsection.74}
+\contentsline {subsection}{\numberline {3.3.7}Sicherheitsma"snahmen}{31}{subsection.75}
+\contentsline {section}{\numberline {3.4}SunSPOT}{31}{section.76}
+\contentsline {subsection}{\numberline {3.4.1}Ger\IeC {\"a}tearten}{32}{subsection.78}
+\contentsline {subsection}{\numberline {3.4.2}Verf\IeC {\"u}gbare Boards}{33}{subsection.79}
+\contentsline {chapter}{\numberline {4}Praktische Arbeiten}{34}{chapter.80}
+\contentsline {section}{\numberline {4.1}Erste Schritte}{34}{section.84}
+\contentsline {subsection}{\numberline {4.1.1}Installation}{34}{subsection.85}
+\contentsline {subsection}{\numberline {4.1.2}\IeC {\"U}bung 1 - Flashlight}{35}{subsection.86}
+\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{36}{section.88}
+\contentsline {subsection}{\numberline {4.2.1}Idee}{36}{subsection.89}
+\contentsline {subsection}{\numberline {4.2.2}Umsetzung}{36}{subsection.90}
+\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{36}{section.91}
+\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{37}{chapter.92}
+\contentsline {section}{\numberline {5.1}Smart Greenhouse}{37}{section.93}
+\contentsline {section}{\numberline {5.2}Bot-So}{37}{section.94}
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{38}{chapter.95}
+\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.96}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.1)  4 MAY 2015 22:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.12.1)  5 MAY 2015 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1296,7 +1296,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
 
-<Bilder/arduino.png, id=392, 1003.75pt x 683.55376pt>
+<Bilder/arduino.png, id=398, 1003.75pt x 683.55376pt>
 File: Bilder/arduino.png Graphic file (type png)
  <use Bilder/arduino.png>
 Package pdftex.def Info: Bilder/arduino.png used on input line 7.
@@ -1326,7 +1326,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
 
  []
 
-<Bilder/arduinouno.jpg, id=404, 451.6875pt x 297.11pt>
+<Bilder/arduinouno.jpg, id=410, 451.6875pt x 297.11pt>
 File: Bilder/arduinouno.jpg Graphic file (type jpg)
 
 <use Bilder/arduinouno.jpg>
@@ -1382,7 +1382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<Bilder/raspberrylogo.png, id=436, 1003.75pt x 1268.74pt>
+<Bilder/raspberrylogo.png, id=442, 1003.75pt x 1268.74pt>
 File: Bilder/raspberrylogo.png Graphic file (type png)
 
 <use Bilder/raspberrylogo.png>
@@ -1404,7 +1404,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<Bilder/raspberry2top.jpg, id=445, 462.528pt x 309.0747pt>
+<Bilder/raspberry2top.jpg, id=451, 462.528pt x 309.0747pt>
 File: Bilder/raspberry2top.jpg Graphic file (type jpg)
 
 <use Bilder/raspberry2top.jpg>
@@ -1529,7 +1529,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-<Bilder/mooreslaw.png, id=486, 602.25pt x 541.27219pt>
+<Bilder/mooreslaw.png, id=492, 602.25pt x 541.27219pt>
 File: Bilder/mooreslaw.png Graphic file (type png)
 
 <use Bilder/mooreslaw.png>
@@ -1581,7 +1581,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-<Bilder/peertopeer.png, id=505, 298.11375pt x 265.99374pt>
+<Bilder/peertopeer.png, id=511, 298.11375pt x 265.99374pt>
 File: Bilder/peertopeer.png Graphic file (type png)
 
 <use Bilder/peertopeer.png>
@@ -1603,7 +1603,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-<Bilder/star.png, id=512, 439.6425pt x 346.29375pt>
+<Bilder/star.png, id=518, 439.6425pt x 346.29375pt>
 File: Bilder/star.png Graphic file (type png)
  <use Bilder/star.png>
 Package pdftex.def Info: Bilder/star.png used on input line 18.
@@ -1613,7 +1613,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<Bilder/tree.png, id=515, 541.02126pt x 331.2375pt>
+<Bilder/tree.png, id=521, 541.02126pt x 331.2375pt>
 File: Bilder/tree.png Graphic file (type png)
  <use Bilder/tree.png>
 Package pdftex.def Info: Bilder/tree.png used on input line 27.
@@ -1630,7 +1630,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 31.
 [16 <./Bilder/peertopeer.png> <./Bilder/star.png>]
-<Bilder/mesh.png, id=525, 346.29375pt x 346.29375pt>
+<Bilder/mesh.png, id=531, 346.29375pt x 346.29375pt>
 File: Bilder/mesh.png Graphic file (type png)
  <use Bilder/mesh.png>
 Package pdftex.def Info: Bilder/mesh.png used on input line 36.
@@ -1712,7 +1712,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 11.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 11.
- <Bilder/manet.png, id=545, 776.9025pt x 432.61626pt>
+ <Bilder/manet.png, id=551, 776.9025pt x 432.61626pt>
 File: Bilder/manet.png Graphic file (type png)
 
 <use Bilder/manet.png>
@@ -1734,7 +1734,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-<Bilder/manetconnection.png, id=553, 702.625pt x 294.09875pt>
+<Bilder/manetconnection.png, id=559, 702.625pt x 294.09875pt>
 File: Bilder/manetconnection.png Graphic file (type png)
 
 <use Bilder/manetconnection.png>
@@ -1801,7 +1801,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--65
 
  []
 
-<Bilder/olsr.png, id=568, 659.46375pt x 312.16624pt>
+<Bilder/olsr.png, id=574, 659.46375pt x 312.16624pt>
 File: Bilder/olsr.png Graphic file (type png)
  <use Bilder/olsr.png>
 Package pdftex.def Info: Bilder/olsr.png used on input line 70.
@@ -1827,7 +1827,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-<Bilder/aodv.png, id=577, 780.9175pt x 493.845pt>
+<Bilder/aodv.png, id=583, 780.9175pt x 493.845pt>
 File: Bilder/aodv.png Graphic file (type png)
  <use Bilder/aodv.png>
 Package pdftex.def Info: Bilder/aodv.png used on input line 84.
@@ -1843,7 +1843,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 88.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 88.
-[24 <./Bilder/olsr.png>] <Bilder/cgsr.png, id=587, 637.38126pt x 263.98625pt>
+[24 <./Bilder/olsr.png>] <Bilder/cgsr.png, id=593, 637.38126pt x 263.98625pt>
 File: Bilder/cgsr.png Graphic file (type png)
 
 <use Bilder/cgsr.png>
@@ -1919,7 +1919,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 15.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 15.
- <Bilder/topologies.png, id=610, 574.145pt x 284.06125pt>
+ <Bilder/topologies.png, id=616, 574.145pt x 284.06125pt>
 File: Bilder/topologies.png Graphic file (type png)
 
 <use Bilder/topologies.png>
@@ -1942,7 +1942,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 30.
 
-<Bilder/schichten.png, id=620, 259.97125pt x 222.8325pt>
+<Bilder/schichten.png, id=626, 259.97125pt x 222.8325pt>
 File: Bilder/schichten.png Graphic file (type png)
 
 <use Bilder/schichten.png>
@@ -1968,7 +1968,7 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 46.
 [29 <./Bilder/schichten.png>]
-<Bilder/superrahmen.png, id=631, 485.815pt x 172.645pt>
+<Bilder/superrahmen.png, id=637, 485.815pt x 172.645pt>
 File: Bilder/superrahmen.png Graphic file (type png)
 
 <use Bilder/superrahmen.png>
@@ -1978,14 +1978,42 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 56.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 56.
+
+Overfull \hbox (6.2404pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/12 In der Spe-zi-fi-ka-ti-on wer-den drei Ar-ten von Kom-mu-ni-ka-
+ti-onsm[]oglichkeiten erw[]ahnt.
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
+(babel)             in language  on input line 62.
+[30 <./Bilder/superrahmen.png>]
+Overfull \hbox (16.00143pt too wide) in paragraph at lines 63--64
+[]\OT1/cmr/m/n/12 Acknowledgement Fra-mes, wel-che den Emp-fang von an-de-ren F
+ra-mes best[]atigen 
+ []
+
+<Bilder/frameieee.png, id=647, 667.49374pt x 216.81pt>
+File: Bilder/frameieee.png Graphic file (type png)
+
+<use Bilder/frameieee.png>
+Package pdftex.def Info: Bilder/frameieee.png used on input line 69.
+(pdftex.def)             Requested size: 333.74606pt x 108.40472pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 77.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 60.
+(babel)             in language  on input line 77.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 79.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 79.
 )) (./Kapitel/Hauptteil/Grundlagen/SunSPOT.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -1997,21 +2025,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 5.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 5.
-[30 <./Bilder/superrahmen.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-<Bilder/spotanatomy.png, id=645, 305.14pt x 411.5375pt>
+(babel)             in language  on input line 7.
+[31 <./Bilder/frameieee.png>]
+<Bilder/spotanatomy.png, id=659, 305.14pt x 411.5375pt>
 File: Bilder/spotanatomy.png Graphic file (type png)
 
 <use Bilder/spotanatomy.png>
@@ -2042,7 +2071,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 6.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 6.
-[31 <./Bilder/spotanatomy.png>]
+[32 <./Bilder/spotanatomy.png>]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 8.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2079,7 +2108,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-[32]
+[33]
 Kapitel 4.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -2108,7 +2137,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 13.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 13.
-[33
+[34
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
@@ -2124,7 +2153,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 22.
-<Bilder/uebung1.jpg, id=680, 3276.24pt x 2457.18pt>
+<Bilder/uebung1.jpg, id=689, 3276.24pt x 2457.18pt>
 File: Bilder/uebung1.jpg Graphic file (type jpg)
  <use Bilder/uebung1.jpg>
 Package pdftex.def Info: Bilder/uebung1.jpg used on input line 30.
@@ -2140,7 +2169,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 34.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 34.
-[34])
+[35])
 (./Kapitel/Hauptteil/PraktischeArbeiten/ImplementierungRaumueberwachung.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -2176,7 +2205,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
-[35 <./Bilder/uebung1.jpg>]
+[36 <./Bilder/uebung1.jpg>]
 Kapitel 5.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -2199,7 +2228,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [36
+ [37
 
 ]
 Kapitel 6.
@@ -2212,7 +2241,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 192.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 192.
- [37
+ [38
 
 ] (./Anhang/anhang.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -2371,92 +2400,38 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
  (./Studienarbeit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+Package rerunfilecheck Info: File `Studienarbeit.out' has not changed.
+(rerunfilecheck)             Checksum: 6F74EEC51C647F66E6DEF0762D9ED324;2897.
 
-
-Package rerunfilecheck Warning: File `Studienarbeit.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Studienarbeit.out':
-(rerunfilecheck)             Before: D54478962012F059AE87E24DA66FAB2A;2897
-(rerunfilecheck)             After:  6739A168DE097E38238000271559DD9F;2897.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 217.
  ) 
 Here is how much of TeX's memory you used:
- 23520 strings out of 493117
- 449887 string characters out of 6135433
- 654921 words of memory out of 5000000
- 26206 multiletter control sequences out of 15000+600000
+ 23513 strings out of 493117
+ 449860 string characters out of 6135433
+ 655090 words of memory out of 5000000
+ 26212 multiletter control sequences out of 15000+600000
  10264 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,13n,80p,1471b,1218s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.79} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.85} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.75} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{appendix*.94} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.93} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.91} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.90} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.89} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.87} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.86} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.83} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.82} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.78} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.76} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.74} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.71} has been referenced but does not exi
-st, replaced by a fixed one
-
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
-/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Studienarbeit.pdf (50 pages, 4194951 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Studienarbeit.pdf (51 pages, 4304283 bytes).
 PDF statistics:
- 881 PDF objects out of 1000 (max. 8388607)
- 755 compressed objects within 8 object streams
- 216 named destinations out of 1000 (max. 500000)
- 457 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 878 PDF objects out of 1000 (max. 8388607)
+ 748 compressed objects within 8 object streams
+ 202 named destinations out of 1000 (max. 500000)
+ 462 words of extra memory for PDF output out of 10000 (max. 10000000)
 
