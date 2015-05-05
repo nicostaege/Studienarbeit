@@ -1,0 +1,27 @@
+\subsection{Verschlüsselungsstandard AES}\label{ss:AES}
+
+Der aktuell gültige Kryptographiestandart ist das im Jahr 2000 veröffentlichte \ac{AES}. Bei diesem Verfahren wird eine symmetrische Block-Cipher verwendet die mit einem 128, 192 oder 256 Bits langen Schlüssel gleichlange Datenblöcke verschlüsselt\cite{ws:AES}.\\
+Solange ein Verschlüsselungsverfahren wie \ac{AES} nicht durchbrochen wird, kann es nur durch sogenannte Brute-Force Attacken angegriffen werden. Hierbei werden alle Möglichkeiten durchprobiert, bis man zufällig auf den richtigen Schlüssel trifft. Bei \ac{AES} mit 128 Bit Schlüssellänge sind hierfür bis zu $2^{128}\equiv 3,4*10^{38}$ Versuche nötig. Bei 256 Bit sind es bereits $2^{256}\equiv 1.2*10^{77}$ Versuche. Selbst mithilfe der aktuellsten Supercomputer würde dies Millionen Jahre in Anspruch nehmen.\\
+
+\begin{table}[H] 
+	\centering
+	\begin{tabular}{|c|c|}\hline
+		Schlüssellänge & Kombinationsmöglichkeiten\\ \hline \hline
+		1-Bit & 2 \\ \hline
+		2-Bit & 4 \\ \hline
+		4-Bit & 16 \\ \hline
+		8-Bit & 256 \\ \hline
+		16-Bit & 65536 \\ \hline
+		32-Bit & 4.2*10\textsuperscript{9} \\ \hline
+		56-Bit (DES) & 7.2*10\textsuperscript{16} \\ \hline
+		64-Bit  & 1.8*10\textsuperscript{19} \\ \hline
+		128-Bit(AES) & 3.4*10\textsuperscript{38} \\ \hline
+		192-Bit(AES) & 6.2*10\textsuperscript{57} \\ \hline
+		256-Bit (AES) &  1.1*10\textsuperscript{77} \\ \hline
+	\end{tabular}
+	\caption{Auflistung der Kombinationsmöglichkeiten bei verschiedenen Schlüssellängen}
+	\label{t:keylength}
+\end{table}
+\vspace{5 mm}
+
+Jede in \ac{AES} erlaubte Schlüssellänge bietet aufgrund des komplexen Verschlüsselungsverfahrens und der daraus resultierenden Rechenzeit pro Angriff ausreichende Sicherheit. Da 128 Bit Schlüssel jedoch 40\% weniger Rechenleistung als 256 Bit Schlüssel benötigen, wird meist nur die minimale Schlüssellänge implementiert. 
