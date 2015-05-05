@@ -76,4 +76,11 @@ Am Anfang eines Frames steht stets ein 6 Byte-Header. Danach folgen den Anforder
 
 \subsection{Medienzugriff}\label{ss:Medienzugriff}
 
-\subsection{Sicherheitsma"snahmen}\label{ss:Sicherheitsmassnahmen}
+Ein PAN Coordinator ist nicht dazu verpflichtet, Beacons auszusenden. Die Entscheidung über die Verwendung von Beacons im Netzwerk obliegt dem Netzwerkadministrator, folglich muss der Medienzugriff der Endgeräte bei Verwendung oder Nichtverwendung gesondert betrachtet werden. \\
+Falls keine Beacons zum Einsatz kommen, wird als Medienzugriffsverfahren ‚Unslotted CSMA/CA‘ benutzt. Bei diesem Verfahren wartet ein Gerät eine zufällige Zeit und überprüft nach Ablauf der Zeit den Zustand des Mediums. Sollte das Medium frei sein, wartet das Endgeräte eine weiteres Mal eine so genannte ‚Back-Off‘-Zeit ab und beginnt anschließend, bei freiem Medium seine Daten zu übertragen. Ist das Medium bereits belegt, wartet das Gerät eine weitere zufällige Zeitspanne ab, nach welcher das Medium erneut auf seinen Zustand geprüft wird.\\
+Beim Einsatz von Beaconframes wird hingegen ‚Slotted CSMA/CA‘ verwendet. Das Verfahren ist dem ‚Unslotted‘-Verfahren grundsätzlich sehr ähnlich, allerdings wird die o.g. ‚Back-Off‘-Zeit so synchronisiert, dass das Gerät die Datenübertragung genau in seinem zugewiesenen Zeitschlitz beginnt und durchführt. \\
+Das Versenden von Acknowledgement Frames ist im Standard definiert, ihre Benutzung ist allerdings optional. Sie werden ohne Benutzung von CSMA/CA übertragen, da sie lediglich eine Größe von 11 Byte besitzen. Innerhalb der Datenpakete kann mit Hilfe einer CRC-Prüfziffer die Integrität nach der Übertragung überprüft werden, um z.B. fehlerhafte Übertragungen zu diagnostizieren \cite{d:hesse} \cite{d:ieee}.
+
+\subsection{Sicherheitsaspekte}\label{ss:Sicherheitsaspekte}
+
+Im Dokument des IEEE 802.15.4 Standards werden ebenfalls einige Sicherheitsaspekte aufgelistet. Erwähnenswert ist hier die Möglichkeit, den Datentransfer auf MAC Layer-Ebene unter Verwendung von AES (‚Advanced Encryption Standard‘) zu verschlüsseln. Wie jedoch bereits erwähnt muss der Austausch der Schlüssel auf höheren Schichten stattfinden, da dieser nicht im Standard selbst definiert ist \cite{d:hesse} \cite{d:ieee}.
