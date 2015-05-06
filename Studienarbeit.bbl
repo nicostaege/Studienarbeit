@@ -57,6 +57,26 @@
 \newblock \url{http://www.elektor.de/news/klangsensitive-led-kunst-arduino/},
   März 2015
 
+\bibitem[{epa}14]{i:smartgreenhouse}
+\textsc{{epam}}:
+\newblock \emph{KRS 3209}.
+\newblock
+  \url{https://dl.dropboxusercontent.com/content_link/tuvLTsPbLsfH3jstipu8eJ5qf5IolE0Qm3maM4mhqwmgjZuDnTsKG7oWDaNMjiU5},
+  Oktober 2014
+
+\bibitem[FAR15a]{z:botso}
+\textsc{FARNHAM}, KEVIN:
+\newblock Bot-So - Monitor your home while you’re away.
+\newblock {In: }\emph{Java Magazine}.
+\newblock {Oracle Corporation}, Januar / Februar 2015
+
+\bibitem[FAR15b]{z:smartgreenhouse}
+\textsc{FARNHAM}, KEVIN:
+\newblock Smart Greenhouse - Control the light, watering, temperature, and
+  humidity of your greenhouse—automatically.
+\newblock {In: }\emph{Java Magazine}.
+\newblock {Oracle Corporation}, März / April 2015
+
 \bibitem[Haa08]{ws:AES}
 \textsc{Haan}, Kristian~L.:
 \newblock \emph{Advanced Encryption Standard (AES)}.
@@ -121,6 +141,13 @@
 \newblock \url{http://www.sunspotworld.com/docs/Yellow/eSPOT8ds.pdf}, Oktober
   2010
 
+\bibitem[Par14]{i:botso}
+\textsc{Parthasarathy}, Anand:
+\newblock \emph{This robot responds to your tweets!}
+\newblock
+  \url{http://www.deccanchronicle.com/140719/technology-latest/article/robot-responds-your-tweets},
+  Juli 2014
+
 \bibitem[{Ras}]{i:raspberrylogo}
 \textsc{{Raspberry Pi Foundation}}:
 \newblock \emph{Logo der Raspberry Pi Foundation}.
@@ -144,6 +171,13 @@
 \textsc{{University of Southern California}}:
 \newblock \emph{Standardmäßiger Aufbau eines SunSPOT-Sensors}.
 \newblock \url{http://anrg.usc.edu/ee579_2012/Group07/img/spotanatomy.jpg},
+
+\bibitem[Vam14]{ws:botsovoice}
+\textsc{Vamsi}, Krishna:
+\newblock \emph{Now, a robot that can keep eye on home via Twitter}.
+\newblock
+  \url{http://indianexpress.com/article/technology/gadgets/now-a-robot-that-can-keep-eye-on-home-via-twitter/},
+  September 2014
 
 \bibitem[WB12]{d:wolf}
 \textsc{Wolf}, Lars ; \textsc{B\"usching}, Felix:

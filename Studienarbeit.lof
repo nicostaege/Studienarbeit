@@ -8,25 +8,28 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Das Camera Modul f\IeC {\"u}r den Raspberry Pi\cite {i:camera}\relax }}{10}{figure.caption.39}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Sicherheitsmodell nach Gordon Cooper\cite {z:DesignElektronik}\relax }}{12}{figure.caption.43}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Mikroprozessoren-Transistoren im Laufe der Zeit\cite {i:mooreslaw}\relax }}{18}{figure.caption.51}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Peer-To-Peer Netzwerk\cite {d:kosmerchock}\relax }}{20}{figure.caption.54}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Stern Netzwerk\cite {d:kosmerchock}\relax }}{20}{figure.caption.55}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Baum Netzwerk\cite {d:kosmerchock}\relax }}{21}{figure.caption.56}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Vermaschtes Netzwerk\cite {d:kosmerchock}\relax }}{21}{figure.caption.57}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Einordnung von MANETs\cite {d:timm}\relax }}{25}{figure.caption.61}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces M\IeC {\"o}gliche Verbindungen eines Beispiel MANETs\cite {d:timm}\relax }}{25}{figure.caption.62}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces optimiertes LSR durch Multi-Point-Relays im OLSR\cite {d:timm}\relax }}{28}{figure.caption.65}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces 'Route Discovery\IeC {\textquoteleft } im AODV-Protokoll\cite {d:timm}\relax }}{29}{figure.caption.67}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Clustering im CGSR-Protokoll\cite {d:timm}\relax }}{30}{figure.caption.69}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Topologien in IEEE 802.15.4\cite {d:ieee}\relax }}{32}{figure.caption.73}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Definierte Schichten in IEEE 802.15.4\cite {d:ieee}\relax }}{33}{figure.caption.75}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Superrahmen-Struktur eines LR-WPANs\cite {d:ieee}\relax }}{34}{figure.caption.77}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Framestruktur eines Data-Frames im MAC-Layer\cite {d:ieee}\relax }}{35}{figure.caption.79}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Anatomie eines Standard SunSPOT-Sensors\cite {i:spotaufbau}\relax }}{37}{figure.caption.83}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Mikroprozessoren-Transistoren im Laufe der Zeit\cite {i:mooreslaw}\relax }}{18}{figure.caption.52}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Peer-To-Peer Netzwerk\cite {d:kosmerchock}\relax }}{20}{figure.caption.55}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Stern Netzwerk\cite {d:kosmerchock}\relax }}{20}{figure.caption.56}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Baum Netzwerk\cite {d:kosmerchock}\relax }}{21}{figure.caption.57}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Vermaschtes Netzwerk\cite {d:kosmerchock}\relax }}{21}{figure.caption.58}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Einordnung von MANETs\cite {d:timm}\relax }}{25}{figure.caption.62}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces M\IeC {\"o}gliche Verbindungen eines Beispiel MANETs\cite {d:timm}\relax }}{25}{figure.caption.63}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces optimiertes LSR durch Multi-Point-Relays im OLSR\cite {d:timm}\relax }}{28}{figure.caption.66}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces 'Route Discovery\IeC {\textquoteleft } im AODV-Protokoll\cite {d:timm}\relax }}{29}{figure.caption.68}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Clustering im CGSR-Protokoll\cite {d:timm}\relax }}{30}{figure.caption.70}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Topologien in IEEE 802.15.4\cite {d:ieee}\relax }}{32}{figure.caption.74}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Definierte Schichten in IEEE 802.15.4\cite {d:ieee}\relax }}{33}{figure.caption.76}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Superrahmen-Struktur eines LR-WPANs\cite {d:ieee}\relax }}{34}{figure.caption.78}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Framestruktur eines Data-Frames im MAC-Layer\cite {d:ieee}\relax }}{35}{figure.caption.80}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Anatomie eines Standard SunSPOT-Sensors\cite {i:spotaufbau}\relax }}{37}{figure.caption.84}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Leuchtende LEDs des 'Flashlight'-Programms\relax }}{41}{figure.caption.93}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Logdaten der Basisstation bei Servererstellung\relax }}{43}{figure.caption.121}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces JFrame mit textueller Ausgabe\relax }}{44}{figure.caption.136}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Konsolenausgabe mit Timestamp\relax }}{44}{figure.caption.137}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Leuchtende LEDs des 'Flashlight'-Programms\relax }}{41}{figure.caption.94}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Logdaten der Basisstation bei Servererstellung\relax }}{43}{figure.caption.122}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces JFrame mit textueller Ausgabe\relax }}{44}{figure.caption.137}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Konsolenausgabe mit Timestamp\relax }}{45}{figure.caption.138}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Visualisierung mithilfe eines Raspberrys und Webserver\relax }}{45}{figure.caption.142}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Smart Greenhouse Entwicklerteam mit Miniatur-Gew\IeC {\"a}chshaus\cite {i:smartgreenhouse}\relax }}{48}{figure.caption.147}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Der Bot-So Roboter\cite {i:botso}\relax }}{50}{figure.caption.149}
 \addvspace {10\p@ }
