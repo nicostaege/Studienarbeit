@@ -42,9 +42,9 @@
 \contentsline {subsection}{\numberline {4.2.1}Idee}{41}{subsection.96}
 \contentsline {subsection}{\numberline {4.2.2}Umsetzung}{42}{subsection.98}
 \contentsline {subsubsection}{Desktop-Applikation}{42}{section*.99}
-\contentsline {subsubsection}{SPOT-Applikation}{45}{section*.140}
-\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{45}{section.141}
-\contentsline {subsection}{\numberline {4.3.1}Visualisierung mithilfe eines Webservers}{45}{subsection.142}
+\contentsline {subsubsection}{SPOT-Applikation}{46}{section*.140}
+\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{46}{section.141}
+\contentsline {subsection}{\numberline {4.3.1}Visualisierung mithilfe eines Webservers}{46}{subsection.142}
 \contentsline {subsection}{\numberline {4.3.2}Erweiterung durch verschiedene Sensoren}{47}{subsection.146}
 \contentsline {subsection}{\numberline {4.3.3}Benachrichtigung des Benutzers}{48}{subsection.148}
 \contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{50}{chapter.152}
