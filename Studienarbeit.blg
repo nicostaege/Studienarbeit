@@ -1,19 +1,12 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: Studienarbeit.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Studienarbeit.aux
 The style file: alphadin.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Literaturverzeichnis.bib
-You're missing a field name---line 27 of file Literaturverzeichnis.bib
+You're missing a field name---line 14 of file Literaturverzeichnis.bib
  :  
  :  % author = {IBM},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 255 of file Literaturverzeichnis.bib
+Repeated entry---line 128 of file Literaturverzeichnis.bib
  : @misc{ws:zeitbmw
  :                 ,
 I'm skipping whatever remains of this entry
@@ -27,45 +20,4 @@ Warning--empty pages in z:smartgreenhouse
 Warning--empty year in i:raspberrylogo
 Warning--empty year in i:spotaufbau
 Warning--empty year in i:mooreslaw
-You've used 34 entries,
-            4793 wiz_defined-function locations,
-            1042 strings with 11220 characters,
-and the built_in function-call counts, 12948 in all, are:
-= -- 1288
-> -- 311
-< -- 224
-+ -- 244
-- -- 84
-* -- 755
-:= -- 2276
-add.period$ -- 37
-call.type$ -- 34
-change.case$ -- 140
-chr.to.int$ -- 30
-cite$ -- 44
-duplicate$ -- 468
-empty$ -- 944
-format.name$ -- 224
-if$ -- 2586
-int.to.chr$ -- 5
-int.to.str$ -- 0
-missing$ -- 127
-newline$ -- 183
-num.names$ -- 102
-pop$ -- 214
-preamble$ -- 1
-purify$ -- 208
-quote$ -- 0
-skip$ -- 729
-stack$ -- 0
-substring$ -- 567
-swap$ -- 94
-text.length$ -- 70
-text.prefix$ -- 31
-top$ -- 0
-type$ -- 385
-warning$ -- 10
-while$ -- 109
-width$ -- 37
-write$ -- 387
 (There were 2 error messages)

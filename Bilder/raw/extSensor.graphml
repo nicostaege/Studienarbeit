@@ -119,14 +119,14 @@
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
-              <y:Geometry height="100.0" width="346.54944531250055" x="381.2687546874994" y="335.22673515625013"/>
+              <y:Geometry height="100.00000000000011" width="346.54944531250055" x="381.2687546874994" y="335.22673515625"/>
               <y:Fill color="#F5F5F5" transparent="false"/>
               <y:BorderStyle color="#000000" type="dashed" width="1.0"/>
               <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#EBEBEB" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="22.37646484375" modelName="internal" modelPosition="t" textColor="#000000" visible="true" width="346.54944531250055" x="0.0" y="0.0">SunSpot System</y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
-              <y:BorderInsets bottom="9" bottomF="8.66353515624985" left="1" leftF="0.5564453125000455" right="0" rightF="0.0" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="13" bottomF="12.503535156249995" left="1" leftF="0.5564453125000455" right="0" rightF="0.0" top="0" topF="0.0"/>
             </y:GroupNode>
             <y:GroupNode>
               <y:Geometry height="50.0" width="50.0" x="0.0" y="60.0"/>
@@ -162,7 +162,7 @@
         <node id="n1::n1">
           <data key="d6">
             <y:ShapeNode>
-              <y:Geometry height="35.12000000000012" width="87.59999999999997" x="396.8251999999994" y="376.44320000000016"/>
+              <y:Geometry height="35.12000000000012" width="87.59999999999997" x="396.8251999999994" y="372.6032"/>
               <y:Fill color="#FF6600" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" textColor="#000000" visible="true" width="72.712890625" x="7.4435546874999545" y="8.20941406250006">Sensorboard<y:LabelModel>
@@ -180,7 +180,6 @@
     </node>
     <node id="n2" yfiles.foldertype="group">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
@@ -209,7 +208,6 @@
       </data>
       <graph edgedefault="directed" id="n2:">
         <node id="n2::n0">
-          <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="35.12000000000012" width="114.48000000000002" x="566.6709999999999" y="496.6999999999995"/>
@@ -227,7 +225,6 @@
           </data>
         </node>
         <node id="n2::n1">
-          <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="35.12000000000012" width="114.48000000000002" x="566.6709999999999" y="553.1431999999998"/>
@@ -245,7 +242,6 @@
           </data>
         </node>
         <node id="n2::n2">
-          <data key="d5"/>
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="35.11999999999989" width="114.48000000000002" x="566.6709999999999" y="609.5864"/>
@@ -310,7 +306,7 @@ bei Aktivität<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="51.361328125" x="22.351336914063268" y="5.289428027344002">generiert<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.701171875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="54.021484375" x="21.352751958506815" y="5.289428027344002">Generiert<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -354,7 +350,6 @@ bei Aktivität<y:LabelModel>
     </edge>
     <edge id="e1" source="n2::n0" target="n0">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-233.2224000000008" ty="-93.7583794094412">
@@ -369,7 +364,6 @@ bei Aktivität<y:LabelModel>
     </edge>
     <edge id="e2" source="n2::n2" target="n0::n0">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-77.87379289293665" ty="0.04033168739931625">
@@ -384,7 +378,6 @@ bei Aktivität<y:LabelModel>
     </edge>
     <edge id="e3" source="n2::n1" target="n0::n0">
       <data key="d8"/>
-      <data key="d9"/>
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-19.90400000000045" ty="0.0">
