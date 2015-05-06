@@ -1,6 +1,20 @@
 \subsection{Visualisierung mithilfe eines Webservers}\label{ss:visualisierung}
 
-Durch die Kombination der SunSpot-Sensoren mit einem Raspberry Pi lassen sich die
+
+
+Durch die Kombination der SunSpot-Sensoren mit einem kleinen Computer lässt sich das System mit einer interaktiven Visualisierung erweitern. Hierbei erhält der Computer von der SunSpot-Basisstation Informationen über die Umgebung. Dies können beispielsweise die aufgezeichneten Vibrationen der Sensoren sein.\\
+Auf dem Computer wird ein Webserver eingerichtet, der mit den erhaltenen Informationen eine Webseite erstellt, auf die der Besitzer zugreifen kann. Hier erhält er einen Überblick über den Status seiner Wohnung und besitzt die Möglichkeit mit dem Sicherheitssystem zu interagieren. 
+
+\begin{figure}[H] 
+	\centering
+	\includegraphics[scale=0.4]{Bilder/mockupwebsite}
+	\caption{Mockup einer Webseite}
+	\label{f:mockupwebsite}
+\end{figure}
+\todo[inline]{"Created with" herausnehmen}
+
+Die Umsetzung dieser Erweiterung ist mithilfe eines Raspberry Pis möglich. Dieser besitzt einen USB-Anschluss, über den die Basisstation der SunSpots angeschlossen werden kann. Zusätzlich kann sich der Raspberry Pi über Ethernet oder WLAN mit dem Internet verbinden.\\
+Mithilfe der Debian-Linux Distribution Raspbian kann ein Tomcat- oder Apache Webserver aufgesetzt werden, der die Webseite des Überwachungssystems bereitstellt. Auf der Webseite kann dem Besitzer das Aktivieren, sowie Deaktivieren der Überwachung oder einzelner Sensoren ermöglicht werden.
 
 \begin{figure}[H] 
 	\centering

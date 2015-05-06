@@ -2,3 +2,5 @@
 \contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ Das ist das normale Todo, inline.\newline Mit dem \textbackslash newline Befehl erzwingt man eine neue Zeile.}{39}{section*.88}
 \contentsline {todo}{\color@fb@x {}{red}{}{red!25}{\leavevmode {\color {red!25}o}}\ Das nach dem \textbackslash unsure Befehl folgende wird bis zum Zeilenende rot unterstrichen.}{39}{section*.89}
 \contentsline {todo}{\color@fb@x {}{Plum}{}{Plum!25}{\leavevmode {\color {Plum!25}o}}\ Also das hier ist ein Improvement und ist einfach in einer anderen Farbe.}{39}{section*.90}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ "Created with" herausnehmen}{46}{section*.144}
+\contentsline {todo}{\color@fb@x {}{black}{}{orange}{\leavevmode {\color {orange}o}}\ "Created with" herausnehmen}{49}{section*.151}

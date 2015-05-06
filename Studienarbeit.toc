@@ -40,15 +40,15 @@
 \contentsline {subsection}{\numberline {4.1.2}\IeC {\"U}bung 1 - Flashlight}{40}{subsection.93}
 \contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{41}{section.95}
 \contentsline {subsection}{\numberline {4.2.1}Idee}{41}{subsection.96}
-\contentsline {subsection}{\numberline {4.2.2}Umsetzung}{41}{subsection.97}
-\contentsline {subsubsection}{Desktop-Applikation}{42}{section*.98}
-\contentsline {subsubsection}{SPOT-Applikation}{45}{section*.139}
-\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{45}{section.140}
-\contentsline {subsection}{\numberline {4.3.1}Visualisierung mithilfe eines Webservers}{45}{subsection.141}
-\contentsline {subsection}{\numberline {4.3.2}Erweiterung durch verschiedene Sensoren}{46}{subsection.143}
-\contentsline {subsection}{\numberline {4.3.3}Benachrichtigung des Benutzers}{46}{subsection.144}
-\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{47}{chapter.145}
-\contentsline {section}{\numberline {5.1}Smart Greenhouse}{47}{section.146}
-\contentsline {section}{\numberline {5.2}Bot-So}{49}{section.148}
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{51}{chapter.150}
-\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.151}
+\contentsline {subsection}{\numberline {4.2.2}Umsetzung}{42}{subsection.98}
+\contentsline {subsubsection}{Desktop-Applikation}{42}{section*.99}
+\contentsline {subsubsection}{SPOT-Applikation}{45}{section*.140}
+\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{45}{section.141}
+\contentsline {subsection}{\numberline {4.3.1}Visualisierung mithilfe eines Webservers}{45}{subsection.142}
+\contentsline {subsection}{\numberline {4.3.2}Erweiterung durch verschiedene Sensoren}{47}{subsection.146}
+\contentsline {subsection}{\numberline {4.3.3}Benachrichtigung des Benutzers}{48}{subsection.148}
+\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{50}{chapter.152}
+\contentsline {section}{\numberline {5.1}Smart Greenhouse}{50}{section.153}
+\contentsline {section}{\numberline {5.2}Bot-So}{52}{section.155}
+\contentsline {chapter}{\numberline {6}Zusammenfassung}{54}{chapter.157}
+\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.158}

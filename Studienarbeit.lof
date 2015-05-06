@@ -25,11 +25,15 @@
 \contentsline {figure}{\numberline {3.15}{\ignorespaces Anatomie eines Standard SunSPOT-Sensors\cite {i:spotaufbau}\relax }}{37}{figure.caption.84}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Leuchtende LEDs des 'Flashlight'-Programms\relax }}{41}{figure.caption.94}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Logdaten der Basisstation bei Servererstellung\relax }}{43}{figure.caption.122}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces JFrame mit textueller Ausgabe\relax }}{44}{figure.caption.137}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Konsolenausgabe mit Timestamp\relax }}{45}{figure.caption.138}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Visualisierung mithilfe eines Raspberrys und Webserver\relax }}{45}{figure.caption.142}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Einbruchsstatistik in Deutschland\cite {i:einbrueche}\relax }}{41}{figure.caption.97}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Logdaten der Basisstation bei Servererstellung\relax }}{44}{figure.caption.123}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces JFrame mit textueller Ausgabe\relax }}{45}{figure.caption.138}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Konsolenausgabe mit Timestamp\relax }}{45}{figure.caption.139}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Mockup einer Webseite\relax }}{46}{figure.caption.143}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Visualisierung mithilfe eines Raspberrys und Webserver\relax }}{47}{figure.caption.145}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Aufbau eines Sensornetzes mithilfe eines Raspberry Pis\relax }}{48}{figure.caption.147}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Mockup einer Push-Benarichtigung\relax }}{49}{figure.caption.150}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Smart Greenhouse Entwicklerteam mit Miniatur-Gew\IeC {\"a}chshaus\cite {i:smartgreenhouse}\relax }}{48}{figure.caption.147}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Der Bot-So Roboter\cite {i:botso}\relax }}{50}{figure.caption.149}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Smart Greenhouse Entwicklerteam mit Miniatur-Gew\IeC {\"a}chshaus\cite {i:smartgreenhouse}\relax }}{51}{figure.caption.154}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Der Bot-So Roboter\cite {i:botso}\relax }}{53}{figure.caption.156}
 \addvspace {10\p@ }

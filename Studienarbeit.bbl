@@ -154,6 +154,14 @@
 \newblock
   \url{https://www.raspberrypi.org/wp-content/uploads/2011/10/Raspi-PGB001.png},
 
+\bibitem[{Tru}15]{i:einbrueche}
+\textsc{{Truscheit K., Frankfurter Allgemeine Zeitung GmbH}}:
+\newblock \emph{Einbrüche in Deutschland - Zahl der registrierten Fälle von
+  Wohnungseinbrüchen mit Diebstählen}.
+\newblock
+  \url{http://www.faz.net/aktuell/gesellschaft/kriminalitaet/zahl-der-einbrueche-in-deutschland-steigt-auch-2014-13535578.html},
+  April 2015
+
 \bibitem[TS11]{d:timm}
 \textsc{Timm}, Constantin ; \textsc{Spinczyk}, Olaf:
 \newblock \emph{Software ubiquitärer Systeme - Ad-hoc-Netzwerke}.
