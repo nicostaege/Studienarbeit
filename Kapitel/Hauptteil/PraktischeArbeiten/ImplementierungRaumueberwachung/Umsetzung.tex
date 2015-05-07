@@ -84,3 +84,58 @@ Innerhalb der Konsole werden neben Debugausgaben zur Basisstation und die Liste 
 \end{figure}
 
 \subsubsection{SPOT-Applikation}\label{sss:SPOT-Applikation}
+
+Der Desktop-Applikation gegenüber steht die Applikation, welche auf dem SunSPOT betrieben wird. Diese erkennt Bewegungen des SPOTs und sendet diese über eine Radiogram-Verbindung an die auf dem selben Port lauschende Basisstation.
+
+\begin{lstlisting}[language=Java,caption={Aufbau der Verbindung auf Port 67},label=lst:spotport,frame=single] 
+try {
+	// Oeffne Verbindung auf Port 67 - Port ist generell beliebig
+	// Desktop Applikation muss allerdings den gleichen Port benutzen
+	rCon = (RadiogramConnection) Connector.open("radiogram://broadcast:" + HOST_PORT);
+	dg = rCon.newDatagram(50);  // Testsenden
+	} 
+catch (Exception e) {
+	System.err.println("Exception " + e + " beim Verbindungsaufbau.");
+	notifyDestroyed();
+}
+\end{lstlisting}
+
+Im oben aufgelisteten Codeausschnitt erstellt der SunSPOT eine Radiogram-Connection als Broadcast auf Port 67. Um die Verbindung zu testen, wird ein kleines Datagram Package erstellt und versendet. Falls die Verbindung fehlschlagen sollte, wird eine Fehlermeldung ausgegeben.
+
+\begin{lstlisting}[language=Java,caption={Schleife zur Detektion von Bewegung},label=lst:detektion,frame=single] 
+while (true) {
+	try {
+		if (isMoving()) {
+		// Uebermittle die aktuelle Zeit
+		long now = System.currentTimeMillis();
+
+		// LED leuchtet, um zu zeigen, dass sich der Sensor bewegt hat
+		led.setRGB(255, 255, 255);
+		led.setOn();
+		Utils.sleep(50);
+		led.setOff();
+
+		// Zeit wird ins Package geschrieben, Package wird verschickt
+		dg.reset();
+		dg.writeLong(now);
+		rCon.send(dg);
+		}
+	} 
+	catch (Exception e) {
+	System.err.println("Exception " + e + " waehrend des Senden eines Paketes.");
+	}
+}
+\end{lstlisting}
+
+In einer Endlosschleife wird festgestellt, ob sich der Sensor bewegt hat. Dies wird mit Hilfe der Funktion 'isMoving()' realisiert. Falls eine Bewegung stattfindet, wird die aktuelle Systemzeit ermittelt und in ein Datagram-Paket geschrieben. Eine einzelne LED am SPOT leuchtet, um die erfahrene Bewegung anzuzeigen. Das Paket wird daraufhin über die aufgebaute Verbindung versendet. Sollte dieses Senden fehlschlagen, wird ebenfalls eine Fehlermeldung ausgegeben.
+
+\begin{lstlisting}[language=Java,caption={Methode zur Bewegungserkennung},label=lst:movement,frame=single] 
+protected boolean isMoving() throws IOException {
+	IAccelerometer3D accel = (IAccelerometer3D) Resources.lookup(IAccelerometer3D.class);
+	return accel.getAccelZ() < 0 || accel.getAccelZ() > 0.1;
+}
+\end{lstlisting}
+
+Die Bewegung wird mittels des eingebauten Beschleunigungssensor ermittelt. Erreicht die erfahrene Beschleunigung einen gewissen Schwellwert, gibt die oben gezeigte Subroutine den wert 'true' zurück und zeigt somit an, dass der Sensor entsprechend beschleunigt wurde.\\
+
+Sobald sowohl Desktop-Applikation als auch SPOT-Applikation gestartet wurden, beginnt das Zusammenspiel der beiden Teilimplementierungen. Die Desktop-Applikation wartet darauf, Pakete, welche die SPOT-Applikation versendet, zu empfangen. So wird bei jeder Bewegung die Desktop-Applikation benachrichtigt. Eine einfache Einbruchserkennung ist hiermit realisiert.

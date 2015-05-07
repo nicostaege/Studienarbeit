@@ -35,20 +35,20 @@
 \contentsline {subsection}{\numberline {3.4.1}Ger\IeC {\"a}tearten}{37}{subsection.85}
 \contentsline {subsection}{\numberline {3.4.2}Verf\IeC {\"u}gbare Boards}{37}{subsection.86}
 \contentsline {chapter}{\numberline {4}Praktische Arbeiten}{39}{chapter.87}
-\contentsline {section}{\numberline {4.1}Erste Schritte}{39}{section.89}
-\contentsline {subsection}{\numberline {4.1.1}Installation}{39}{subsection.90}
-\contentsline {subsection}{\numberline {4.1.2}\IeC {\"U}bung 1 - Flashlight}{40}{subsection.91}
-\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{41}{section.93}
-\contentsline {subsection}{\numberline {4.2.1}Idee}{41}{subsection.94}
-\contentsline {subsection}{\numberline {4.2.2}Umsetzung}{42}{subsection.96}
-\contentsline {subsubsection}{Desktop-Applikation}{42}{section*.97}
-\contentsline {subsubsection}{SPOT-Applikation}{46}{section*.138}
-\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{46}{section.139}
-\contentsline {subsection}{\numberline {4.3.1}Visualisierungwebseite}{46}{subsection.140}
-\contentsline {subsection}{\numberline {4.3.2}Erweiterung durch verschiedene Sensoren}{47}{subsection.143}
-\contentsline {subsection}{\numberline {4.3.3}Benachrichtigung des Benutzers}{48}{subsection.145}
-\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{52}{chapter.155}
-\contentsline {section}{\numberline {5.1}Smart Greenhouse}{52}{section.156}
-\contentsline {section}{\numberline {5.2}Bot-So}{54}{section.158}
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{56}{chapter.160}
-\contentsline {chapter}{Literaturverzeichnis}{viii}{appendix*.161}
+\contentsline {section}{\numberline {4.1}Erste Schritte}{39}{section.88}
+\contentsline {subsection}{\numberline {4.1.1}Installation}{39}{subsection.89}
+\contentsline {subsection}{\numberline {4.1.2}\IeC {\"U}bung 1 - Flashlight}{40}{subsection.90}
+\contentsline {section}{\numberline {4.2}Implementierung einer Raum\"uberwachung}{41}{section.92}
+\contentsline {subsection}{\numberline {4.2.1}Idee}{41}{subsection.93}
+\contentsline {subsection}{\numberline {4.2.2}Umsetzung}{42}{subsection.95}
+\contentsline {subsubsection}{Desktop-Applikation}{42}{section*.96}
+\contentsline {subsubsection}{SPOT-Applikation}{45}{section*.137}
+\contentsline {section}{\numberline {4.3}Erweiterungsm\"oglichkeiten}{48}{section.177}
+\contentsline {subsection}{\numberline {4.3.1}Visualisierungwebseite}{48}{subsection.178}
+\contentsline {subsection}{\numberline {4.3.2}Erweiterung durch verschiedene Sensoren}{49}{subsection.181}
+\contentsline {subsection}{\numberline {4.3.3}Benachrichtigung des Benutzers}{50}{subsection.183}
+\contentsline {chapter}{\numberline {5}Vergleichbare Projekte}{54}{chapter.193}
+\contentsline {section}{\numberline {5.1}Smart Greenhouse}{54}{section.194}
+\contentsline {section}{\numberline {5.2}Bot-So}{56}{section.196}
+\contentsline {chapter}{\numberline {6}Zusammenfassung und Fazit}{58}{chapter.198}
+\contentsline {chapter}{Literaturverzeichnis}{xiv}{lstnumber.389}

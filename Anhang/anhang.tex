@@ -1,5 +1,198 @@
 \chapter*{Anhang}
 
-{\huge Beispielergebnis Bedienungsanleitungen}\\
+{\huge Code HostStudi.java}
 
-Manchmal benutzt man Worte wie Hamburgefonts, Rafgenduks oder Handgloves, um Schriften zu testen. Manchmal Sätze, die alle Buchstaben des Alphabets enthalten - man nennt diese Sätze »Pangrams«. Sehr bekannt ist dieser: The quick brown fox jumps over the lazy old dog. Oft werden in Typoblindtexte auch fremdsprachige Satzteile eingebaut (AVAIL® and Wefox™ are testing aussi la Kerning), um die Wirkung in anderen Sprachen zu testen. In Lateinisch sieht zum Beispiel fast jede Schrift gut aus. Quod erat demonstrandum. Seit 1975 fehlen in den meisten Testtexten die Zahlen, weswegen nach TypoGb. 204 § ab dem Jahr 2034 Zahlen in 86 der Texte zur Pflicht werden.
+\begin{lstlisting}[language=Java,caption={Code HostStudi.java},label=lst:hoststudi,frame=single]
+/*
+* HostStudi.java
+*
+* by Nicolai Staege & Maik Maier
+* DHBW Karlsruhe
+* Germany
+*
+*/
+
+package org.sunspotworld.demo;
+
+import com.sun.spot.io.j2me.radiogram.*;
+import com.sun.spot.peripheral.ota.OTACommandServer;
+import com.sun.spot.util.IEEEAddress;
+import com.sun.spot.util.Utils;
+import java.awt.Color;
+import javax.microedition.io.*;
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+
+
+/**
+* Diese Klasse empfaengt die daten eines SPOTS
+* um eine Bewegung anzuzeigen
+* 
+* @author: Nicolai Staege, Maik Maier
+* 
+*/
+public class HostStudi extends JFrame {
+	private static final int HOST_PORT = 67;
+	private JTextArea status;
+	private JFrame fr;
+	private void setup() {
+		fr = new JFrame("Einbruchsicherung");
+		status = new JTextArea();
+		JScrollPane sp = new JScrollPane(status);
+		fr.add(sp);
+		fr.setSize(360, 200);
+		fr.validate();
+		fr.setVisible(true);
+	}
+	
+	private void run() throws Exception {
+		RadiogramConnection rCon;
+		Radiogram dg;
+		try {
+			// Lffnen eines serverseitigen Ports
+			rCon = (RadiogramConnection) Connector.open("radiogram://:" + HOST_PORT);
+			dg = (Radiogram)
+			rCon.newDatagram(rCon.getMaximumLength());
+		} catch (Exception e) {
+		System.err.println("setUp caught " + e.getMessage());
+		throw e;
+	}
+	
+	status.append("Listening...\n");
+	
+	while (true) {
+		try {
+			// Empfange Datenpaket vom Spot
+			rCon.receive(dg);
+			long time = dg.readLong();      // lese Zeit
+			System.out.println(time);
+			status.append("Bewegung festgestellt!\n");
+			
+		} catch (Exception e) {
+		System.err.println("Fehler " + e +  " beim Lesen des Pakets.");
+		throw e;
+	}
+}
+}
+
+/**
+* Hauptprogramm starten
+*
+* @param args any command line arguments
+*/
+public static void main(String[] args) throws Exception {
+	OTACommandServer.start("HostStudi-GUI");
+	HostStudi app = new HostStudi();
+	app.setup();
+	app.run();
+}
+}
+
+\end{lstlisting}
+\newpage
+
+{\huge Code MovementDetection.java}
+\begin{lstlisting}[language=Java,caption={Code MovementDetection.java},label=lst:hoststudi,frame=single]
+/*
+* MovementDetection.java
+*
+* by Nicolai Staege & Maik Maier
+* DHBW Karlsruhe
+* Germany
+*
+*/
+
+package org.sunspotworld.demo;
+
+import com.sun.spot.io.j2me.radiogram.*;
+import com.sun.spot.resources.Resources;
+import com.sun.spot.resources.transducers.
+IAccelerometer3D;
+import com.sun.spot.resources.transducers.ITriColorLED;
+import com.sun.spot.resources.transducers.ILightSensor;
+import com.sun.spot.util.Utils;
+import java.io.IOException;
+import javax.microedition.io.*;
+import javax.microedition.midlet.MIDlet;
+import javax.microedition.midlet.
+MIDletStateChangeException;
+
+/**
+* Diese Klasse entdeckt die Bewegung des SPOTs an der Tuer und sendet
+* daraufhin ein Signal an die Basestation, um zu signalisieren, dass
+* die Tuer bewegt wurde.
+* Die Desktop Applikation zeigt "Bewegung entdeckt" an.
+*
+* @author: Nicolai Staege, Maik Maier
+* 
+*/
+public class MovementDetection extends MIDlet {
+
+private static final int HOST_PORT = 67;
+
+protected boolean isMoving() throws IOException {
+	IAccelerometer3D accel = (IAccelerometer3D) Resources.lookup(IAccelerometer3D.class);
+	return accel.getAccelZ() < 0 || accel.getAccelZ() > 0.1;
+}
+
+protected void startApp() throws MIDletStateChangeException {
+	RadiogramConnection rCon = null;
+	Datagram dg = null;
+
+	String ourAddress = System.getProperty("IEEE_ADDRESS");
+
+	ILightSensor lightSensor = (ILightSensor)
+	Resources.lookup(ILightSensor.class);
+	ITriColorLED led = (ITriColorLED)
+	Resources.lookup(ITriColorLED.class, "LED7");
+
+
+	new com.sun.spot.service.
+	BootloaderListenerService().getInstance().start();
+
+	try {
+		// Oeffne Verbindung auf Port 67 - Port ist generell beliebig
+		// Desktop Applikation muss allerdings den gleichen Port benutzen
+		rCon = (RadiogramConnection) Connector.open("radiogram://broadcast:" + HOST_PORT);
+		dg = rCon.newDatagram(50);  // Testsenden
+	}
+	catch (Exception e) {
+		System.err.println("Exception " + e + " beim Verbindungsaufbau.");
+		notifyDestroyed();
+	}
+
+while (true) {
+	try {
+	if (isMoving()) {
+		// Uebermittle die aktuelle Zeit
+		long now = System.currentTimeMillis();
+
+		// LED leuchtet, um zu zeigen, dass sich der Sensor bewegt hat
+		led.setRGB(255, 255, 255);
+		led.setOn();
+		Utils.sleep(50);
+		led.setOff();
+
+		// Zeit wird ins Package geschrieben, Package wird verschickt
+		dg.reset();
+		dg.writeLong(now);
+		rCon.send(dg);
+		}
+	} 
+	catch (Exception e) {
+		System.err.println("Exception " + e + " waehrend des Senden eines Paketes.");
+		}
+	}
+}
+
+protected void pauseApp() {
+// This will never be called by the Squawk VM
+}
+
+protected void destroyApp(boolean arg0) throws MIDletStateChangeException {
+	// Only called if startApp throws any exception other than MIDletStateChangeException
+	}
+}
+\end{lstlisting}
+
