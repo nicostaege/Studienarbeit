@@ -2,7 +2,7 @@
 
 
 
-Durch die Kombination der SunSpot-Sensoren mit einem kleinen Computer lässt sich das System mit einer interaktiven Visualisierung erweitern. Hierbei erhält der Computer von der SunSPOT-Basisstation Informationen über die Umgebung. Dies können beispielsweise die aufgezeichneten Vibrationen der Sensoren sein.\\
+Durch die Kombination der SunSPOT-Sensoren mit einem kleinen Computer lässt sich das System mit einer interaktiven Visualisierung erweitern. Hierbei erhält der Computer von der SunSPOT-Basisstation Informationen über die Umgebung. Dies können beispielsweise die aufgezeichneten Vibrationen der Sensoren sein.\\
 Auf dem Computer wird ein Webserver eingerichtet, der mit den erhaltenen Informationen eine Webseite erstellt, auf die der Wohnungsbesitzer zugreifen kann. Hier erhält er einen Überblick über den Status seiner Wohnung und besitzt die Möglichkeit mit dem Sicherheitssystem zu interagieren. 
 
 \vspace{5 mm}
@@ -13,12 +13,12 @@ Auf dem Computer wird ein Webserver eingerichtet, der mit den erhaltenen Informa
 	\label{f:mockupwebsite}
 \end{figure}
 
-Die Umsetzung dieser Erweiterung ist mithilfe eines Raspberry Pis möglich. Dieser besitzt einen USB-Anschluss, über den die Basisstation der SunSpots angeschlossen werden kann. Zusätzlich kann sich der Raspberry Pi über Ethernet oder WLAN mit dem Internet verbinden.\\
-Mithilfe der Debian-Linux Distribution Raspbian kann ein Tomcat- oder Apache Webserver aufgesetzt werden, der die Webseite des Überwachungssystems bereitstellt. Auf der Webseite kann dem Besitzer das Aktivieren, sowie Deaktivieren der Überwachung oder einzelner Sensoren ermöglicht werden.
+Die Umsetzung dieser Erweiterung ist mit Hilfe eines Raspberry Pis möglich. Dieser besitzt einen USB-Anschluss, über den die Basisstation der SunSPOTs angeschlossen werden kann. Zusätzlich kann sich der Raspberry Pi über Ethernet oder WLAN mit dem Internet verbinden.\\
+Mithilfe der Debian-Linux Distribution Raspbian kann ein Tomcat- oder Apache Webserver aufgesetzt werden, der die Webseite des Überwachungssystems bereitstellt. Auf der Webseite kann dem Besitzer das Aktivieren sowie Deaktivieren der Überwachung oder einzelner Sensoren ermöglicht werden.
 
 \begin{figure}[H] 
 	\centering
 	\includegraphics[scale=0.25]{Bilder/Visualisierung}
-	\caption{Visualisierung mithilfe eines Raspberrys und Webserver}
+	\caption{Visualisierung mit Hilfe eines Raspberry Pis und Webserver}
 	\label{f:visualisierung}
 \end{figure}

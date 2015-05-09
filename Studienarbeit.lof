@@ -3,38 +3,38 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Das Arduino-Logo\cite {i:arduino}\relax }}{6}{figure.caption.17}
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Die Front der dritten Arduino Uno Revision\cite {i:arduinouno}\relax }}{7}{figure.caption.20}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Das Logo der Raspberry Pi Foundation\cite {i:raspberrylogo}\relax }}{9}{figure.caption.36}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Die Oberseite des Raspberry Generation 2 B-Modells\cite {i:raspberry2top}\relax }}{9}{figure.caption.37}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Das Camera Modul f\IeC {\"u}r den Raspberry Pi\cite {i:camera}\relax }}{10}{figure.caption.39}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Sicherheitsmodell nach Gordon Cooper\cite {z:DesignElektronik}\relax }}{12}{figure.caption.43}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Das Logo der Raspberry Pi Foundation\cite {i:raspberrylogo}\relax }}{8}{figure.caption.34}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Die Oberseite des Raspberry Generation 2 B-Modells\cite {i:raspberry2top}\relax }}{9}{figure.caption.35}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Das Camera Modul f\IeC {\"u}r den Raspberry Pi\cite {i:camera}\relax }}{10}{figure.caption.36}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Sicherheitsmodell nach Gordon Cooper\cite {z:DesignElektronik}\relax }}{12}{figure.caption.40}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Mikroprozessoren-Transistoren im Laufe der Zeit\cite {i:mooreslaw}\relax }}{18}{figure.caption.52}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Peer-To-Peer Netzwerk\cite {d:kosmerchock}\relax }}{20}{figure.caption.55}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Stern Netzwerk\cite {d:kosmerchock}\relax }}{20}{figure.caption.56}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Baum Netzwerk\cite {d:kosmerchock}\relax }}{21}{figure.caption.57}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Vermaschtes Netzwerk\cite {d:kosmerchock}\relax }}{21}{figure.caption.58}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Einordnung von MANETs\cite {d:timm}\relax }}{25}{figure.caption.62}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces M\IeC {\"o}gliche Verbindungen eines Beispiel MANETs\cite {d:timm}\relax }}{25}{figure.caption.63}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces optimiertes LSR durch Multi-Point-Relays im OLSR\cite {d:timm}\relax }}{28}{figure.caption.66}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces 'Route Discovery\IeC {\textquoteleft } im AODV-Protokoll\cite {d:timm}\relax }}{29}{figure.caption.68}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Clustering im CGSR-Protokoll\cite {d:timm}\relax }}{30}{figure.caption.70}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Topologien in IEEE 802.15.4\cite {d:ieee}\relax }}{32}{figure.caption.74}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Definierte Schichten in IEEE 802.15.4\cite {d:ieee}\relax }}{33}{figure.caption.76}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Superrahmen-Struktur eines LR-WPANs\cite {d:ieee}\relax }}{34}{figure.caption.78}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Framestruktur eines Data-Frames im MAC-Layer\cite {d:ieee}\relax }}{35}{figure.caption.80}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Anatomie eines Standard SunSPOT-Sensors\cite {i:spotaufbau}\relax }}{37}{figure.caption.84}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Mikroprozessor-Transistoren im Laufe der Zeit\cite {i:mooreslaw}\relax }}{17}{figure.caption.48}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Peer-To-Peer Netzwerk\cite {d:kosmerchock}\relax }}{19}{figure.caption.51}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Stern Netzwerk\cite {d:kosmerchock}\relax }}{19}{figure.caption.52}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Baum Netzwerk\cite {d:kosmerchock}\relax }}{20}{figure.caption.53}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Vermaschtes Netzwerk\cite {d:kosmerchock}\relax }}{20}{figure.caption.54}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Einordnung von MANETs\cite {d:timm}\relax }}{24}{figure.caption.59}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces M\IeC {\"o}gliche Verbindungen eines Beispiel MANETs\cite {d:timm}\relax }}{25}{figure.caption.60}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces optimiertes LSR durch Multi-Point-Relays im OLSR\cite {d:timm}\relax }}{27}{figure.caption.64}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces 'Route Discovery\IeC {\textquoteleft } im AODV-Protokoll\cite {d:timm}\relax }}{28}{figure.caption.66}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Clustering im CGSR-Protokoll\cite {d:timm}\relax }}{29}{figure.caption.68}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Topologien in IEEE 802.15.4\cite {d:ieee}\relax }}{31}{figure.caption.72}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Definierte Schichten in IEEE 802.15.4\cite {d:ieee}\relax }}{32}{figure.caption.74}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Superrahmen-Struktur eines LR-WPANs\cite {d:ieee}\relax }}{33}{figure.caption.76}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Framestruktur eines Data-Frames im MAC-Layer\cite {d:ieee}\relax }}{34}{figure.caption.78}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Anatomie eines Standard SunSPOT-Sensors\cite {i:spotaufbau}\relax }}{36}{figure.caption.82}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Leuchtende LEDs des 'Flashlight'-Programms\relax }}{41}{figure.caption.91}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Einbruchsstatistik in Deutschland\cite {i:einbrueche}\relax }}{41}{figure.caption.94}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Logdaten der Basisstation bei Servererstellung\relax }}{44}{figure.caption.120}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces JFrame mit textueller Ausgabe\relax }}{45}{figure.caption.135}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Konsolenausgabe mit Timestamp\relax }}{45}{figure.caption.136}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Mockup einer Webseite\relax }}{48}{figure.caption.179}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Visualisierung mithilfe eines Raspberrys und Webserver\relax }}{49}{figure.caption.180}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Aufbau eines Sensornetzes mithilfe eines Raspberry Pis\relax }}{50}{figure.caption.182}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Mockup einer Push-Benachrichtigung\relax }}{51}{figure.caption.185}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Aufbau eines Benachrichtigungssystems\relax }}{52}{figure.caption.186}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Leuchtende LEDs des 'Flashlight'-Programms\relax }}{40}{figure.caption.89}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Einbruchsstatistik in Deutschland\cite {i:einbrueche}\relax }}{40}{figure.caption.92}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Logdaten der Basisstation bei Servererstellung\relax }}{43}{figure.caption.118}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces JFrame mit textueller Ausgabe\relax }}{44}{figure.caption.133}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Konsolenausgabe mit Timestamp\relax }}{45}{figure.caption.134}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Mockup einer Webseite\relax }}{48}{figure.caption.177}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Visualisierung mit Hilfe eines Raspberry Pis und Webserver\relax }}{49}{figure.caption.178}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Aufbau eines Sensornetzes mithilfe eines Raspberry Pis\relax }}{50}{figure.caption.180}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Mockup einer Push-Benachrichtigung\relax }}{51}{figure.caption.183}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Aufbau eines Benachrichtigungssystems\relax }}{52}{figure.caption.184}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Das Smart Greenhouse Entwicklerteam\cite {i:smartgreenhouse}\relax }}{55}{figure.caption.195}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Der Bot-So Roboter\cite {i:botso}\relax }}{57}{figure.caption.197}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Das Smart Greenhouse Entwicklerteam\cite {i:smartgreenhouse}\relax }}{54}{figure.caption.193}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Der Bot-So Roboter\cite {i:botso}\relax }}{56}{figure.caption.195}
 \addvspace {10\p@ }

@@ -1,10 +1,10 @@
 \subsection{Umsetzung}\label{s:Umsetzung}
 
-Im Rahmen der Studienarbeit wurden mit der NetBeans IDE und der Programmiersprache Java zwei Applikationen erstellt, welche einen ersten Ansatz für eine Einbruchsicherung realisieren. Sie sind beliebig erweiterbar, so dass diese als Grundlage für eine komplexere Raumüberwachung dienen können. Die Gesamtimplementation wurde in zwei Teilapplikationen aufgeteilt. Die erste Applikation ist die ‚Desktop-Applikation‘, welche auf dem Rechner läuft und die Daten vom SunSPOT-Sensor empfängt. Auf dem SunSPOT läuft der zweite Teil der Implementation, welcher Bewegungen des Sensors feststellt und diese an eine SunSPOT-Basisstation weiterleitet. In den folgenden Abschnitten wird die genauere Funktionsweise der zwei Teilapplikationen behandelt.
+Im Rahmen der Studienarbeit wurden mit der NetBeans IDE und der Programmiersprache Java zwei Applikationen erstellt, welche einen ersten Ansatz für eine Einbruchsicherung realisieren. Sie sind beliebig erweiterbar, so dass diese als Grundlage für eine komplexere Raumüberwachung dienen können. Die Gesamtimplementation wurde in zwei Teilapplikationen aufgeteilt. Die erste Applikation ist die 'Desktop-Applikation‘, welche auf dem Rechner läuft und die Daten vom SunSPOT-Sensor empfängt. Auf dem SunSPOT läuft der zweite Teil der Implementation, welcher Bewegungen des Sensors feststellt und diese an eine SunSPOT-Basisstation weiterleitet. In den folgenden Abschnitten wird die genauere Funktionsweise der zwei Teilapplikationen behandelt.
 
 \subsubsection{Desktop-Applikation}\label{sss:Desktop-Applikation}
 
-Die Desktop-Applikation der praktischen Arbeit umfasst knapp 100 Zeilen und dient zum Aufbau einer Radiogram-Verbindung zwischen SunSPOT und Basisstation sowie zum Empfang der vom SPOT gesendeten Daten. 
+Die Desktop-Applikation der praktischen Arbeit umfasst knapp 100 Zeilen und dient zum Aufbau einer Radiogram-Verbindung zwischen SunSPOT und Basisstation sowie zum Empfang der vom SPOT gesendeten Daten. \newpage
 
 \begin{lstlisting}[language=Java,caption={Ausschnitt aus der setup()-Methode},label=lst:setup,frame=single] 
 private void setup() {
@@ -20,8 +20,8 @@ private void setup() {
 
 Im ersten Schritt wird die Methode ‚setup()‘ definiert, welche zur besseren Visualisierung der Informationen einen JFrame erstellt, in welchen nachher eingetragen werden kann, dass der Sensor eine Bewegung erfahren hat. Sie wird zum Start des Programms aufgerufen, damit das Fenster auch entsprechend erstellt wird. \\
 
-Des weiteren ist eine Methode ‚run()‘ vorhanden, welche direkt nach der ‚setup()‘-Prozedur aufgerufen wird. Diese Funktion kümmert sich sowohl um das Öffnen eines serverseitigen Ports als auch um den Empfang von Datenpaketen, welche an diesen Port versendet werden. \\
-Um Daten vom Sensor empfangen zu können, muss in der Desktop-Applikation auf einem selbst festgelegten Port nach Verbindungen ‚gelauscht‘ werden. 
+Des Weiteren ist eine Methode ‚run()‘ vorhanden, welche direkt nach der ‚setup()‘-Prozedur aufgerufen wird. Diese Funktion kümmert sich sowohl um das Öffnen eines serverseitigen Ports als auch um den Empfang von Datenpaketen, welche an diesen Port versendet werden. \\
+Um Daten vom Sensor empfangen zu können, muss in der Desktop-Applikation auf einem selbst festgelegten Port nach Verbindungen 'gelauscht‘ werden. 
 \\
 \begin{lstlisting}[language=Java,caption={Öffnen des serverseitigen Ports},label=lst:portserver,frame=single] 
 try {
@@ -42,12 +42,12 @@ Der oben gezeigte Codeausschnitt eröffnet einen serverseitigen Port mit Hilfe d
 
 \begin{figure}[H] 
 	\centering
-	\includegraphics[scale=0.8]{Bilder/server}
+	\includegraphics[scale=0.7]{Bilder/server}
 	\caption{Logdaten der Basisstation bei Servererstellung}
 	\label{f:server}
 \end{figure}
 
-Der zweite Teil der ‚run()‘-Methode besteht aus einer while-Schleife, welches auf ankommende Pakete wartet und diese entgegennimmt. Nur wenn der SPOT eine Bewegung erfährt, sendet er ein Paket an die Basisstation. So kann die Desktop-Applikation sicher sein, dass immer, wenn ein Paket gesendet wird, eine Bewegung stattfand.\\
+Der zweite Teil der ‚run()‘-Methode besteht aus einer while-Schleife, welches auf ankommende Pakete wartet und diese entgegennimmt. Nur wenn der SPOT eine Bewegung erfährt, sendet er ein Paket an die Basisstation. So kann die Desktop-Applikation sicher sein, dass immer wenn ein Paket gesendet wird eine Bewegung stattfand.\\
 
 \begin{lstlisting}[language=Java,caption={Auswerten des empfangenen Paketes},label=lst:rcvpackage,frame=single] 
 while (true) {
@@ -127,7 +127,7 @@ while (true) {
 }
 \end{lstlisting}
 
-In einer Endlosschleife wird festgestellt, ob sich der Sensor bewegt hat. Dies wird mit Hilfe der Funktion 'isMoving()' realisiert. Falls eine Bewegung stattfindet, wird die aktuelle Systemzeit ermittelt und in ein Datagram-Paket geschrieben. Eine einzelne LED am SPOT leuchtet, um die erfahrene Bewegung anzuzeigen. Das Paket wird daraufhin über die aufgebaute Verbindung versendet. Sollte dieses Senden fehlschlagen, wird ebenfalls eine Fehlermeldung ausgegeben.
+In einer Endlosschleife wird festgestellt, ob sich der Sensor bewegt hat. Dies wird mit Hilfe der Funktion 'isMoving()' realisiert. Falls eine Bewegung stattfindet, wird die aktuelle Systemzeit ermittelt und in ein Datagram-Paket geschrieben. Eine einzelne LED am SPOT leuchtet, um die erfahrene Bewegung anzuzeigen. Das Paket wird daraufhin über die aufgebaute Verbindung versendet. Sollte dieses Senden fehlschlagen, wird ebenfalls eine Fehlermeldung ausgegeben.\newpage
 
 \begin{lstlisting}[language=Java,caption={Methode zur Bewegungserkennung},label=lst:movement,frame=single] 
 protected boolean isMoving() throws IOException {
